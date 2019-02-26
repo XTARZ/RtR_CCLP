@@ -1,5 +1,5 @@
 /*
 !.gitignore
-!/CCLPInDev/*
-!/defaultEnglish/*
+!./CCLPInDev/*
+!./defaultEnglish/*
 !如何创建MOD.txt
