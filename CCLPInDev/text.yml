@@ -196,7 +196,7 @@ godXP:
   survivingVillagers:
     text: "生存的村民数"
   villageSize:
-    text: "村庄规模"
+    text: "聚落规模"
   
   # Other
   monstersKilled:
@@ -2600,7 +2600,7 @@ mapEditorNewMapPanel:
     grassYellowBrown:
       text: "草地(黄棕)"
     grassEmeraldGreen:
-      text: "草地(鲜绿)"
+      text: "草地(翠绿)"
     dirtLightBrown:
       text: "泥土(亮棕)"
     dirtBrown:
@@ -2735,7 +2735,7 @@ mainMenuSelectProfilePanel:
       text: "$YEL0玩家档案"
       
   corruptProfile:
-    text: "腐化的档案"
+    text: "档案已损坏"
   outdatedProfilePrefix:
     text: "(已过时) {profileName}"
   outdatedWarning:
@@ -2753,18 +2753,18 @@ mainMenuSkirmishNewGameWarningPanel:
   
   button:
     'no':
-      text: "No！"
+      text: "不！"
     'yes':
-      text: "Yes！"
+      text: "是！"
     yesConfirm:
-      text: "I said YES！"
+      text: "我说了是！"
       
   header:
-    text: "$ORA1Are you sure?！"
+    text: "$ORA1你确定吗？！"
   body:
-    text: "You already have an active {gameMode} game. Are you sure you want to restart $GRE1{mapName}?"
+    text: "你已经有激活的{gameMode}模式游戏你确定要重新开始$GRE1{mapName}？"
   bodyConfirm:
-    text: "$RED1Seriously are you ABSOLUTELY sure? This save will be lost forever！ (That's a really long time！)"
+    text: "$RED1真的真的确定要删除吗？该存档将永久丢失（永远啊！）"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2778,54 +2778,54 @@ mainMenuSkirmishPanel:
   
   button:
     newGame:
-      text: "New Game"
+      text: "新游戏"
     resumeGame:
-      text: "Resume Game"
+      text: "继续游戏"
     resumeGameResetAI:
-      text: "Resume Game (Reset AI)"
+      text: "继续游戏（重设AI）"
     nightmare:
-      text: "Nightmare"
+      text: "噩梦"
     survival:
-      text: "Survival"
+      text: "生存"
     traditional:
-      text: "Traditional"
+      text: "传统"
     peaceful:
-      text: "Peaceful"
+      text: "和平"
     sandbox:
-      text: "Sandbox"
+      text: "沙盒"
       
   header:
     gameMode:
-      text: "$YEL1Game Mode"
+      text: "$YEL1游戏模式"
     saveRollback:
-      text: "$YEL1Save Rollback"
+      text: "$YEL1存档回溯"
     
   gameMode:
     header:
       nightmare:
-        text: "$RED1-Nightmare-"
+        text: "$RED1-噩梦-"
       survival:
-        text: "$ORA1-Survival-"
+        text: "$ORA1-生存-"
       traditional:
-        text: "$GRE1-Traditional-"
+        text: "$GRE1-传统-"
       peaceful:
-        text: "$CYA1-Peaceful-"
+        text: "$CYA1-和平-"
       sandbox:
-        text: "$MAG1-Sandbox-"
+        text: "$MAG1-沙盒-"
     body:
       nightmare:
-        text: "An impossible game mode, that is brutal and unfair. Masochists only！"
+        text: "不可能的游戏模式，既残忍又不公平。受虐狂限定！"
       survival:
-        text: "The way the game was meant to be played. Try to survive as long as possible！"
+        text: "游戏设计的初衷。尽可能选择此模式！"
       traditional:
-        text: "A more classic village simulator experience with less monsters. Good for learning how to play！"
+        text: "更传统的聚落模拟玩法，怪物更少。适合用来学习游戏玩法！"
       peaceful:
-        text: "Extremely easy mode with no monsters what so ever."
+        text: "极易的游戏模式，完全没有怪物！"
       sandbox:
-        text: "A fun mode to experiment with the game engine and test things out."
+        text: "一个基于本游戏引擎的娱乐向模式，可以在里面进行各种尝试。"
                         
   mapAuthor:
-    text: "$YEL1By: {authorName}"
+    text: "$YEL1作者：{authorName}"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -2839,43 +2839,43 @@ mainMenuUploadProfilePanel:
   
   button:
     back:
-      text: "Back"
+      text: "返回"
     upload:
-      text: "Upload"
+      text: "上传"
     crash:
-      text: "Crash"
+      text: "崩溃"
     laggy:
-      text: "Laggy/Slow"
+      text: "高延迟/运行迟缓"
     corrupt:
-      text: "Corrupt Data"
+      text: "数据损坏"
     devRequest:
-      text: "Dev Request"
+      text: "开发请求"
     other:
-      text: "Other"
+      text: "其他"
     textInput:
       comments:
-        text: "Additional Comments (Optional)"
+        text: "附加注释（可选）"
       username:
-        text: "Username (Optional)"
+        text: "用户名（可选）"
 
   message:
     sending:
-      text: "SENDING PROFILE. PLEASE WAIT！"
+      text: "正在发送玩家档案，请稍候！"
     sendingAttempt:
-      text: "$RED0Attempt: {attemptCount}"
+      text: "$RED0尝试次数：{attemptCount}"
     sendingAttemptFailure:
-      text: "$RED0There may be an issue with your firewall,~or you may not be connected to the internet！"
+      text: "$RED0你的防火墙可能出现了问题，~或无网络连接！"
     sendingFailure:
-      text: "$RED0There was an error sending your profile！ Please check your internet connection or firewall settings."
+      text: "$RED0发送玩家资料时出错！请检查网络或防火墙！"
     sendingSuccess:
-      text: "Thank you, your profile has been sent to the developer."
+      text: "感谢！你的玩家档案已被上传给开发者"
       
   body:
-    text: "This uploader will package your selected profile and logs, and upload them to the developer for troubleshooting. Please select the type of issue you're having, and if needed a little comment."
+    text: "此工具可以将你选择的玩家档案或日志打包发送给开发者以定位问题。请选择你遇到的问题，若有需要也可附加些注释"
   header:
-    text: "Profile Selected"
+    text: "选择玩家档案"
   category:
-    text: "Problem Category"
+    text: "问题分类"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -2890,18 +2890,18 @@ mapEditorMainMenuPanel:
   
   button:
     settings:
-      text: "Settings"
+      text: "设置"
     saveAndExit:
-      text: "Save and Exit"
+      text: "保存并退出"
     exitOnly:
-      text: "Exit Only"
+      text: "不保存退出"
     'yes':
-      text: "Yes！"
+      text: "是！"
       
   header:
-    text: "Main Menu"
+    text: "主菜单"
   exitWarning:
-    text: "$GRE1ARE YOU SURE?~$RED1YOUR MAP WILL~NOT BE SAVED！"
+    text: "$GRE1你确定吗？~$RED1你的地图~将不被保存！"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -2915,20 +2915,20 @@ mapEditorRegionalDataPanel:
   
   button:
     save:
-      text: "Save"
+      text: "保存"
       optional: "true"
       
   header:
-    text: "Region List"
+    text: "地区列表"
     optional: "true"
   connectedRegions:
-    text: "Connected Regions"
+    text: "相连的地区"
     optional: "true"
   notSetPlaceholder:
-    text: "Not Set"
+    text: "未设置"
     optional: "true"
   worldMapCoordinates:
-    text: "World Map Coordinates"
+    text: "世界地图坐标"
     optional: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -2946,117 +2946,117 @@ mapEditorPlayRightPanel:
   button:
     navigation:
       back:
-        text: "Back a Page"
+        text: "回到上层"
       pageUp:
-        text: "Page Up"
+        text: "上一页"
       pageDown:
-        text: "Page Down"
+        text: "下一页"
       hidePanel:
-        text: "Hide Panel Toggle"
+        text: "显示/隐藏面板"
       
     main:
       build:
-        text: "Build"
+        text: "建造"
       tiles:
-        text: "Tiles"
+        text: "块"
       time:
-        text: "Time"
+        text: "时间"
       spawning:
-        text: "Spawning"
+        text: "刷新中"
       particles:
-        text: "Particles"
+        text: "粒子"
       miscellaneous:
-        text: "Miscellaneous"
+        text: "杂项"
       
     build:
       ancient:
-        text: "Ancient"
+        text: "远古"
       civics:
-        text: "Civics"
+        text: "公共"
       defense:
-        text: "Defense"
+        text: "防务"
       foodAndWater:
-        text: "Food and Water"
+        text: "饮食"
       harvesting:
-        text: "Harvesting"
+        text: "收获"
       housing:
-        text: "Housing"
+        text: "住房"
       lighting:
-        text: "Lighting"
+        text: "照明"
       magic:
-        text: "Magic"
+        text: "魔法"
       manufacturing:
-        text: "Manufacturing"
+        text: "生产"
       refining:
-        text: "Refining"
+        text: "加工"
       storage:
-        text: "Storage"
+        text: "仓储"
       walls:
-        text: "Walls"
+        text: "围墙"
       special:
-        text: "Special"
+        text: "特殊"
       
     ancient:
       ancientCullisGateAbandoned:
-        text: "Ancient Cullis Gate (Abandoned)"
+        text: "远古库里斯之门(已废弃)"
       ancientCullisGate:
-        text: "Ancient Cullis Gate"
+        text: "远古库里斯之门"
       ancientRadiancePoolAbandoned:
-        text: "Anc. Radiance Pool (Abandoned)"
+        text: "远古荧光池(已废弃)"
       ancientRadiancePool:
-        text: "Ancient Radiance Pool"
+        text: "远古荧光池"
       
     civics:
       ancillary:
         text: "Ancillary"
       clinic:
-        text: "Clinic"
+        text: "诊所"
       courierStation:
-        text: "Courier Station"
+        text: "运输站"
       maintenanceBuilding:
         text: "Maintenance Building"
       marketplace:
-        text: "Marketplace"
+        text: "市场"
       wayMakerShack:
-        text: "Way Maker Shack"
+        text: "路政局"
       migrationWayStation:
-        text: "Migration Way Station"
+        text: "移民驿站"
       
     defense:
       guardsAndGolems:
-        text: "Guards and Golems"
+        text: "守卫与魔偶"
       towers:
-        text: "Towers"
+        text: "防御塔"
       miscellaneous:
-        text: "Miscellaneous"
+        text: "杂项"
       
     guardsAndGolems:
       barracks:
-        text: "Barracks"
+        text: "兵营"
       outpost:
-        text: "Outpost"
+        text: "前哨"
       crystalGolemCombobulator:
-        text: "Crystal Golem Combobulator"
+        text: "灵晶魔偶装配站"
       stoneGolemCombobulator:
-        text: "Stone Golem Combobulator"
+        text: "灵石魔偶装配站"
       woodGolemCombobulator:
-        text: "Wood Golem Combobulator"
+        text: "灵木魔偶装配站"
       
     towers:
       attractTower:
-        text: "Attract Tower"
+        text: "吸引塔"
       banishTower:
-        text: "Banish Tower"
+        text: "放逐塔"
       ballistaTower:
-        text: "弩炮"
+        text: "弩炮塔"
       bowTower:
         text: "弓箭塔"
       bulletTower:
-        text: "Bullet Tower"
+        text: "炮弹塔"
       elementalBoltTower:
-        text: "Elemental Bolt Tower"
+        text: ""
       phantomDartTower:
-        text: "幻影飞弹塔"
+        text: "幻镖塔"
       slingTower:
         text: "投石塔"
       sprayTower:
@@ -3066,400 +3066,400 @@ mapEditorPlayRightPanel:
       
     defenseMiscellaneous:
       lightningRod:
-        text: "Lightning Rod"
+        text: "避雷针"
       recombobulatorTower:
         text: "净化塔"
       
     foodAndWater:
       bottler:
-        text: "Bottler"
+        text: "装瓶厂"
       farm:
-        text: "Farm"
+        text: "农场"
       smallFountain:
-        text: "Small Fountain"
+        text: "小饮泉"
       largeFountain:
-        text: "Large Fountain"
+        text: "大饮泉"
       kitchen:
-        text: "Kitchen"
+        text: "厨房"
       rainCatcher:
-        text: "Rain Catcher"
+        text: "集雨器"
       waterPurifier:
-        text: "Water Purifier"
+        text: "净水厂"
       well:
-        text: "Well"
+        text: "水井"
       
     harvesting:
       crystalHarvestry:
-        text: "Crystal Harvestry"
+        text: "采晶场"
       lumberShack:
-        text: "Lumber Shack"
+        text: "伐木场"
       miningFacility:
-        text: "Mining Facility"
+        text: "采矿场"
       
     housing:
       doggoHouse:
-        text: "Doggo House"
+        text: "狗屋"
       housing:
-        text: "Housing"
+        text: "住宅"
       
     lighting:
       firePit:
-        text: "Fire Pit"
+        text: "火坑"
       largeFirePit:
-        text: "Large Fire Pit"
+        text: "大火坑"
       
     magic:
       crystalMotivator:
-        text: "Crystal Motivator"
+        text: "水晶激励器"
       cullisGate:
-        text: "Cullis Gate"
+        text: "库里斯之门"
       essenceCollector:
-        text: "Essence Collector"
+        text: "灵质收集器"
       
     manufacturing:
       armorsmithy:
-        text: "Armorsmithy"
+        text: "护甲厂"
       bowyer:
-        text: "Bowyer"
+        text: "弓箭厂"
       rockTumbler:
-        text: "Tumbler"
+        text: "磨石厂"
       toolsmithy:
-        text: "Toolsmithy"
+        text: "工具厂"
       
     refining:
       crystillery:
         text: "Crystillery"
       forge:
-        text: "Forge"
+        text: "冶炼厂"
       lumberMill:
-        text: "Lumber Mill"
+        text: "锯木厂"
       stoneCuttery:
-        text: "Stone Cuttery"
+        text: "石材厂"
       
     storage:
       ammoStorage:
-        text: "Ammo Storage"
+        text: "弹药仓库"
       crystalStorage:
-        text: "Crystal Storage"
+        text: "水晶仓库"
       equipmentStorage:
-        text: "Equipment Storage"
+        text: "装备仓库"
       foodStorage:
-        text: "Food Storage"
+        text: "食品仓库"
       goldStorage:
-        text: "Gold Storage"
+        text: "黄金仓库"
       keyShack:
-        text: "Key Shack"
+        text: "钥匙仓库"
       mineralStorage:
-        text: "Mineral Storage"
+        text: "矿产仓库"
       miscellaneousStorage:
-        text: "Miscellaneous Storage"
+        text: "杂物仓库"
       rockStorage:
-        text: "Rock Storage"
+        text: "石材仓库"
       woodStorage:
-        text: "Wood Storage"
+        text: "木材仓库"
       
     walls:
       woodFence:
-        text: "Wood Fence"
+        text: "木栅栏"
       woodFenceGateNS:
-        text: "Wood Fence Gate (N/S)"
+        text: "木栅栏门(南北向)"
       woodFenceGateWE:
-        text: "Wood Fence Gate (W/E)"
+        text: "木栅栏门(东西向)"
       stoneWallGateNS:
-        text: "Stone Wall Gate (N/S)"
+        text: "石门(南北向)"
       stoneWallGateWE:
-        text: "Stone Wall Gate (W/E)"
+        text: "石门(东西向)"
       stoneWall:
-        text: "Stone Wall"
+        text: "石墙"
       curtainWall:
-        text: "Curtain Wall"
+        text: "帷帐"
       
     special:
       camp:
-        text: "Camp"
+        text: "营地"
       lootBox:
-        text: "Loot Box"
+        text: "宝箱"
       
     tiles:
       bricks:
-        text: "Bricks"
+        text: "砖块"
       crystals:
-        text: "Crystals"
+        text: "水晶"
       dirt:
-        text: "Dirt"
+        text: "泥土"
       flowers:
-        text: "Flowers"
+        text: "花朵"
       food:
-        text: "Food"
+        text: "食物"
       grass:
-        text: "Grass"
+        text: "草地"
       gravel:
-        text: "Gravel"
+        text: "砾石"
       lava:
-        text: "Lava"
+        text: "岩浆"
       roads:
-        text: "Roads"
+        text: "道路"
       rock:
-        text: "Rock"
+        text: "岩石"
       sand:
-        text: "Sand"
+        text: "沙子"
       sandstone:
-        text: "Sandstone"
+        text: "砂石"
       tar:
-        text: "Tar"
+        text: "焦油"
       trees:
-        text: "Trees"
+        text: "树木"
       water:
-        text: "Water"
+        text: "水域"
       
     bricks:
       grayBricks:
-        text: "Gray Bricks"
+        text: "灰砖"
       grayTiles:
-        text: "Gray Tiles"
+        text: "灰瓦"
       
     crystals:
       redCrystals:
-        text: "Red Crystals"
+        text: "红水晶"
       greenCrystals:
-        text: "Green Crystals"
+        text: "绿水晶"
       blueCrystals:
-        text: "Blue Crystals"
+        text: "蓝水晶"
       purpleCrystals:
-        text: "Purple Crystals"
+        text: "紫水晶"
       
     dirt:
       brownDirt:
-        text: "Brown Dirt"
+        text: "棕色泥土"
       darkBrownDirt:
-        text: "Dark Brown Dirt"
+        text: "暗棕泥土"
       lightBrownDirt:
-        text: "Light Brown Dirt"
+        text: "亮棕泥土"
       
     flowers:
       blackFlowers:
-        text: "Black Flowers"
+        text: "黑色花朵"
       blueFlowers:
-        text: "Blue Flowers"
+        text: "蓝色花朵"
       purpleFlowers:
-        text: "Purple Flowers"
+        text: "紫色花朵"
       redFlowers:
-        text: "Red Flowers"
+        text: "红色花朵"
       whiteFlowers:
-        text: "White Flowers"
+        text: "白色花朵"
       yellowFlowers:
-        text: "Yellow Flowers"
+        text: "黄色花朵"
       
     food:
       cactus:
-        text: "Cactus"
+        text: "仙人掌"
       carrots:
-        text: "Carrots"
+        text: "胡萝卜"
       melons:
-        text: "Melons"
+        text: "甜瓜"
       potatoes:
-        text: "Potatoes"
+        text: "土豆"
       turnips:
-        text: "Turnips"
+        text: "芜菁"
       
     grass:
       emeraldGreenGrass:
-        text: "Emerald Green Grass"
+        text: "翠绿草地"
       greenGrass:
-        text: "Green Grass"
+        text: "绿色草地"
       yellowBrownGrass:
-        text: "Yellow Brown Grass"
+        text: "黄棕草地"
       
     gravel:
       blueGravel:
-        text: "Blue Gravel"
+        text: "蓝色砾石"
       grayGravel:
-        text: "Gray Gravel"
+        text: "灰色砾石"
       redGravel:
-        text: "Red Gravel"
+        text: "红色砾石"
       
     lava:
       lava:
-        text: "Lava"
+        text: "岩浆"
       
     roads:
       path:
-        text: "Path"
+        text: "道路"
       logPathDebris:
-        text: "Log Path Debris"
+        text: "木路废墟"
       logPath:
-        text: "Log Path"
+        text: "木路"
       cobbleAndLogPathDebris:
-        text: "Cobble and Log Path Debris"
+        text: "木石路废墟"
       cobbleAndLogPath:
-        text: "Cobble and Log Path"
+        text: "木石路"
       cobbleAndBoardRoadDebris:
-        text: "Cobble and Board Road Debris"
+        text: "木板石子路废墟"
       cobbleAndBoardRoad:
-        text: "Cobble and Board Road"
+        text: "木板石子路"
       cutStoneAndBoardRoadDebris:
-        text: "Cut Stone and Board Road Debris"
+        text: "木石混合板路废墟"
       cutStoneAndBoardRoad:
-        text: "Cut Stone and Board Road"
+        text: "木石混合板路"
       
     rock:
       blackRock:
-        text: "Black Rock"
+        text: "黑色岩石"
       brownRock:
-        text: "Brown Rock"
+        text: "棕色岩石"
       grayRock:
-        text: "Gray Rock"
+        text: "灰色岩石"
       redRock:
-        text: "Red Rock"
+        text: "红色岩石"
       whiteRock:
-        text: "White Rock"
+        text: "白色岩石"
       
     sand:
       blackSand:
-        text: "Black Sand"
+        text: "黑色沙地"
       redSand:
-        text: "Red Sand"
+        text: "红色沙地"
       tanSand:
-        text: "Tan Sand"
+        text: "黄褐沙地"
       
     sandstone:
       blackSandstone:
-        text: "Black Sandstone"
+        text: "黑色砂石"
       redSandstone:
-        text: "Red Sandstone"
+        text: "红色砂石"
       tanSandstone:
-        text: "Tan Sandstone"
+        text: "黄褐砂石"
       
     tar:
       tar:
-        text: "Tar"
+        text: "焦油"
       
     trees:
       blueDeadTrees:
-        text: "Blue Dead Trees"
+        text: "蓝色枯树"
       blueStumps:
-        text: "Blue Stumps"
+        text: "蓝色树桩"
       blueTrees:
-        text: "Blue Trees"
+        text: "蓝色树木"
       brownDeadTrees:
-        text: "Brown Dead Trees"
+        text: "棕色枯树"
       brownStumps:
-        text: "Brown Stumps"
+        text: "棕色树桩"
       brownTrees:
-        text: "Brown Trees"
+        text: "棕色树木"
       darkGreenDeadTrees:
-        text: "Dark Green Dead Trees"
+        text: "深绿枯树"
       darkGreenStumps:
-        text: "Dark Green Stumps"
+        text: "深绿树桩"
       darkGreenTrees:
-        text: "Dark Green Trees"
+        text: "深绿树木"
       greenDeadTrees:
-        text: "Green Dead Trees"
+        text: "绿色枯树"
       greenStumps:
-        text: "Green Stumps"
+        text: "绿色树桩"
       greenTrees:
-        text: "Green Trees"
+        text: "绿色树木"
       redDeadTrees:
-        text: "Red Dead Trees"
+        text: "红色枯树"
       redStumps:
-        text: "Red Stumps"
+        text: "红色树桩"
       redTrees:
-        text: "Red Trees"
+        text: "红色树木"
       
     water:
       water:
-        text: "Water"
+        text: "水域"
       
     time:
       comment: Sandbox Mode Only
       
       toggleTime:
-        text: "Toggle Time"
+        text: "切换时间"
       
     spawning:
       comment: Sandbox Mode Only
       
       spawnMob:
-        text: "Spawn Mob"
+        text: "生成单位"
       spawnResource:
-        text: "Spawn Resource"
+        text: "生成资源"
       
     particles:
       comment: Sandbox Mode Only
       
       emitParticles:
-        text: "Emit Particles"
+        text: "发射粒子"
       
     miscellaneous:
       comment: Sandbox Mode Only
       
       emitEssence:
-        text: "Emit Essence"
+        text: "发射灵质"
       toggleWeather:
-        text: "Toggle Weather"
+        text: "切换水域"
       lightning:
-        text: "Lightning"
+        text: "闪电"
       restoreBasicNeeds:
-        text: "Rest. Basic Needs"
+        text: "恢复基本需求"
       restoreHealth:
-        text: "Rest. Health"
+        text: "恢复生命"
       fireMissile:
-        text: "Fire Missile"
+        text: "发射飞弹"
         
   header:
     time:
       comment: Sandbox Mode Only
       
       currentDay:
-        text: "Current Day"
+        text: "当前天数"
       timeOfDay:
-        text: "Time of Day"
+        text: "当前时间"
       season:
-        text: "Season"
+        text: "季节"
       advanceTime:
-        text: "Advance Time"
+        text: "推进时间"
       startAdvanceTime:
-        text: "Start Advance Time"
+        text: "开始推进时间"
       
     spawning:
       comment: Sandbox Mode Only
       
       mobType:
-        text: "Mob Type"
+        text: "单位类型"
       mobAmount:
-        text: "Mob Amount"
+        text: "单位数量"
       resourceType:
-        text: "Res. Type"
+        text: "资源类型"
       resourceAmount:
-        text: "Res. Amount"
+        text: "资源数量"
       spawnChance:
-        text: "Spawn Chance"
+        text: "刷新几率"
       monsterCount:
-        text: "Monster Count"
+        text: "怪物数量"
       
     particles:
       comment: Sandbox Mode Only
       
       particleType:
-        text: "Particle Type"
+        text: "粒子类型"
       particleColor:
-        text: "Particle Color"
+        text: "粒子颜色"
       particleAmount:
-        text: "Particle Amount"
+        text: "粒子数量"
       particleSpread:
-        text: "Part. Spread"
+        text: "粒子散布"
       particleAngle:
-        text: "Part. Angle"
+        text: "粒子角度"
       
     miscellaneous:
       comment: Sandbox Mode Only
       
       essenceAmount:
-        text: "Ess. Amount"
+        text: "灵质数量"
       essenceValue:
-        text: "Ess. Value"
+        text: "灵质值"
       missileType:
-        text: "Missile Type"
+        text: "飞弹类型"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -3474,31 +3474,30 @@ mapEditorSystemAndDataBar:
   button:
     tooltip:
       mainMenuHeader:
-        text: "Main Menu ({shortcutKey})"
+        text: "主菜单({shortcutKey})"
       mainMenu:
-        text: "Exit the map editor, or change some settings."
+        text: "退出地图编辑器或更改某些设置。"
       saveMapHeader:
-        text: "Save Map"
-      minimapHeader:
-        text: "Minimap ({shortcutKey})"
+        text: "保存地图"
+        text: "小地图({shortcutKey})"
       minimap:
-        text: "View the entire map."
+        text: "显示整个地图。"
       dataViewsHeader:
-        text: "Data Views ({shortcutKey})"
+        text: "数据视图({shortcutKey})"
       dataViews:
-        text: "View various overlay data maps."
+        text: "检视各种数据分布。"
       hideTopographyHeader:
-        text: "Hide Topography ({shortcutKey})"
+        text: "隐藏地形({shortcutKey})"
       hideTopography:
-        text: "Hide the topography layer of the map, making it easier to draw terrain under it."
+        text: "隐藏地图的地形层，更容易在其下方绘制地貌。"
       musicHeader:
-        text: "Music"
+        text: "音乐"
       music:
-        text: "View a list of all available music tracks, and change the current track if desired."
+        text: "显示当前所有可用的音轨, 可以根据需要进行修改。"
       regionalDataHeader:
-        text: "Regional Data"
+        text: "地区数据"
       regionalData:
-        text: "Change the regions this map is connected to, as well as its location on the world map."
+        text: "改变与当前地图连接的地区, 及其在世界地图上的位置"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State / Play State
@@ -3515,65 +3514,65 @@ mapEditorPlayHarvestAndTerrainBar:
   button:
     tooltip:
       circleBrushHeader:
-        text: "Circle Brush ({shortcutKey})"
+        text: "圆形笔刷({shortcutKey})"
       filletedSquareBrushHeader:
-        text: "Filleted Square Brush ({shortcutKey})"
+        text: "圆角方形笔刷({shortcutKey})"
       chamferedSquareBrushHeader:
-        text: "Chamfered Square Brush ({shortcutKey})"
+        text: "斜角方形笔刷({shortcutKey})"
       squareBrushHeader:
-        text: "Square Brush ({shortcutKey})"
+        text: "方形笔刷({shortcutKey})"
       decreaseBrushSizeHeader:
-        text: "Decrease Size ({shortcutKey})"
+        text: "减少尺寸({shortcutKey})"
       increaseBrushSizeHeader:
-        text: "Increase Size ({shortcutKey})"
+        text: "增加尺寸({shortcutKey})"
       harvestWoodHeader:
-        text: "Harvest Wood ({shortcutKey})"
+        text: "砍伐树木({shortcutKey})"
       harvestWood:
-        text: "Assign forest to be harvested by lumberjacks and builders. Builders will only harvest materials if they have an active construction project."
+        text: "标记需要由建筑工或伐木工砍伐的树木，建筑工在有建筑需要建造时才会去伐木。"
       harvestRockHeader:
-        text: "Harvest Rock ({shortcutKey})"
+        text: "开采岩石({shortcutKey})"
       harvestRock:
-        text: "Assign mountains to be harvested by miners and builders. Builders will only harvest materials if they have an active construction project."
+        text: "标记需要由建筑工或采矿工开采的岩石，建筑工在有建筑需要建造时才会去采矿。"
       harvestFoodAndWaterHeader:
-        text: "Harvest Food and Water ({shortcutKey})"
+        text: "收集食物/取用水源({shortcutKey})"
       harvestFoodAndWater:
-        text: "Assign wild food and water sources to be harvested by farmers and water masters to be used in farms and water purifiers. Farmers will only harvest water for use in their farms."
+        text: "标记需要由农夫采集的食物或由净水工取用的食物/水源，农夫只会收集用以浇灌农场的水。"
       harvestCrystalHeader:
-        text: "Harvest Crystal ({shortcutKey})"
+        text: "采集水晶({shortcutKey})"
       harvestCrystal:
-        text: "Assign crystal fields to be harvested by crystal harvesters and builders. Builders will only harvest materials if they have an active construction project."
+        text: "标记需要由水晶采收员采集的水晶，建筑工在有建筑需要建造时才会去采晶。"
       accentModeHeader:
-        text: "Accent Mode ({shortcutKey})"
+        text: "强调模式({shortcutKey})"
       accentMode:
-        text: "Locks the terrain brush tool into drawing the accent layer terrain."
+        text: "锁定笔刷为绘制强调的地形（如更深的颜色）。"
       eraseAllHeader:
-        text: "Erase All ({shortcutKey})"
+        text: "擦除所有({shortcutKey})"
       eraseAll:
-        text: "Erase everything within the brush radius."
+        text: "擦除笔刷范围内所有物件"
       eraseTerrainHeader:
-        text: "Erase Terrain ({shortcutKey})"
+        text: "擦除地貌({shortcutKey})"
       eraseTerrain:
-        text: "Erase the terrain under the topography within the brush radius."
+        text: "擦除笔刷范围内的地貌。"
       eraseTopographyHeader:
-        text: "Erase Topography ({shortcutKey})"
-      eraseTopography:
-        text: "Erase trees, water, rock and other top level terrain within the brush radius."
+        text: "擦除地形({shortcutKey})"
+      eraseTopography:w
+        text: "擦除笔刷范围内的树木、岩石、水域等其他上层地形。"
       eraseObjectsHeader:
-        text: "Erase Objects ({shortcutKey})"
+        text: "擦除物件({shortcutKey})"
       eraseObjects:
-        text: "Erase all buildings, walls and other objects within the brush radius."
+        text: "擦除笔刷范围内的建筑、围墙等物件。"
       eraseRoadsHeader:
-        text: "Erase Roads ({shortcutKey})"
+        text: "擦除道路({shortcutKey})"
       eraseRoads:
-        text: "Erase all roads within the brush radius."
+        text: "擦除笔刷范围内的所有道路"
       holeHeader:
-        text: "Hole ({shortcutKey})"
+        text: "挖洞({shortcutKey})"
       hole:
-        text: "Completely remove all terrain, including the base layer within the brush radius."
+        text: "完全移除笔刷所有地形地貌，包括基层地貌。"
       patchHeader:
-        text: "Patch ({shortcutKey})"
+        text: "修改({shortcutKey})"
       patch:
-        text: "Replace the terrain within the brush radius."
+        text: "替换笔刷范围内的地貌。"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Map Editor State
@@ -3587,9 +3586,9 @@ mapEditorWorldMapListPanel:
   
   header:
     regionList:
-      text: "Region List"
+      text: "地区列表"
     miniMap:
-      text: "Mini Map"
+      text: "小地图"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3604,90 +3603,90 @@ playBuildingListPanel:
   button:
     tooltip:
       firstPageHeader:
-        text: "First Page"
+        text: "首页"
       lastPageHeader:
-        text: "Last Page"
+        text: "末页"
       pageDownHeader:
-        text: "Page Down"
+        text: "下页"
       pageUpHeader:
-        text: "Page Up"
+        text: "上页"
       increasePriorityHeader:
-        text: "Increase Priority"
+        text: "增加权重"
       increasePriority:
-        text: "Increase the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "增加建筑的建造优先度。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       decreasePriorityHeader:
-        text: "Decrease Priority"
+        text: "减少权重"
       decreasePriority:
-        text: "Decrease the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "减少建筑的建造优先度。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       topPriorityHeader:
-        text: "Top Priority"
+        text: "最高权重"
       topPriority:
-        text: "Sets the construction priority of the building the top of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "将建筑的建造优先度设为最高级。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       lastPriorityHeader:
-        text: "Last Priority"
+        text: "最低权重"
       lastPriority:
-        text: "Sets the construction priority of the building the bottom of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "将建筑的建造优先度设为最低级。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       prioritySortOrderHeader:
-        text: "Priority Sort Order"
+        text: "权重排序"
       prioritySortOrder:
-        text: "Adjusts the order of how the wall segments in this group will be built."
+        text: "调整围墙各工段的建筑优先级。"
 
   tooltip:
     totalBuildingsHeader:
-      text: "Total Building"
+      text: "建筑总计"
     totalBuildings:
-      text: "The total amount of buildings, and how many building slots remains. Does not count walls or ancillaries. Increase your build slots by building additional ancillaries！"
+      text: "建筑物的总数，以及剩余的建筑物槽位数。围墙和保管库不算在内。建造保管库以增加建筑物上限！！"
     totalAncillariesHeader:
-      text: "Total Ancillaries"
+      text: "总保管库"
     totalAncillaries:
-      text: "The total amount of ancillaries, and how many ancillary slots remains. Increase your ancillary slots by upgrading your camp/castle！"
+      text: "保管库的总数, 以及剩余的保管库槽位数。升级你的营地/城堡以增加保管库上限！"
     totalHomeOccupancyHeader:
-      text: "Total Home Occupancy"
+      text: "房屋总居住率"
     totalHomeOccupancy:
-      text: "The total amount of living space currently being used, as well as the total available you have in your homes."
+      text: "当前生活空间的总量以及当前使用的空间量。"
     totalBarracksOccupancyHeader:
-      text: "Total Barracks Occupancy"
+      text: "兵营总驻扎率"
     totalBarracksOccupancy:
-      text: "The total amount of living space currently being used, as well as the total available you have in your barracks."
+      text: "当前驻军空间的总量以及当前使用的空间量。"
     totalWorkersHeader:
-      text: "Total Workers"
+      text: "人工总雇佣率"
     totalWorkers:
-      text: "The total amount of villagers who have a job assigned somewhere in the village, and the maximum jobs a that are available."
+      text: "当前分配工作的总量以及当前的村民数量。"
     workersHeader:
-      text: "Workers"
+      text: "工人"
     workers:
-      text: "Total amount of workers slots this building supplies."
+      text: "该建筑提供的工作岗位数"
     occupancyHeader:
-      text: "Occupancy"
+      text: "居住率"
     occupancy:
-      text: "How many villagers are living in this building, as well as the total amount of living space this building supplies."
+      text: "该房舍提供的总生活空间以及当前已使用的生活空间。"
     energyHeader:
-      text: "Energy"
+      text: "能量"
     energy:
-      text: "The amount of stored energy this building has, as well as the maximum it can store."
+      text: "该建筑的储能上限和当前能量。"
     dirtyWaterHeader:
-      text: "Dirty Water"
+      text: "污水"
     dirtyWater:
-      text: "The amount of dirty water this building has."
+      text: "该建筑的当前污水存量。"
     waterHeader:
-      text: "Water"
+      text: "净水"
     water:
-      text: "The amount of clean drinking water this building has."
+      text: "该建筑当前的饮用水存量。"
     goldCoinsHeader:
-      text: "Gold Coins"
+      text: "金币"
     goldCoins:
-      text: "The amount of gold this building has."
+      text: "该建筑里的金币存量"
     ammoHeader:
-      text: "Ammo"
+      text: "弹药"
     ammo:
-      text: "The amount of ammo the building currently has loaded, as well as the maximum amount it can load. This does not count unloaded ammo that is in the building's storage."
+      text: "该建筑的最大装填弹药量和其当前装填的弹药量，不包括贮存在建筑中未装填的弹药。"
 
   header:
-    text: "Building List"
+    text: "建筑列表"
   buildingListPage:
-    text: "Building List       Pg: {currentPage} of {totalPages}"
+    text: "建筑列表     第{currentPage}页共{totalPages}页"
   buildingPaused:
-    text: "$YEL1 (Paused)"
+    text: "$YEL1（已暂停）"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3701,18 +3700,18 @@ playCastlePanel:
   
   button:
     placeCamp:
-      text: "Place Camp"
+      text: "安置营地"
       
     tooltip:
       hidePanelHeader:
-        text: "Hide Panel"
+        text: "隐藏面板"
       hidePanel:
-        text: "Disregard this panel. If you need to build the camp later, it will be in the right hand build menu under 'Special'"
+        text: "关闭该面板，如果你之后需要安置营地，在右边的建筑面板中点选‘特殊’选项卡。"
 
   header:
-    text: "$GRE1Place Camp"
+    text: "$GRE1扎营"
   body:
-    text: "Get started by placing your camp！~Place it near some rock, trees and food！"
+    text: "一切从扎营开始！~最好放在石头、树木和食物资源附近！"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3727,7 +3726,7 @@ playConsolePanel:
   button:
     tooltip:
       hidePanelHeader:
-        text: "Hide Panel Toggle"
+        text: "开/关面板"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3795,7 +3794,7 @@ playLeftMigrationDescriptionPanel:
   javaClass: "rtr.gui.states.playstate.LeftMigrationDescriptionPanel.java"
   
   lost:
-    text: "$RED1Lost！"
+    text: "$RED1走丢了！"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3810,69 +3809,69 @@ playLeftPanel:
   button:
     tooltip:
       workforceHeader:
-        text: "Workforce"
+        text: "劳动力"
       resourceManagementHeader:
-        text: "Resource Management"
+        text: "资源管理"
       tradeHeader:
-        text: "Trade"
+        text: "贸易"
       trade:
-        text: "Requires Marketplace"
+        text: "需要市场"
       migrationHeader:
-        text: "Migration"
+        text: "移民"
       migration:
-        text: "Requires Migration Way Station"
+        text: "需要移民驿站"
       courierHeader:
-        text: "Courier"
+        text: "转运"
       courier:
-        text: "Requires Courier Station"
+        text: "需要转运站"
       hidePanelHeader:
-        text: "Hide Panel Toggle"
+        text: "开/关面板"
         
   trade:
     button:
       buy:
-        text: "Buy"
+        text: "购买"
       sell:
-        text: "Sell"
+        text: "出售"
       hire:
-        text: "Hire"
+        text: "雇佣"
       tooltip:
         buyHeader:
-          text: "Buy {resourceName}"
+          text: "购买{resourceName}"
         sellHeader:
-          text: "Sell {resourceName}"
+          text: "出售{resourceName}"
         decreaseBuyOrderHeader:
-          text: "Decrease Buy Order"
+          text: "减少进口订单"
         decreaseBuyOrder:
-          text: "Decrease how much {resourceName} the village is attempting to buy. This can be set higher than the resources available, and they will be bought as they become available."
+          text: "减少聚落进口{resourceName}的数量。即便高于当前架上库存，也会在有货时自动订购。"
         increaseBuyOrderHeader:
-          text: "Increase Buy Order"
+          text: "增加进口订单"
         increaseBuyOrder:
-          text: "Increase how much {resourceName} the village is attempting to buy. This can be set higher than the resources available, and they will be bought as they become available."
+          text: "减少聚落进口{resourceName}的数量。即便高于当前架上库存，也会在有货时自动订购。"
         decreaseSellOrderHeader:
-          text: "Decrease Sell Order"
+          text: "减少出口订单"
         decreaseSellOrder:
-          text: "Decrease how much {resourceName} the village is attempting to sell. This can be set higher than the resources available, and they will be sold as they become available."
+          text: "减少聚落出口{resourceName}的数量。即便高于当前聚落可用库存，也会在有可用库存时自动出售。"
         increaseSellOrderHeader:
-          text: "Increase Sell Order"
+          text: "增加出口订单"
         increaseSellOrder:
-          text: "Increase how much {resourceName} the village is attempting to sell. This can be set higher than the resources available, and they will be sold as they become available."
+          text: "增加聚落出口{resourceName}的数量。即便高于当前聚落可用库存，也会在有可用库存时自动出售。"
         hireLaborHeader:
-          text: "Hire Labor"
+          text: "雇佣劳工"
         hireLabor:
-          text: "If available, hire Catjeet Laborers to join the village."
+          text: "如果可用，雇佣劳工加入聚落。"
         decraseCatjeetOrderHeader:
-          text: "Decrease Order"
+          text: "减少雇佣合同"
         decraseCatjeetOrder:
-          text: "Decrease how many catjeet laborers the village is attempting to hire."
+          text: "减少聚落预期雇佣的劳工数量。"
         incraseCatjeetOrderHeader:
-          text: "Increase Order"
+          text: "增加雇佣合同"
         incraseCatjeetOrder:
-          text: "Increase how many catjeet laborers the village is attempting to hire."
+          text: "增加聚落预期雇佣的劳工数量。"
         previousCategoryHeader:
-          text: "Previous Category"
+          text: "《="
         nextCategoryHeader:
-          text: "Next Category"
+          text: "=》"
           
     tooltip:
       villageStockPriceHeader:
@@ -3886,133 +3885,133 @@ playLeftPanel:
       priceHeader:
         text: "Price"
       laborerStockHeader:
-        text: "Laborer Stock"
+        text: "劳工"
       laborerStock:
         text: "Current total available laborers available, and how much gold they cost to hire."
         
     requiresMarketplace:
-      text: "Requires Marketplace"
+      text: "需要市场"
     empty:
-      text: "$BLA1Empty"
+      text: "$BLA1空"
     sellAmountAndPrice:
-      text: "$YEL1{amount} $WHI0at $GRE1{price}"
+      text: "$YEL1{amount}个$WHI0总价$GRE1{price}"
     buyAmountAndPriceTooHigh:
-      text: "$RED1{amount} $WHI0at $RED1{price}"
+      text: "$RED1{amount}个$WHI0总价$RED1{price}"
     buyAmountAndPrice:
-      text: "$GRE1{amount} $WHI0at {price}"
+      text: "$GRE1{amount}个$WHI0总价{price}"
     catjeetLaborersHeader:
       text: "Catjeet Laborers"
     noLaborers:
-      text: "No Laborers"
+      text: "无劳工"
 
   workforce:
     button:
       tooltip:
         reduceWorkersHeader:
-          text: "Reduce Workers"
+          text: "遣散工人"
         reduceWorkers:
-          text: "Reduce workers for this job, freeing them up to work elsewhere."
+          text: "减少该岗位工人数，空出劳动力"
         requestWorkersHeader:
-          text: "Request Workers"
+          text: "分配工人"
         requestWorkers:
-          text: "Request more workers to take this job. If the numbers turns red, you've requested more workers than villagers available."
+          text: "增加该岗位工人数，红色数字代表当前闲置劳动力不足以填补岗位需求。"
         pageUpHeader:
-          text: "Page Up"
+          text: "上一页"
         pageDownHeader:
-          text: "Page Down"
+          text: "下一页"
           
     tooltip:
       unemployedVillagersHeader:
-        text: "Unemployed Villagers"
+        text: "闲置村民"
       unemployedVillagers:
-        text: "How many adult villagers are available to work, but have not been assigned a job."
+        text: "无业的成年村民数量"
       desiredAndMaxWorkersHeader:
-        text: "Desired / Max Workers"
+        text: "预期/最大工人数量"
       desiredAndMaxWorkers:
-        text: "How many villagers are requested for this job and how many job slots are available. If the numbers turns red, you've requested more workers than villagers available."
+        text: "该岗位的预期工人数量和该岗位的容量。红色数字代表闲置劳动力不足以填补岗位。"
       totalAndEnRouteVillagersHeader:
-        text: "Total + En Route Workers"
+        text: "总计+在途工人数量"
       totalAndEnRouteVillagers:
-        text: "How many villagers are currently assigned, plus how many are en route to take or quit this job."
+        text: "当前分配以及在入职/离职路上的工人数量"
 
   resourceManagement:
     button:
       tooltip:
         sortingHeader:
-          text: "Sorting"
+          text: "排序"
         sorting:
-          text: "Change the totals display filter."
+          text: "更改总计显示筛选器"
         makeHeader:
-          text: "Make"
+          text: "生产"
         make:
-          text: "Make this many {resourceName} as soon as possible."
+          text: "尽快生产{resourceName}。"
         maintainHeader:
-          text: "Maintain"
+          text: "维持"
         maintain:
-          text: "Maintain this many {resourceName} village wide, including what is currently equipped or on the ground."
+          text: "维持聚落中{resourceName}的保有量,包括已装备的和在地上的。"
         previousCategoryHeader:
-          text: "Previous Category"
+          text: "《="
         nextCategoryHeader:
-          text: "Next Category"
+          text: "=》"
           
     tooltip:
       makeInfinityHeader:
-        text: "Make Infinity"
+        text: "无限生产"
       maintainInfinityHeader:
-        text: "Maintain Infinity"
+        text: "无限保持"
       requiresResource:
-        text: "Requires {resourceName}"
+        text: "需要{resourceName}"
   
     header:
       resourceManagement:
-        text: "Resource Management"
+        text: "资源管理"
       make:
-        text: "Make"
+        text: "生产"
       maintain:
-        text: "Maintain"
+        text: "维持"
       
     sort:
       total:
-        text: "Total"
+        text: "总计"
       equip:
-        text: "Equip"
+        text: "装备"
       carry:
-        text: "Carry"
+        text: "携带"
       ground:
-        text: "Ground"
+        text: "散落"
       stored:
-        text: "Stored"
+        text: "贮存"
         
     producedByWaterSource:
-      text: "$BLA2Produced by Water Source"
+      text: "$BLA2从水源产出"
     rareDrop:
-      text: "$YEL2Rare {resourceOrMonsterType} Drop"
+      text: "$YEL2{resourceOrMonsterType}稀有掉落"
     monsterDrop:
-      text: "$BLA2Monster Drop Only"
+      text: "$BLA2仅由怪物掉落"
     requiresWaterSource:
-      text: "$BLA2Requires Water Source"
+      text: "$BLA2需要水源"
     requiresBuilding:
-      text: "$BLA2Requires {buildingName}"
+      text: "$BLA2需要{buildingName}"
 
   migration:
     button:
       tooltip:
         increaseMigrantsToSendHeader:
-          text: "Increase Migrants To Send"
+          text: "增加移民数"
         increaseMigrantsToSend:
-          text: "Increase how many villagers to send to this region. Villagers will prepare to leave in the morning and depart midday. If you set this after the morning villagers will not leave until the following day."
+          text: "增加要派往该地区的移民，移民们会在早晨准备，日中时出发。若在午后计划移民，准备工作将推迟到第二天早晨。"
         decreaseMigrantsToSendHeader:
-          text: "Decrease Migrants To Send"
+          text: "减少移民数"
         decreaseMigrantsToSend:
-          text: "Decrease how many villagers you would like to send to this region."
+          text: "减少要派往该地区的移民"
           
     tooltip:
       migratableVillagersHeader:
-        text: "Migratable Villagers"
+        text: "可移民人口"
       migratableVillagers:
-        text: "How many villagers that can migrate to other regions. Only young, healthy adult villagers can migrate. You must maintain a total local population of at least 15 to be able to migrate."
+        text: "可移民到其他地区的人数。只有年轻健康的居民可以移民，必须保持当地总人口至少为15才能移民。"
       maximumDailyMigrationHeader:
-        text: "Maximum Daily Migration"
+        text: "每日最大移民"
       maximumDailyMigration:
         text: "How many villagers can migrate from the village per day. Increase this by upgrading you migration way station, or building a new one."
       readyToMigrateHeader:
@@ -4033,19 +4032,19 @@ playLeftPanel:
         text: "The total amount of migrants from all villages nearby currently en route to this region."
     
     availableVillagers:
-      text: "Available Villagers"
+      text: "可用居民"
     regionList:
-      text: "Region List"
+      text: "地区列表"
     regionLost:
-      text: "$RED0Region Lost to Corruption！"
+      text: "$RED0地区已被腐化吞噬！"
     send:
-      text: "$YEL1Send"
+      text: "$YEL1派出"
 
   courier:
     button:
       tooltip:
         sortingHeader:
-          text: "Sorting"
+          text: "排序"
         sorting:
           text: "Change the totals display filter."
         sendNowHeader:
