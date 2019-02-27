@@ -1,79 +1,3 @@
-# How to edit: simply change the text inside the quotes following the text: parameter！
-
-# 如何编辑：只需改写text:后面引号里的内容即可
-
-# Variables: The curly braces {mobName}, {resourceName}, etc are variables for the phrase, to print dynamic data on
-# screen. For example "You have {amount} villagers", {amount} would be the villager count itself. These must remain
-# in the translated version as well, or the actual data will never be displayed.
-
-# 变量：花括号内{敌人名称}、{资源名称}等内容是游戏内短语中的变量，用来显示游戏中的动态数据。比如“你有{amount}个村民”，{amount}
-# 就是村民数量的代称。花括号及其中内容必须保持原样，不加任何改动，否则这些数据无法正常显示。
-
-# Currently ONLY SUPPORTED IN DEATH MESSAGES there is a gender variable, for example a line you need to translate may
-# say "No one liked (他:她:它) anyway.", the variable inside is always formatting (male:female:none), and the correct 
-# gender will be picked based on (obviously) the gender of the mob that died. You can change the contents of the variables 
-# in any way you desire, as long as all three are there. You may also add or remove them as needed. Some languages 
-# (particularly the romance languages) may require you to change the entire structure of the sentence based on the 
-# gender reporting the message. For now, there's a small work around for this. Because you can put anything you want in 
-# the variables, you can do something like this; "(No one liked him anyway.:No one liked her anyway.:No one liked them anyway.)"
-# and rather than just replacing him, her or them, it'll replace the entire line. This will allow you to restructure the 
-# entire sentence depending on what gender has died.
-
-# 目前 **仅在死亡消息中支持** 性别变量，例如你可能翻译到一行这样的文字：“No one liked (他:她:它) anyway.”。这样的变量在其中需保持
-# (阳性称呼:阴性称呼:无性称呼) 这样的格式，这样在小人死亡时才能选择正确的性别称呼。对于特定的语言你可以自由编辑三种称呼，以适应语言本身的
-# 需求。有些语言（尤其是罗马语系）可能针对不同性别需要改写整个句子，此时你可以借助该变量直接选择整句，如：(没人喜欢他:没人喜欢她:它没人喜欢)
-# 利用这个机制你可以在不同性别小人死亡时给出不同的句式结构。
-
-# Colors: If you need to change around the coloring of text, it's fairly simple. Most text by default is white, you need
-# to add $COL1 where "COL" is the color code, and 0 through 2 is the brightness. Most text should have brightness set
-# to 1. I recommend not changing the color codes used in each line (Although you can, it won't hurt anything), but for
-# your language you may have to rearrange them a bit. Remember, changing the color will change all the color following
-# that line until another color code is entered. So "My cat is $RED1red, and it's pretty！" will make "red, and it's
-# pretty！" all in red. Where as "My cat is $RED1red$WHI0, and it's pretty！" will only set the word "red" to the color RED1.
-
-# 颜色：改变文本颜色十分容易。大多数默认文本颜色是白色,要使用其他颜色，只需在文字前添加$COL1，其中COL是颜色代码，1是文字亮度（可取0~2）
-# 大部分文字应该将亮度设为1，个人建议不修改那些文字代码（虽然你可以这么做，这么做并不会有什么影响。），但是你也可以根据语言的实际需要来
-# 对它们进行微调。需要注意的是，改变文字颜色将会修改指令之后一整行文字的颜色。比如“我的猫是$RED1红色的，而且很漂亮！”这样写会使得“红色的，
-# 而且很漂亮”这些字变为红色，而想要仅将“红色”显示为红色，你需要这样写“我的猫是$RED1红色$WHI0的，而且很漂亮！”
-
-# Valid Color Codes:
-# White/Default:  WHI0
-# Yellow:         YEL0, YEL1, YEL2
-# Red:            RED0, RED1, RED2
-# Green:          GRE0, GRE1, GRE2
-# Blue:           BLU0, BLU1, BLU2
-# Black/Grey:     BLA0, BLA1, BLA2
-# Cyan:           CYA0, CYA1, CYA2
-# Pink:           PIN0, PIN1, PIN2
-# Orange:         ORA0, ORA1, ORA2
-# Magenta:        MAG0, MAG1, MAG2
-
-# 可用颜色代码表:
-# 白色/默认:  WHI0
-# 黄:         YEL0, YEL1, YEL2
-# 红:            RED0, RED1, RED2
-# 绿:          GRE0, GRE1, GRE2
-# 蓝:           BLU0, BLU1, BLU2
-# 黑/灰:     BLA0, BLA1, BLA2
-# 青:           CYA0, CYA1, CYA2
-# 粉:           PIN0, PIN1, PIN2
-# 橙:         ORA0, ORA1, ORA2
-# 品:        MAG0, MAG1, MAG2
-
-# Line Breaks: DO NOT EVER HIT ENTER/RETURN TO MAKE LINE BREAKS. To make a line break you must use the tilde (~) key.
-# For example; "This is Line 1,~and this is Line 2" will print two lines, with "This is Line 1" on line one, and "and
-# this is Line 2." on the second.
-
-# Any time a line is left blank or removed, the game will load the default English version. Although I recommend not
-# touching any lines you do not wish to translate.
-
-# If an entry has optional: "true" directly below any text:, you are not required to translate that line. But you
-# may if you choose to, it just won't count to reaching 100%.
-
-# You can add forceCount: "true" directly below any text: line to tell the game that line is in fact translated,
-# in the rare case no translation is actually required. For example, the word "Bandage" is the same in English and
-# French, and thus there's no reason to translate it.
-    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # God Module
 # God XP Types
@@ -100,115 +24,115 @@ godXP:
 
   # Villager/Mob Related,
   villagerLeveledUp:
-    text: "村民升级"
+    text: "居民升级"
   childBirth:
     text: "儿童诞生"
   building:
-    text: "建造建筑中"
+    text: "建造建筑"
   buyingResources:
-    text: "购买资源中"
+    text: "购买资源"
   hiringLaborers:
-    text: "雇佣劳力中"
+    text: "雇佣劳力"
   eldersSharingWisdom:
-    text: "分享经验中"
+    text: "分享经验"
   clearingRoads:
-    text: "清理道路中"
+    text: "清理道路"
   combat:
     text: "战斗"
   clearingTopography:
-    text: "清理地形中"
+    text: "清理地形"
   harvestingResources:
-    text: "采集资源中"
+    text: "采集资源"
   farming:
-    text: "农场劳作中"
+    text: "农场劳作"
   tendingFarms:
-    text: "农场育苗中"
+    text: "农场育苗"
   coitus:
-    text: "社会交际中"
+    text: "社会交际"
   repairingBuildings:
-    text: "维修建筑中"
+    text: "维修建筑"
   repairingRoads:
-    text: "维护道路中"
+    text: "维护道路"
   buildingRoads:
-    text: "建造道路中"
+    text: "建造道路"
   deliveringResourcesToConstructionSites:
-    text: "向工地运送物资中"
+    text: "向工地运送物资"
   deliveringResourcesToCouriers:
-    text: "向信使运送物资中"
+    text: "向信使运送物资"
   deliveringResourcesToRoad:
-    text: "向道路运送物资中"
+    text: "向道路运送物资"
   diggingHoles:
-    text: "挖坑中"
+    text: "挖坑"
   dismantlingBuildings:
-    text: "拆除建筑中"
+    text: "拆除建筑"
   equippingResources:
-    text: "装配资源中"
+    text: "装配资源"
   findingNewHome:
-    text: "寻找新家中"
+    text: "寻找新家"
   growingUp:
-    text: "成长中"
+    text: "成长"
   patrolling:
-    text: "巡逻中"
+    text: "巡逻"
   guardDuty:
-    text: "守卫值班中"
+    text: "守卫值班"
   healingVillagers:
-    text: "治疗村民中"
+    text: "治疗居民"
   clearingOutResources:
-    text: "清出物资中"
+    text: "清出物资"
   migrantsDeparting:
-    text: "移民出发中"
+    text: "移民出发"
   couriersDeparting:
-    text: "信使出发中"
+    text: "镖局出发"
   redistributingResources:
-    text: "重分配资源中"
+    text: "调度资源"
   refiningResources:
-    text: "加工资源中"
+    text: "加工资源"
   sellingResources:
-    text: "出售资源中"
+    text: "出售资源"
   storingResources:
-    text: "储藏资源中"
+    text: "储藏资源"
   visitingMate:
-    text: "看望伴侣中"
+    text: "看望伴侣"
   domestication:
-    text: "驯化动物中"
+    text: "驯化动物"
   destroyingRoads:
-    text: "拆除道路中"
+    text: "拆除道路"
   plantingCrops:
-    text: "种植作物中"
+    text: "种植作物"
   migrantsPreparing:
-    text: "移民整备中"
+    text: "移民整备"
   tradingEquipment:
-    text: "交易装备中"
+    text: "交易装备"
   villagersImpregnated:
-    text: "有村民受孕"
+    text: "居民受孕"
   livedFullLife:
-    text: "有充实的一生"
+    text: "居民逝世"
   
   # God Intervention
   castingSpells:
-    text: "吟唱言灵中"
+    text: "吟唱言灵"
   grabbingCreatures:
-    text: "抓取生物中"
+    text: "抓取生物"
   grabbingResources:
-    text: "抓取资源中"
+    text: "抓取资源"
   
   # Passive
   survivingVillagers:
-    text: "生存的村民数"
+    text: "生存居民"
   villageSize:
     text: "聚落规模"
   
   # Other
   monstersKilled:
-    text: "击杀怪物数"
+    text: "击杀怪物"
   unlockedGoal:
-    text: "解锁目标数"
+    text: "解锁目标"
   openedLootBoxes:
-    text: "宝箱打开数"
+    text: "打开宝箱"
   throwResourcesInCullisGate:
-    text: "献祭资源数"
+    text: "献祭资源"
   throwCreaturesInCullisGate:
-    text: "献祭生物数"
+    text: "献祭生物"
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Module Base
@@ -226,11 +150,11 @@ module:
     starting:
       text: "$CYA1启动中！"
     module:
-      text: "{moduleName} 模组"
+      text: "{moduleName}组件"
     syncing:
-      text: "同步 {moduleName} 模组中"
+      text: "同步{moduleName}组件"
     mapFBO:
-      text: "地图 FBO"
+      text: "创建地图的帧缓冲对象"
     done:
       text: "完成！"
       
@@ -263,7 +187,7 @@ module:
   help:
     text: "帮助"
   influence:
-    text: "影响力"
+    text: "神力"
   lighting:
     text: "光照"
   collision:
@@ -281,17 +205,17 @@ module:
   mapAI:
     text: "地图AI"
   missile:
-    text: "发射物"
+    text: "飞弹"
   migration:
     text: "移民"
   mob:
-    text: "小人"
+    text: "单位"
   essence:
     text: "灵质"
   mobJob:
-    text: "小人工作"
+    text: "单位工作"
   object:
-    text: "客体"
+    text: "对象"
   particle:
     text: "粒子"
   lootBox:
@@ -309,7 +233,7 @@ module:
   weather:
     text: "天气"
   projectile:
-    text: "抛射物"
+    text: "抛体"
   profile:
     text: "档案"
     
@@ -1639,11 +1563,11 @@ timeOfDay:
   dawn:
     text: "黎明"
   morning:
-    text: "早晨"
+    text: "上午"
   midday:
     text: "中午"
   evening:
-    text: "夜晚"
+    text: "下午"
   dusk:
     text: "日落"
   
@@ -1678,40 +1602,40 @@ console:
   
   panel:
     coitus:
-      text: "{mobName} 与 {mateMobName} $WHI0喜结连理！"
+      text: "{mobName}与{mateMobName}$WHI0喜结连理！"
     isPregnant:
-      text: "{mobName} $PIN1吉梦征兰！"
+      text: "{mobName}$PIN1怀孕了！"
     object:
       destroyed:
-        text: "{buildingName} $RED1已被摧毁。"
+        text: "{buildingName}$RED1已被摧毁。"
       repaired:
-        text: "{buildingName} $GRE1已修复如初。"
+        text: "{buildingName}$GRE1已修复如初。"
       completed:
-        text: "{buildingName} $WHI0已完工。"
+        text: "{buildingName}$WHI0已完工。"
       dismantled:
-        text: "{buildingName} $YEL1已被拆除。"
+        text: "{buildingName}$YEL1已被拆除。"
     autosave:
-      text: "$GRE1自动保存 $WHI0-$GRE2 {time}"
+      text: "$GRE1自动保存$WHI0-$GRE2{time}"
     save:
-      text: "$GRE1保存完成，耗费时间 $WHI0-$GRE2 {time}"
+      text: "$GRE1保存完成，耗费时间$WHI0-$GRE2 {time}"
     fullMapScreenshot:
-      text: "全地图截图已保存至 $GRE1{filePath}"
+      text: "全地图截图已保存至$GRE1{filePath}"
     screenshot:
-      text: "屏幕截图已保存至 $GRE1{filePath}"
+      text: "屏幕截图已保存至$GRE1{filePath}"
       
   banner:
     time:
       newDayBanner:
         newDayBannerHeader:
-          text: "{season}，第 {currentDay} 天"
+          text: "{season}，第{currentDay}天"
         nextSeasonArrivesTomorrow:
-          text: "{season} 将于明天来临！"
+          text: "{season}将于明天来临！"
         daysUntilNextSeason:
-          text: "{season} 将于 {days} 日内来临。"
+          text: "{season}将于{days}日内来临。"
         monstersArriveTomorrow:
-          text: "$RED0怪物们 $WHI0将于明天光临！" 
+          text: "$RED0怪物们$WHI0将于明天光临！" 
         daysUntilMonsters:
-          text: "$RED0怪物们 $WHI0将于 {days} 日内光临。"
+          text: "$RED0怪物们$WHI0将于 {days} 日内光临。"
       
       feelsOminous:
         header:
@@ -1764,16 +1688,16 @@ console:
       
       newSeason: 
         header:
-          text: "{season} 已来临"
+          text: "{season}已来临"
         subtitle:
-          text: "$WHI0 祝你好运。"
+          text: "$WHI0祝你好运。"
           
     migration:
       migrantsArrived:
         header:
-          text: "$GRE1{amount}$WHI0 个移民已抵达"
+          text: "$GRE1{amount}$WHI0个移民已抵达"
         subtitle:
-          text: "他们来自 $YEL1{regionName}$WHI0！"
+          text: "他们来自$YEL1{regionName}$WHI0！"
     mob:
       born:
         subtitle:
@@ -1789,7 +1713,7 @@ console:
           text: "已成为长者！"
       migrantPrepared:
         subtitle:
-          text: "已准备离村！"
+          text: "已准备出发！"
       nomadJoined:
         subtitle:
           text: "已加入聚落！"
@@ -1800,67 +1724,67 @@ console:
     mobAI:
       childBirthDeath:
         header:
-          text: "{mobName} 的孩子在分娩中夭折！"
+          text: "{mobName}的孩子在分娩中夭折！"
         subtitle:
           text: "实乃憾事。"
       turnedIntoZombie:
         header:
-          text: "瘟疫将 {mobName}$WHI0的尸体转化为 $RED1{mobType}$WHI0！"
+          text: "瘟疫将{mobName}$WHI0的尸体转化为$RED1{mobType}$WHI0！"
         subtitle:
           text: "安息不易。"
       death:
         title:
           comment: "Some mobs, like the doggo, need their title inputted into the death messages. This string will be inputted where {mobTitle} is in all death strings under the death header category."
-          text: "$WHI0 deatthe {mobType}"
+          text: "$WHI0死了{mobType}"
         header:
           frozen:
-            text: "{mobName}{mobTitle}$RED1 永远冻成了一具冰雕！"
+            text: "{mobName}{mobTitle}$RED1永远冻成了一具冰雕！"
           byMob:
-            text: "{mobName}{mobTitle}$WHI0 被 {killerMob}$WHI0！ 杀死！"
+            text: "{mobName}{mobTitle}$WHI0被{killerMob}$WHI0！杀死！"
           byBuilding:
-            text: "{mobName}{mobTitle}$WHI0 被 {buildingName}$WHI0！ 置于死地！"
+            text: "{mobName}{mobTitle}$WHI0被{buildingName}$WHI0！置于死地！"
           byUnknown:
-            text: "{mobName}{mobTitle}$WHI0 死去了！"
+            text: "{mobName}{mobTitle}$WHI0死去了！"
           crashing:
-            text: "{mobName}{mobTitle}$RED1 被碾成齑粉！"
+            text: "{mobName}{mobTitle}$RED1被碾成齑粉！"
           dehydration:
-            text: "{mobName}{mobTitle}$RED1 死于重度脱水！"
+            text: "{mobName}{mobTitle}$RED1死于重度脱水！"
           blight:
-            text: "{mobName}{mobTitle}$RED1 死于瘟疫！"
+            text: "{mobName}{mobTitle}$RED1死于瘟疫！"
           dropped:
-            text: "{mobName}{mobTitle}$RED1 重重摔落在地，当场去世！"
+            text: "{mobName}{mobTitle}$RED1重重摔落在地，当场去世！"
           fire:
-            text: "{mobName}{mobTitle}$RED1 被焚烧致死！"
+            text: "{mobName}{mobTitle}$RED1被焚烧致死！"
           god:
-            text: "{mobName}{mobTitle}$RED1 被他们的主神杀死！"
+            text: "{mobName}{mobTitle}$RED1被他们的主神杀死！"
           heat:
-            text: "{mobName}{mobTitle}$RED1 过度疲劳而死！"
+            text: "{mobName}{mobTitle}$RED1过度疲劳而死！"
           lightning:
-            text: "{mobName}{mobTitle}$RED1 被闪电劈死！"
+            text: "{mobName}{mobTitle}$RED1被闪电劈死！"
           magic:
-            text: "{mobName}{mobTitle}$RED1 被魔法力量杀死！"
+            text: "{mobName}{mobTitle}$RED1被魔法力量杀死！"
           unknown:
-            text: "{mobName}{mobTitle}$RED1 死了，原因未知！"
+            text: "{mobName}{mobTitle}$RED1死了，原因未知！"
           piercing:
-            text: "{mobName}{mobTitle}$RED1 被贯穿致死！"
+            text: "{mobName}{mobTitle}$RED1被贯穿致死！"
           poisoned:
-            text: "{mobName}{mobTitle}$RED1 中毒而死！"
+            text: "{mobName}{mobTitle}$RED1中毒而死！"
           dysentery:
-            text: "{mobName}{mobTitle}$RED1 死于痢疾！"
+            text: "{mobName}{mobTitle}$RED1死于痢疾！"
           starved:
-            text: "{mobName}{mobTitle}$RED1 饥饿"
+            text: "{mobName}{mobTitle}$RED1饥饿"
           tower:
-            text: "{mobName}{mobTitle}$RED1 被防御塔杀死！"
+            text: "{mobName}{mobTitle}$RED1被防御塔杀死！"
           earthquake:
-            text: "{mobName}{mobTitle}$RED1 在地震中丧生！"
+            text: "{mobName}{mobTitle}$RED1在地震中丧生！"
           hail:
-            text: "{mobName}{mobTitle}$RED1 被冰雹砸死！"
+            text: "{mobName}{mobTitle}$RED1被冰雹砸死！"
           meteor:
-            text: "{mobName}{mobTitle}$RED1 被流星砸死！"
+            text: "{mobName}{mobTitle}$RED1被流星砸死！"
           age:
-            text: "{mobName}{mobTitle}$RED1 自然死亡！"
+            text: "{mobName}{mobTitle}$RED1自然死亡！"
           birth:
-            text: "{mobName}{mobTitle}$RED1 在分娩中死亡"
+            text: "{mobName}{mobTitle}$RED1在分娩中死亡"
             
         ageSubtitle:
           male:
@@ -1968,7 +1892,7 @@ console:
     spawn:
       nomadsArrived:
         header:
-          text: "$GRE0游民！"
+          text: "$GRE0流民！"
         subtitle:
           text: "一群流浪者加入聚落。"
           
@@ -2060,12 +1984,12 @@ goal:
       
   sendVillagers:
     header:
-      text: "调遣村民"
+      text: "调遣居民"
     body:
       any:
-        text: "调遣$GRE1{amount}$WHI0个村民到$GRE1其它地区$WHI0。"
+        text: "调遣$GRE1{amount}$WHI0个居民到$GRE1其它地区$WHI0。"
       specific:
-        text: "调遣$GRE1{amount}$WHI0个村民到$GRE1{mapName}$WHI0！"
+        text: "调遣$GRE1{amount}$WHI0个居民到$GRE1{mapName}$WHI0！"
       
   sendCourierGolems:
     header:
@@ -2321,9 +2245,9 @@ mainMenuCredits:
     thanks:
       text: "$YEL1特别感谢我在Patreon和Kickstarter上的支持者！"
     patreons:
-      text: "Patreon捐助额$GRE1${amount}+$WHI0名单"
+      text: "Patreon捐助额$GRE1＄{amount}+$WHI0名单"
     kickstarter:
-      text: "Kickstarter捐助额$GRE1${amount}+$WHI0名单"
+      text: "Kickstarter捐助额$GRE1＄{amount}+$WHI0名单"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Main Menu State
@@ -3008,13 +2932,13 @@ mapEditorPlayRightPanel:
       
     civics:
       ancillary:
-        text: "Ancillary"
+        text: "保管库"
       clinic:
         text: "诊所"
       courierStation:
-        text: "运输站"
+        text: "货运站"
       maintenanceBuilding:
-        text: "Maintenance Building"
+        text: "维修站"
       marketplace:
         text: "市场"
       wayMakerShack:
@@ -3555,7 +3479,7 @@ mapEditorPlayHarvestAndTerrainBar:
         text: "擦除笔刷范围内的地貌。"
       eraseTopographyHeader:
         text: "擦除地形({shortcutKey})"
-      eraseTopography:w
+      eraseTopography:
         text: "擦除笔刷范围内的树木、岩石、水域等其他上层地形。"
       eraseObjectsHeader:
         text: "擦除物件({shortcutKey})"
@@ -3633,15 +3557,15 @@ playBuildingListPanel:
 
   tooltip:
     totalBuildingsHeader:
-      text: "建筑总计"
+      text: "总建筑物"
     totalBuildings:
-      text: "建筑物的总数，以及剩余的建筑物槽位数。围墙和保管库不算在内。建造保管库以增加建筑物上限！！"
+      text: "建筑物的总数，以及剩余的建筑物槽位数。围墙和保管库不算在内。建造保管库以增加建筑物上限！"
     totalAncillariesHeader:
       text: "总保管库"
     totalAncillaries:
       text: "保管库的总数, 以及剩余的保管库槽位数。升级你的营地/城堡以增加保管库上限！"
     totalHomeOccupancyHeader:
-      text: "房屋总居住率"
+      text: "房舍总居住率"
     totalHomeOccupancy:
       text: "当前生活空间的总量以及当前使用的空间量。"
     totalBarracksOccupancyHeader:
@@ -3651,7 +3575,7 @@ playBuildingListPanel:
     totalWorkersHeader:
       text: "人工总雇佣率"
     totalWorkers:
-      text: "当前分配工作的总量以及当前的村民数量。"
+      text: "当前分配工作的总量以及当前的居民数量。"
     workersHeader:
       text: "工人"
     workers:
@@ -3869,9 +3793,9 @@ playLeftPanel:
         incraseCatjeetOrder:
           text: "增加聚落预期雇佣的劳工数量。"
         previousCategoryHeader:
-          text: "《="
+          text: "上个分类"
         nextCategoryHeader:
-          text: "=》"
+          text: "下个分类"
           
     tooltip:
       villageStockPriceHeader:
@@ -3887,7 +3811,7 @@ playLeftPanel:
       laborerStockHeader:
         text: "劳工"
       laborerStock:
-        text: "Current total available laborers available, and how much gold they cost to hire."
+        text: "当前可雇佣的劳工，以及雇佣单价。"
         
     requiresMarketplace:
       text: "需要市场"
@@ -3922,9 +3846,9 @@ playLeftPanel:
           
     tooltip:
       unemployedVillagersHeader:
-        text: "闲置村民"
+        text: "闲置居民"
       unemployedVillagers:
-        text: "无业的成年村民数量"
+        text: "无业的成年居民数量"
       desiredAndMaxWorkersHeader:
         text: "预期/最大工人数量"
       desiredAndMaxWorkers:
@@ -3950,9 +3874,9 @@ playLeftPanel:
         maintain:
           text: "维持聚落中{resourceName}的保有量,包括已装备的和在地上的。"
         previousCategoryHeader:
-          text: "《="
+          text: "上个分类"
         nextCategoryHeader:
-          text: "=》"
+          text: "下个分类"
           
     tooltip:
       makeInfinityHeader:
@@ -3999,7 +3923,7 @@ playLeftPanel:
         increaseMigrantsToSendHeader:
           text: "增加移民数"
         increaseMigrantsToSend:
-          text: "增加要派往该地区的移民，移民们会在早晨准备，日中时出发。若在午后计划移民，准备工作将推迟到第二天早晨。"
+          text: "增加要派往该地区的移民，移民们会在上午准备，日中时出发。若在午后计划移民，准备工作将推迟到第二天上午。"
         decreaseMigrantsToSendHeader:
           text: "减少移民数"
         decreaseMigrantsToSend:
@@ -4013,23 +3937,23 @@ playLeftPanel:
       maximumDailyMigrationHeader:
         text: "每日最大移民"
       maximumDailyMigration:
-        text: "How many villagers can migrate from the village per day. Increase this by upgrading you migration way station, or building a new one."
+        text: "当前聚落每日移民上限。建造新的或升级现有的移民驿站以提高上限。"
       readyToMigrateHeader:
-        text: "Ready To Migrate"
+        text: "已整装移民"
       readyToMigrate:
-        text: "How many villagers have prepared to migrate in the morning, and will leave the region at midday."
+        text: "上午准备出发的移民数量。将于日中时出发。"
       totalMigratedTodayHeader:
-        text: "Total Migrated Today"
+        text: "今日移民总量"
       totalMigratedToday:
-        text: "How many villagers have left the region today. Villagers will only leave during midday."
+        text: "今日离开聚落的移民数。移民只会在日中时出发。"
       regionsTotalPopulationHeader:
-        text: "Region's Total Population"
+        text: "地区总人口"
       regionsTotalPopulation:
-        text: "This region's total current population, not counting already en route nomads."
+        text: "地区当前总人口，不包括在途移民。"
       enRouteMigrantsHeader:
-        text: "En Route Migrants"
+        text: "在途移民"
       enRouteMigrants:
-        text: "The total amount of migrants from all villages nearby currently en route to this region."
+        text: "来自所有聚落的正在前往该地区的移民总数。"
     
     availableVillagers:
       text: "可用居民"
@@ -4046,58 +3970,58 @@ playLeftPanel:
         sortingHeader:
           text: "排序"
         sorting:
-          text: "Change the totals display filter."
+          text: "更改总计显示筛选器"
         sendNowHeader:
-          text: "Send Now"
+          text: "现在出发"
         sendNow:
-          text: "Send this many {resourceName} in addition to the daily amount set, as soon as possible.信使魔偶will only leave before the evening."
+          text: "在预设每日转运量的基础上尝试转运该数量的{resourceName}，信使魔偶只会在下午前出发。"
         sendDailyHeader:
-          text: "Send Daily"
+          text: "每日转运"
         sendDaily:
-          text: "Send this many {resourceName} every day, if available.信使魔偶will only leave before the evening. The number will turn red if they fail to meet their daily quota, yellow if in progress, and green if completed."
+          text: "每日转运目标数量的可用{resourceName}，信使魔偶只会在下午前出发。红字表示未达到配额需求，黄字表示正在转运，绿色表示已完成今日目标。"
         previousCategoryHeader:
-          text: "Previous Category"
+          text: "上个分类"
         nextCategoryHeader:
-          text: "Next Category"
+          text: "下个分类"
         previousRegionHeader:
-          text: "Previous Region"
+          text: "上个地区"
         previousRegion:
-          text: "Change the region you want to send resources to."
+          text: "改变你想要将资源运往的地区"
         nextRegionHeader:
-          text: "Next Region"
+          text: "下个地区"
         nextRegion:
-          text: "Change the region you want to send resources to."
+          text: "改变你想要将资源运往的地区"
         
     tooltip:
       parkedCourierGolemsHeader:
-        text: "Parked Courier Golems"
+        text: "停泊的转运魔偶"
       parkedCourierGolems:
-        text: "How many信使魔偶are parked and ready to deliver resources."
+        text: "当前停泊并可用于转运的转运魔偶数量"
       sendInfinityHeader:
-        text: "Send Infinity"
+        text: "无限转运"
          
     header:
       selectedRegion:
-        text: "Selected Region"
+        text: "选定地区"
       send:
-        text: "Send"
+        text: "发送"
       daily:
-        text: "Daily"
+        text: "日常"
          
     sort:
       total:
-        text: "Total"
+        text: "总计"
       equip:
-        text: "Equip"
+        text: "装备"
       carry:
-        text: "Carry"
+        text: "携带"
       ground:
-        text: "Ground"
+        text: "散落"
       stored:
-        text: "Stored"
+        text: "库存"
         
     regionLost:
-      text: "$RED0Region lost to corruption！~Can not send resources."
+      text: "$RED0地区被腐化吞噬！~无法发送资源。"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4111,16 +4035,16 @@ playMainMenuPanel:
   
   button:
     settings:
-      text: "Settings"
+      text: "设置"
     saveAndExit:
-      text: "Save and Exit"
+      text: "保存并退出"
     'yes':
-      text: "Yes！"
+      text: "是！"
       
   header:
-    text: "Main Menu"
+    text: "主菜单"
   saveAndExitWarningMessage:
-    text: "$GRE1ARE YOU SURE?"
+    text: "$GRE1你确定吗？"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4134,39 +4058,39 @@ playOverlay:
   
   slots:
     outOfAncillarySlotsNoCamp:
-      text: "Out of ancillary slots~Build a $GRE0Camp！"
+      text: "保管库槽位不足！~建造一个$GRE0营地！"
     outOfAncillarySlotsUpgrade:
-      text: "Out of ancillary slots~Upgrade your $GRE0{castleName}"
+      text: "保管库槽位不足！~升级你的$GRE0{castleName}"
     outOfAncillarySlots:
-      text: "Out of ancillary slots！"
+      text: "保管库槽位不足！"
     outOfBuildingSlotsNoCamp:
-      text: "Out of building slots~Build a $GRE0Camp！"
+      text: "建筑槽位不足！~建造一个$GRE0营地！"
     outOfBuildingSlotsUpgrade:
-      text: "Out of building slots~Upgrade your $GRE0{castleName}~$WHI0or build an $GRE0Ancillary"
+      text: "建筑槽位不足~升级你的$GRE0{castleName}~$WHI0或建造一个$GRE0保管库"
     outOfBuildingSlots:
-      text: "Out of building slots！"
+      text: "建筑槽位不足！"
   
   roads:
     canNotImprove:
-      text: "Can not improve"
+      text: "无法改进"
     roadCostFree:
-      text: "{nextRoadName}~$GRE1Cost: FREE"
+      text: "{nextRoadName}~$GRE1无消耗"
     roadCost:
-      text: "{nextRoadName}~$YEL1Cost: 1 {resourceName}"
+      text: "{nextRoadName}~$YEL1消耗1{resourceName}"
   
   general:
     cancelAction:
-      text: "Press $GRE1{shortcutKey} $WHI0or the $GRE1MIDDLE MOUSE BUTTON$WHI0 to cancel current action and return to select mode."
+      text: "按$GRE1{shortcutKey}$WHI0或$GRE1鼠标中键$WHI0取消当前行动并返回选择模式。"
     unassignWork:
-      text: "Hold $GRE1{shortcutKey} $YEL1to unassign."
+      text: "按住$GRE1{shortcutKey} $YEL1取消分配。"
     deleteObjects:
-      text: "Hold $GRE1{shortcutKey} $YEL1to delete object."
+      text: "按住$GRE1{shortcutKey} $YEL1删除目标。"
     castFree:
-      text: "Hold $GRE1{shortcutKey} $YEL1to cast for free."
+      text: "按住$GRE1{shortcutKey} $YEL1自由施放。"
     nothingToGrab:
-      text: "Nothing to grab."
+      text: "无可抓取物"
     autobuild:
-      text: "Hold $GRE1{shortcutKey}$WHI0 to autobuild~and ignore range map."
+      text: "按住$GRE1{shortcutKey}$WHI0自动建造~并忽略范围提示。"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4179,9 +4103,9 @@ playPauseBanner:
   javaClass: "rtr.gui.states.playstate.PauseBanner.java"
   
   header:
-    text: "$YEL0PAUSED"
+    text: "$YEL0已暂停"
   body:
-    text: "PRESS $GRE1{shortcutKey}$WHI0 TO RESUME."
+    text: "按$GRE1{shortcutKey}$WHI0继续游戏"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4196,128 +4120,128 @@ playPopulationListPanel:
   button:
     tooltip:
       previousSortFilterHeader:
-        text: "Previous Sort Filter"
+        text: "上个排序筛选器"
       nextSortFilterHeader:
-        text: "Next Sort Filter"
+        text: "下个排序筛选器"
       firstPageHeader:
-        text: "First Page"
+        text: "首页"
       lastPageHeader:
-        text: "Last Page"
+        text: "末页"
       pageDownHeader:
-        text: "Page Down"
+        text: "下一页"
       pageUpHeader:
-        text: "Page Up"
+        text: "上一页"
 
   tooltip:
     totalAdultsHeader:
-      text: "Total Adults"
+      text: "成人总计"
     totalAdults:
-      text: "Total able bodied adult villagers who can take jobs and work."
+      text: "有工作能力的健全成人总数"
     totalEldersHeader:
-      text: "Total Elders"
+      text: "长者总计"
     totalElders:
-      text: "Total elders, who have retired and can no longer work."
+      text: "退休的长者总数。"
     totalChildrenHeader:
-      text: "Total Children"
+      text: "儿童总计"
     totalChildren:
-      text: "Total children who are not quite old enough to work yet."
+      text: "尚无工作能力的儿童总数。"
     totalGolemsHeader:
-      text: "Total Golems"
+      text: "魔偶总计"
     totalGolems:
-      text: "Total golems currently in the village."
+      text: "聚落中的魔偶总数。"
     averageHappinessHeader:
-      text: "Average Happiness"
+      text: "平均幸福值"
     averageHappiness:
-      text: "The average happiness levels of the entire village."
+      text: "聚落居民的平均幸福指标。"
     averageAgeHeader:
-      text: "Average Age"
+      text: "平均年龄"
     averageAge:
-      text: "The average age of the entire village."
+      text: "聚落居民的平均年龄。"
     averageHungerHeader:
-      text: "Average Hunger"
+      text: "平均饥饿值"
     averageHunger:
-      text: "The average hunger levels of the entire village."
+      text: "聚落居民的平均饥饿值指标。"
     averageThirstHeader:
-      text: "Average Thirst"
+      text: "平均干渴值"
     averageThirst:
-      text: "The average thirst levels of the entire village."
+      text: "聚落居民的平均干渴值指标。"
     averageEnergyHeader:
-      text: "Average Energy"
+      text: "平均精力值"
     averageEnergy:
-      text: "The average energy levels of the entire village."
+      text: "聚落居民的平均精力值指标。"
     totalHomlessHeader:
-      text: "Total Homeless"
+      text: "游民总数"
     totalHomless:
-      text: "The amount of villagers in the village who have nowhere to live. Build or upgrade your houses to give your villages some more space to live in."
+      text: "无家可归的居民总数。建造或升级住宅以提供更多生活空间。"
     totalPregnantHeader:
-      text: "Total Pregnant"
+      text: "妊妇总数"
     totalPregnant:
-      text: "The amount of villagers in the village who are pregnant."
+      text: "聚落中怀孕的居民数量。"
     totalMatesHeader:
-      text: "Has Mate"
+      text: "拥有伴侣"
     totalMates:
-      text: "The amount of villagers in the village who have a partner."
+      text: "聚落中脱单的居民数量。"
     totalAnimalsHeader:
-      text: "Has Animal"
+      text: "拥有动物"
     totalAnimals:
-      text: "The amount of villagers in the village who have a pet."
+      text: "聚落中拥有宠物的居民数量。"
     unemployedVillagersHeader:
-      text: "Unemployed Villagers"
+      text: "无业居民"
     unemployedVillagers:
-      text: "How many adult villagers are available to work, but have not been assigned a job."
+      text: "可工作但未安排工作的居民数量。"
     averageLifeExpectancyHeader:
-      text: "Average Life Expectancy"
+      text: "预计寿命期望"
     averageLifeExpectancy:
-      text: "The average life expectancy of the entire village. Increase this by taking better care of your villagers, keeping them happy and healthy！"
+      text: "居民平均的预计寿命值。多加关照你的居民以提高该值，健康快乐才会长寿！"
     homelessHeader:
-      text: "Homeless"
+      text: "流浪"
     homeless:
-      text: "This villager has no home. You may have a housing shortage, but if they are a new arrival or you just built new housing, it may take a minute for them to find it."
+      text: "这个居民无家可归。你可能正面临住房短缺问题，但若其是新来者或你新建造了房舍，Ta可能需要一些时间来寻找居住空间。 "
     pregnantHeader:
-      text: "Pregnant"
+      text: "妊娠"
     pregnant:
-      text: "This (hopefully female) villager is with child and will likely give birth in a few days from conception."
+      text: "这个（希望是女性的）居民身怀六甲并很可能会在怀孕几天之内分娩。"
     hasMateHeader:
-      text: "Has Mate"
+      text: "结伴"
     hasMate:
-      text: "This villager has a partner somewhere in the village."
+      text: "这个居民在聚落里有伴侣。"
     ownerHeader:
-      text: "Owner"
+      text: "主人"
     owner:
-      text: "This villager own an animal, or this animal has an owner."
+      text: "这个居民拥有动物伙伴，或这个动物已有主人。"
     unemployedHeader:
-      text: "Unemployed"
+      text: "无业"
     unemployed:
-      text: "This villager currently does not have a job. But if you've recently requested more workers, they may already be en route to take one."
+      text: "这个居民当前没有工作，但若你最近扩招了岗位，其可能已经在入职的途中。"
     levelHeader:
-      text: "Level"
+      text: "等级"
     level:
-      text: "Villagers level up by doing all kinds of tasks, like working, fighting and even mating！"
+      text: "村民在进行各种活动时都能升级, 如工作、战斗甚至是恋爱！"
     ageHeader:
-      text: "Age"
+      text: "年龄"
     age:
-      text: "Their age will tick up once for every full day that has passed."
+      text: "每天都会+1"
   
   sort:
     all:
-      text: "$GRE1All"
+      text: "$GRE1所有"
     villagers:
-      text: "$GRE1Villagers"
+      text: "$GRE1居民"
     adults:
-      text: "$GRE1Adults"
+      text: "$GRE1成人"
     elders:
-      text: "$GRE1Elders"
+      text: "$GRE1长者"
     children:
-      text: "$GRE1Children"
+      text: "$GRE1儿童"
     golems:
-      text: "$GRE1Golems"
+      text: "$GRE1魔偶"
     animals:
-      text: "$GRE1Animals"
+      text: "$GRE1动物"
   
   header:
-    text: "Population List"
+    text: "人口列表"
   pageList:
-    text: "Population List     Pg: {currentPage} of {totalPages}"
+    text: "人口列表     第{currentPage}页，共{totalPages}页"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4331,30 +4255,30 @@ playPopulationTotalsPanel:
   
   tooltip:
     totalPopulationHeader:
-      text: "Total Population"
+      text: "人口总计"
     totalHomeOccupancyHeader:
-      text: "Total Home Occupancy"
+      text: "房舍总居住率"
     totalHomeOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your homes."
+      text: "当前生活空间的总量以及当前使用的空间量。"
     totalBarracksOccupancyHeader:
-      text: "Total Barracks Occupancy"
+      text: "兵营总驻扎率"
     totalBarracksOccupancy:
-      text: "The total amount of living space currently being used used, as well as the total available you have in your barracks."
+      text: "当前驻军空间的总量以及当前使用的空间量。"
     totalAncillariesHeader:
-      text: "Total Ancillaries"
+      text: "总保管库"
     totalAncillaries:
-      text: "The total amount of ancillaries, and how many ancillary slots remains. Increase your ancillary slots by upgrading your camp/castle！"
+      text: "保管库的总数, 以及剩余的保管库槽位数。升级你的营地/城堡以增加保管库上限！"
     totalBuildingsHeader:
-      text: "Total Buildings"
+      text: "总建筑物"
     totalBuildings:
-      text: "The total amount of buildings, and how many building slots remains. Does not count walls or ancillaries. Increase your build slots by building additional ancillaries！"
+      text: "建筑物的总数，以及剩余的建筑物槽位数。围墙和保管库不算在内。建造保管库以增加建筑物上限！"
     totalChildrenHeader:
-      text: "Total Children"
+      text: "儿童总计"
     totalChildren:
-      text: "Total children who are not quite old enough to work yet."
+      text: "尚无工作能力的儿童总数。"
   
   header:
-    text: "Population"
+    text: "人口"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4367,117 +4291,117 @@ playProblemPanel:
   javaClass: "rtr.gui.states.playstate.ProblemPanel.java"
   
   header:
-    text: "Problem Panel"
+    text: "问题面板"
   minorIssues:
-    text: "$YEL1{amount} Minor Issues"
+    text: "$YEL1{amount}个细节问题"
   moderateIssues:
-    text: "$ORA1{amount} Moderate Issues"
+    text: "$ORA1{amount}个次要问题"
   majorIssues:
-    text: "$RED1{amount} Major Issues"
+    text: "$RED1{amount}个主要问题"
 
   problem:
     noFoodAnywhere:
-      text: "* $RED1There is no harvested food."
+      text: "*$RED1没有已收获的食物。"
     noWaterAnywhere:
-      text: "* $RED1There is no drinkable water."
+      text: "*$RED1没有饮用水。"
     noHomesAnywhere:
-      text: "* $RED1There are no homes."
+      text: "*$RED1没有房舍。"
     lowVillagers:
-      text: "* $ORA1There are very few villagers."
+      text: "*$ORA1村民数量过少。"
     tooMuchConstruction:
-      text: "* $YEL1Too many buildings are under construction."
+      text: "*$YEL1过多建筑同时建造。"
     dangerouslyCold:
-      text: "* $RED1It is dangerously cold outside."
+      text: "*$RED1室外低温危险。"
     veryCold:
-      text: "* $YEL1It is very cold outside."
+      text: "*$YEL1室外低温。"
     dangerouslyHot:
-      text: "* $RED1It is dangerously hot outside."
+      text: "*$RED1室外高温危险。"
     veryHot:
-      text: "* $YEL1It is very hot outside."
+      text: "*$YEL1室外高温。"
     recentlyDied:
-      text: "* $YEL1{amount} villager recently died."
+      text: "*有$YEL1{amount}个居民最近死亡。"
     recentlyDiedPlural:
-      text: "* $YEL1{amount} villagers recently died."
+      text: "*有$YEL1{amount}个居民最近死亡。"
     villagersHungry:
-      text: "* $ORA1{amount} villager is hungry."
+      text: "*有$ORA1{amount}个居民感到饥饿。"
     villagersHungryPlural:
-      text: "* $ORA1{amount} villagers are hungry."
+      text: "*有$ORA1{amount}个居民感到饥饿。"
     villagersStarving:
-      text: "* $RED1{amount} villager is starving."
+      text: "*有$RED1{amount}个居民严重饥饿。"
     villagersStarvingPlural:
-      text: "* $RED1{amount} villagers are starving."
+      text: "*有$RED1{amount}个居民严重饥饿。"
     villagersThirsty:
-      text: "* $ORA1{amount} villager is thirsty."
+      text: "*有$ORA1{amount}个居民感到干渴。"
     villagersThirstyPlural:
-      text: "* $ORA1{amount} villagers are thirsty."
+      text: "*有$ORA1{amount}个居民感到干渴。"
     villagersDehydrated:
-      text: "* $RED1{amount} villager is dehydrated."
+      text: "*有$RED1{amount}个居民严重干渴。"
     villagersDehydratedPlural:
-      text: "* $RED1{amount} villagers are dehydrated."
+      text: "*有$RED1{amount}个居民严重干渴。"
     villagersHomeless:
-      text: "* $YEL1{amount} villager is homeless."
+      text: "*有$YEL1{amount}个居民无家可归。"
     villagersHomelessPlural:
-      text: "* $YEL1{amount} villagers are homeless."
+      text: "*有$YEL1{amount}个居民无家可归。"
     villagersConfused:
-      text: "* $YEL1{amount} villager is confused."
+      text: "*有$YEL1{amount}个居民感到困惑。"
     villagersConfusedPlural:
-      text: "* $YEL1{amount} villagers are confused."
+      text: "*有$YEL1{amount}个居民感到困惑。"
     villagersInCombat:
-      text: "* $ORA1{amount} villager is in combat."
+      text: "*有$ORA1{amount}个居民正在战斗。"
     villagersInCombatPlural:
-      text: "* $ORA1{amount} villagers are in combat."
+      text: "*有$ORA1{amount}个居民正在战斗。"
     villagersOutside:
-      text: "* $YEL1{amount} villager is outside the village."
+      text: "*有$YEL1{amount}个居民不在聚落。"
     villagersOutsidePlural:
-      text: "* $YEL1{amount} villagers are outside the village."
+      text: "*有$YEL1{amount}个居民不在聚落。"
     villagersCold:
-      text: "* $YEL1{amount} villager is cold."
+      text: "*有$YEL1{amount}个居民感到寒冷。"
     villagersColdPlural:
-      text: "* $YEL1{amount} villagers are cold."
+      text: "*有$YEL1{amount}个居民感到寒冷。"
     villagersFreezing:
-      text: "* $RED1{amount} villager is freezing."
+      text: "*有$RED1{amount}个居民严重低温。"
     villagersFreezingPlural:
-      text: "* $RED1{amount} villagers are freezing."
+      text: "*有$RED1{amount}个居民严重低温。"
     villagersHot:
-      text: "* $YEL1{amount} villager is hot."
+      text: "*有$YEL1{amount}个居民感到炎热。"
     villagersHotPlural:
-      text: "* $YEL1{amount} villagers are hot."
+      text: "*有$YEL1{amount}个居民感到炎热。"
     villagersOverHeating:
-      text: "* $RED1{amount} villager is over heating."
+      text: "*有$RED1{amount}个居民严重高温。"
     villagersOverHeatingPlural:
-      text: "* $RED1{amount} villagers are over heating."
+      text: "*有$RED1{amount}个居民严重高温。"
     villagersUnhappy:
-      text: "* $YEL1{amount} villager is unhappy."
+      text: "*有$YEL1{amount}个居民感到不悦。"
     villagersUnhappyPlural:
-      text: "* $YEL1{amount} villagers are unhappy."
+      text: "*有$YEL1{amount}个居民感到不悦。"
     villagersOnFire:
-      text: "* $RED1{amount} villager is on fire."
+      text: "*有$RED1{amount}个居民身上着火。"
     villagersOnFirePlural:
-      text: "* $RED1{amount} villagers are on fire."
+      text: "*有$RED1{amount}个居民身上着火。"
     noWorkers:
-      text: "* $YEL1{amount} building has no workers."
+      text: "*有$YEL1{amount}个建筑没有工人。"
     noWorkersPlural:
-      text: "* $YEL1{amount} buildings have no workers."
+      text: "*有$YEL1{amount}个建筑没有工人。"
     noAmmo:
-      text: "* $ORA1{amount} tower has no energy or ammo."
+      text: "*有$ORA1{amount}个防御塔没有能量或弹药。"
     noAmmoPlural:
-      text: "* $ORA1{amount} towers have no energy or ammo."
+      text: "*有$ORA1{amount}个防御塔没有能量或弹药。"
     noFood:
-      text: "* $ORA1{amount} home has no food."
+      text: "*有$ORA1{amount}个房舍没有食物。"
     noFoodPlural:
-      text: "* $ORA1{amount} homes have no food."
+      text: "*有$ORA1{amount}个房舍没有食物。"
     buildingsDamaged:
-      text: "* $ORA1{amount} building is damaged."
+      text: "*有$ORA1{amount}个建筑受损。"
     buildingsDamagedPlural:
-      text: "* $ORA1{amount} buildings are damaged."
+      text: "*有$ORA1{amount}个建筑受损。"
     monstersInVillage:
-      text: "* $ORA1{amount} monster is in the village."
+      text: "*有$ORA1{amount}个怪物在聚落中。"
     monstersInVillagePlural:
-      text: "* $ORA1{amount} monsters are in the village."
+      text: "*有$ORA1{amount}个怪物在聚落中。"
     monstersAttackingBuildings:
-      text: "* $ORA1{amount} monster is attacking a building."
+      text: "*有$ORA1{amount}个怪物正攻击建筑。"
     monstersAttackingBuildingsPlural:
-      text: "* $ORA1{amount} monsters are attacking a building."
+      text: "*有$ORA1{amount}个怪物正攻击建筑。"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4492,39 +4416,39 @@ playResourceAndInfluenceBar:
   button:
     tooltip:
       sortingHeader:
-        text: "Sorting"
+        text: "排序"
       sorting:
         text: "Change the totals display filter."
         
   tooltip:
     totalGoldCoinsHeader:
-      text: "Total Gold Coins"
+      text: "金币总计"
     totalGoldCoins:
-      text: "Total amount of gold coins in the entire village."
+      text: "聚落中的金币总量。"
     totalWaterHeader:
-      text: "Total Water"
+      text: "净水总计"
     totalWater:
-      text: "Total drinkable water in all buildings combined that can store it, like rain catchers, houses, and wells. Does not include dirty water."
+      text: "聚落建筑中所有饮用水储存总值。如集雨器、房舍和水井的库存。不包括污水。"
     totalEnergyHeader:
-      text: "Total Energy"
+      text: "能量总计"
     totalEnergy:
-      text: "Total energy in all buildings combined that can store it, like essence collectors, golem combobulators, and magic towers."
+      text: "聚落建筑的储能上限和当前能量总值。如灵质收集器、魔偶装配站和魔法塔中的储能。"
     totalInfluenceHeader:
-      text: "Influence"
+      text: "神力"
     totalInfluence:
-      text: "The total influence you currently have to cast spells with. Influence is refilled slowly over time, or by hovering your hand over loose essence in the world. You can increase you maximum influence by raising your village population."
+      text: "当前你能用来施放言灵的神力总值。神力随时间缓慢恢复或在世界间散落的灵质上晃动光标来收集。增加聚落人口以提高神力上限。"
   
   sort:
     total:
-     text: "Total"
+     text: "总计"
     equip:
-      text: "Equip"
+      text: "装备"
     carry:
-      text: "Carry"
+      text: "携带"
     ground:
-      text: "Ground"
+      text: "散落"
     stored:
-      text: "Stored"
+      text: "库存"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4880,9 +4804,9 @@ playSelectedObjectPanel:
   reclaimMessage:
     text: "Click $GRE1reclaim$WHI0 to rebuild~and use this building."
   reclaimMessageNoSlotsNoCamp:
-    text: "Out of building slots. ~Build a $GRE0Camp or $GRE0Ancillary $WHI0~to claim this building."
+    text: "建筑槽位不足. ~Build a $GRE0Camp or $GRE0Ancillary $WHI0~to claim this building."
   reclaimMessageNoSlots:
-    text: "Out of building slots. ~Upgrade $GRE0{castleName}~$WHI0or build an $GRE0Ancillary $WHI0~to claim this building."
+    text: "建筑槽位不足. ~Upgrade $GRE0{castleName}~$WHI0or build an $GRE0Ancillary $WHI0~to claim this building."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -10463,7 +10387,7 @@ stateBase:
     63:
       text: "Basic paths don't last very long, consider putting up a proper road system！"
     64:
-      text: "Running out of building slots? Upgrade your Camp or build some Ancillaries early."
+      text: "Running 建筑槽位不足? Upgrade your Camp or build some Ancillaries early."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
