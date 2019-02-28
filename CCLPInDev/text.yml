@@ -229,7 +229,7 @@ module:
   corruption:
     text: "腐化"
   spawn:
-    text: "刷新"
+    text: "生成"
   weather:
     text: "天气"
   projectile:
@@ -2882,11 +2882,11 @@ mapEditorPlayRightPanel:
       build:
         text: "建造"
       tiles:
-        text: "块"
+        text: "地块"
       time:
         text: "时间"
       spawning:
-        text: "刷新中"
+        text: "生成"
       particles:
         text: "粒子"
       miscellaneous:
@@ -3024,7 +3024,7 @@ mapEditorPlayRightPanel:
       doggoHouse:
         text: "狗屋"
       housing:
-        text: "住宅"
+        text: "住房"
       
     lighting:
       firePit:
@@ -3052,7 +3052,7 @@ mapEditorPlayRightPanel:
       
     refining:
       crystillery:
-        text: "Crystillery"
+        text: "晶化厂"
       forge:
         text: "冶炼厂"
       lumberMill:
@@ -3208,23 +3208,23 @@ mapEditorPlayRightPanel:
       
     roads:
       path:
-        text: "道路"
+        text: "小径"
       logPathDebris:
-        text: "木路废墟"
+        text: "残破原木小径"
       logPath:
-        text: "木路"
+        text: "原木小径"
       cobbleAndLogPathDebris:
-        text: "木石路废墟"
+        text: "残破木石小径"
       cobbleAndLogPath:
-        text: "木石路"
+        text: "木石小径"
       cobbleAndBoardRoadDebris:
-        text: "木板石子路废墟"
+        text: "残破石基木板路"
       cobbleAndBoardRoad:
-        text: "木板石子路"
+        text: "石基木板路"
       cutStoneAndBoardRoadDebris:
-        text: "木石混合板路废墟"
+        text: "残破木石合板路"
       cutStoneAndBoardRoad:
-        text: "木石混合板路"
+        text: "木石合板路"
       
     rock:
       blackRock:
@@ -3357,7 +3357,7 @@ mapEditorPlayRightPanel:
       resourceAmount:
         text: "资源数量"
       spawnChance:
-        text: "刷新几率"
+        text: "生成几率"
       monsterCount:
         text: "怪物数量"
       
@@ -3799,15 +3799,15 @@ playLeftPanel:
           
     tooltip:
       villageStockPriceHeader:
-        text: "Village Stock Price"
+        text: "居民"
       catjeetStockPriceHeader:
-        text: "Catjeet Stock Price"
+        text: "异客"
       villageStockHeader:
         text: "Village Stock"
       catjeetStockHeader:
-        text: "Catjeet Stock"
+        text: "异客"
       priceHeader:
-        text: "Price"
+        text: "价位"
       laborerStockHeader:
         text: "劳工"
       laborerStock:
@@ -4172,7 +4172,7 @@ playPopulationListPanel:
     totalHomlessHeader:
       text: "游民总数"
     totalHomless:
-      text: "无家可归的居民总数。建造或升级住宅以提供更多生活空间。"
+      text: "无家可归的居民总数。建造或升级住房以提供更多生活空间。"
     totalPregnantHeader:
       text: "妊妇总数"
     totalPregnant:
@@ -4500,7 +4500,7 @@ playSelectedMobPanel:
     ageHeader:
       text: "年龄"
     age:
-      text: "每天++1"
+      text: "每天+1"
     lifeExpectancyHeader:
       text: "预期寿命"
     lifeExpectancy:
@@ -5760,234 +5760,234 @@ sharedSettingsPanel:
   
   button:
     ok:
-      text: "Ok！"
+      text: "好的！"
     cancel:
-      text: "Cancel"
+      text: "取消"
     reset:
-      text: "Reset"
+      text: "重设"
     
   keys:
     comment: "Key list column."
     header:
-      text: "$ORA1Map Keys"
+      text: "$ORA1地图按键"
     notSet:
-      text: "NOT SET"
+      text: "未指定"
     mapUp:
-      text: "Map Up"
+      text: "地图向上"
     mapDown:
-      text: "Map Down"
+      text: "地图向下"
     mapLeft:
-      text: "Map Left"
+      text: "地图向左"
     mapRight:
-      text: "Map Right"
+      text: "地图向右"
     zoomIn:
-      text: "Zoom In"
+      text: "放大"
     zoomOut:
-      text: "Zoom Out"
+      text: "缩小"
     gameSpeedUp:
-      text: "Game Speed Up"
+      text: "加快游戏速度"
     gameSpeedDown:
-      text: "Game Speed Down"
+      text: "减慢游戏速度"
     minimap:
-      text: "Minimap"
+      text: "小地图"
     cycleBrushType:
-      text: "Cycle Brush Type"
+      text: "循环切换笔刷"
     brushSizeUp:
-      text: "Brush Size Up"
+      text: "增大笔刷"
     brushSizeDown:
-      text: "Brush Size Down"
+      text: "缩小笔刷"
     debugView:
-      text: "Debug View"
+      text: "调试视图"
     screenShot:
-      text: "Screen Shot"
+      text: "截图"
     hideGUI:
-      text: "Hide GUI"
+      text: "隐藏GUI"
     gridView:
-      text: "Grid View"
+      text: "网格视图"
     hideTopography:
-      text: "Hide Topography (Map Editor)"
+      text: "隐藏地形(地图编辑器)"
     fullScreen:
-      text: "Full Screen"
+      text: "全屏"
     populationList:
-      text: "Population List"
+      text: "人口列表"
     mainMenu:
-      text: "Main Menu"
+      text: "主菜单"
     mapInformation:
-      text: "Map Information"
+      text: "地图信息"
     dataViews:
-      text: "Data Views"
+      text: "数据图表"
     problemPanel:
       text: "Problem Panel"
     buildingList:
       text: "Building List"
     cancel:
-      text: "Cancel/Escape"
+      text: "取消/退出"
     accent:
-      text: "Accent/Alt Function"
+      text: "强调/变换操作"
     erase:
-      text: "Erase (Map Editor)"
+      text: "擦除(Map Editor)"
     objectGrab:
-      text: "Object Grab (Map Editor)"
+      text: "对象抓取(Map Editor)"
     patch:
-      text: "Patch (Map Editor)"
+      text: "填补(Map Editor)"
     hole:
-      text: "Hole (Map Editor)"
+      text: "挖坑(Map Editor)"
     pause:
-      text: "Pause"
+      text: "暂停"
     pauseObject:
-      text: "Pause Object"
+      text: "暂停对象"
     dismantleObject:
-      text: "Dismantle Object"
+      text: "拆除对象"
     grabSpell:
-      text: "Grab Spell"
+      text: "神之手"
     activeSpell1:
-      text: "Active Spell (Slot 1)"
+      text: "激活言灵槽1"
     activeSpell2:
-      text: "Active Spell (Slot 2)"
+      text: "激活言灵槽2"
     activeSpell3:
-      text: "Active Spell (Slot 3)"
+      text: "激活言灵槽3"
     activeSpell4:
-      text: "Active Spell (Slot 4)"
+      text: "激活言灵槽4"
     activeSpell5:
-      text: "Active Spell (Slot 5)"
+      text: "激活言灵槽5"
     harvestWood:
-      text: "Harvest Wood"
+      text: "砍伐树木"
     harvestRock:
-      text: "Harvest Rock"
+      text: "采挖岩石"
     harvestFoodAndWater:
-      text: "Harvest Food and Water"
+      text: "收集食物和水"
     harvestCrystal:
-      text: "Harvest Crystals"
+      text: "采收水晶"
     destroyTerrain:
-      text: "Destroy Terrain"
+      text: "摧毁地形"
     nextTip:
-      text: "Next Tip"
+      text: "下个提示"
     axisLock:
-      text: "Axis Lock"
+      text: "正交锁"
 
   audio:
     comment: "Audio column."
     header:
-      text: "$ORA1Audio"
+      text: "$ORA1音频"
     musicVolume:
-      text: "$BLU0Music Volume"
+      text: "$BLU0音乐音量"
     soundVolume:
-      text: "$BLU0Sound Volume"
+      text: "$BLU0音效音量"
 
   controls:
     comment: "Controls column."
     header:
-      text: "$ORA1Controls"
+      text: "$ORA1控制"
     invertMapScrolling:
-      text: "Invert Map Scrolling"
+      text: "反转地图滚动"
     edgeScrolling:
-      text: "Edge Scrolling"
+      text: "边缘滚动"
     edgeScrollingFullScreenRecommended:
-      text: "$GRE1Full Screen Recommended"
+      text: "$GRE1建议全屏"
     edgeScrollingAmount:
-      text: "Edge Scrolling Amount"
+      text: "边缘滚动量"
 
   videoConfiguration:
     comment: "Video configuration column."
     header:
-      text: "$ORA1Video Configuration"
+      text: "$ORA1视频"
     fullScreen:
-      text: "Full Screen"
+      text: "全屏"
     borderlessFullScreen:
-      text: "Borderless Full Screen"
+      text: "无边框窗口"
     edgeScrollingNotRecommended:
-      text: "Edge Scrolling NOT Recommended"
+      text: "不推荐边缘滚动"
     requiresFullScreen:
-      text: "Requires~Full Screen"
+      text: "需要~全屏"
     fixedResolution:
-      text: "Fixed Resolution"
+      text: "自适应分辨率"
     fullscreenWithoutBorderlessOnly:
-      text: "Fullscreen without Borderless Only"
+      text: "仅限无边框窗口"
     vSync:
-      text: "vSync"
+      text: "垂直同步"
     particles:
-      text: "Particles"
+      text: "粒子特效"
     particlesRetro:
-      text: "Retro"
+      text: "复古"
     particlesSmooth:
-      text: "Smooth"
+      text: "平滑"
 
   performance:
     comment: "Performance column."
     header:
-      text: "$ORA1Performance"
+      text: "$ORA1性能"
     particleAmount:
-      text: "Particle Amount"
+      text: "粒子数目"
     particleAmountMinimal:
-      text: "Minimal"
+      text: "最小"
     particleAmountReduced:
-      text: "Reduced"
+      text: "削减"
     particleAmountFull:
-      text: "Full"
+      text: "完全"
     shadows:
-      text: "Shadows"
+      text: "阴影"
     autosaveFrequency:
-      text: "Autosave Frequency"
+      text: "自动保存频率"
     autosaveFrequencyMinimal:
-      text: "Minimal"
+      text: "最小"
     autosaveFrequencyReduced:
-      text: "Reduced"
+      text: "削减"
     autosaveFrequencyFull:
-      text: "Full"
+      text: "完全"
     clouds:
-      text: "Clouds"
+      text: "云层"
     background:
-      text: "Background"
+      text: "背景"
 
   screenshake:
     comment: "Screenshake column."
     header:
-      text: "$ORA1Screenshake"
+      text: "$ORA1画面抖动"
     enabled:
-      text: "Screenshake Enabled"
+      text: "画面抖动已启用"
 
   tips:
     comment: "Tips column."
     header:
-      text: "$ORA1Tips"
+      text: "$ORA1提示"
     enabled:
-      text: "Tips Enabled"
+      text: "提示已启用"
 
   interfaceScale:
     comment: "Interface scale column."
     header:
-      text: "$ORA1Interface Scale"
+      text: "$ORA1界面缩放"
     auto:
-      text: "Auto"
+      text: "自动"
     recommended:
-      text: "$GRE1Recommended"
+      text: "$GRE1推荐"
     tooHighWarning:
-      text: "$RED1Too high at this resolution！"
+      text: "$RED1此分辨率下过高"
     visualErrorsWarning:
-      text: "$RED1May cause visual errors"
+      text: "$RED1可能导致显示错误"
 
   twitch:
     comment: "Twitch integration column."
     header:
-      text: "$ORA1Twitch Integration"
+      text: "$ORA1Twitch集成"
     channelName:
-      text: "Channel Name"
+      text: "频道名"
 
   changeKeyPanel:
     comment: "Change key pop up panel."
     header:
-      text: "$ORA1Change Key！"
+      text: "$ORA1更改按键！"
     message:
-      text: "Press the desired hot key~$GRE1CURRENT KEY: {keyName}"
+      text: "按下新按键~$GRE1当前按键：{keyName}"
 
   miscellaneous:
     comment: "Extra strings used in various parts of the panel."
     'false':
-      text: "False"
+      text: "否"
     'true':
-      text: "True"
+      text: "是"
     nothingHere:
-      text: "Nothing here！"
+      text: "此处为空！"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared
@@ -6001,9 +6001,9 @@ sharedTipsPanel:
   
   button:
     ok:
-      text: "OK！"
+      text: "好的！"
     nextTip:
-      text: "Next Tip"
+      text: "下个提示"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6017,7 +6017,7 @@ worldMapChestOpenPanel:
   
   button:
     takeIt:
-      text: "Take it！"
+      text: "拿走！"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6031,7 +6031,7 @@ worldMapCorruptionThreatBar:
   
   tooltip:
     worldDayHeader:
-      text: "World Day"
+      text: "世界天数"
     worldDay:
       text: "The combined days past on all active regions. This is one of the primary statistics used to calculate world wide corruption threat."
     corruptionPowerHeader:
@@ -6044,11 +6044,11 @@ worldMapCorruptionThreatBar:
       text: "The higher this bar, the more dangerous the world will be for your villagers. More monsters will spawn at night, stronger monsters will appear sooner, and corruption will spread more aggressively."  
 
   worldDay:
-    text: "World Day: $GRE1{day}"
+    text: "世界当前第：$GRE1{day}天"
   globalCorruptionPowerGood:
-    text: "Global Corruption Power: $GRE1{amount}" 
+    text: "全局腐化力：$GRE1{amount}" 
   globalCorruptionPowerBad:
-    text: "Global Corruption Power: +$YEL1{amount}"
+    text: "全局腐化力：+$YEL1{amount}"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6062,10 +6062,10 @@ worldMapDoomWorldPanel:
   
   button:
     doomWorld:
-      text: "DOOM WORLD"
+      text: "摧毁世界"
     confirmInputBox:
       comment: "Text above the input box the player would type RESET in."
-      text: "CONFIRM HERE"
+      text: "在此确认"
   
   warning:
     text: "$RED1WARNING: WILL PERMANENTLY RESET ALL REGIONS ON THIS DIFFICULTY！ BUT YOU WILL KEEP PERKS AND GOD EXPERIENCE."
@@ -6086,17 +6086,17 @@ worldMapGameModeConfigPanel:
   button:
     input:
       configName:
-        text: "Config Name"
+        text: "配置名称"
     tooltip:
       saveConfig:
-        text: "Save Config"
+        text: "保存配置"
     accept:
-      text: "Accept"
+      text: "接受"
     back:
-      text: "Back"
+      text: "返回"
       
   header:
-    text: "$CYA1Game Mode Configuation"
+    text: "$CYA1游戏模式配置"
     
   corruption:
     tooltip:
@@ -6336,35 +6336,35 @@ worldMapGameModeConfigPanel:
       
   loadConfig:
     header:
-      text: "$YEL0Load Config"
+      text: "$YEL0读取配置"
     nightmare:
-      text: "Nightmare"
+      text: "噩梦"
     survival:
-      text: "Survival"
+      text: "生存"
     traditional:
-      text: "Traditional"
+      text: "传统"
     peaceful:
-      text: "Peaceful"
+      text: "和平"
     configFileName:
-      text: "$YEL0Config File Name"
+      text: "$YEL0配置文件名"
     configBlocked:
-      text: "$YEL0You must doom the world to reconfigure these settings！"
+      text: "$YEL0摧毁世界才能重置配置！"
     
   miscellaneous:
     never:
-      text: "$GRE0Never"
+      text: "$GRE0永不"
     1inXk:
       text: "$GRE01 in {amount}k"
     1inX:
       text: "$GRE01 in {amount}"
     none:
-      text: "$GRE0None"
+      text: "$GRE0无"
     xDays:
       text: "$GRE0{days} days"
     'true':
-      text: "$GRE0True"
+      text: "$GRE0是"
     'false':
-      text: "$RED0False"
+      text: "$RED0否"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6378,17 +6378,17 @@ worldMapGameModeSelectPanel:
   
   button:
     nightmare:
-      text: "Nightmare"
+      text: "噩梦"
     survival:
-      text: "Survival"
+      text: "生存"
     traditional:
-      text: "Traditional"
+      text: "传统"
     peaceful:
-      text: "Peaceful"
+      text: "和平"
     custom:
-      text: "Custom"
+      text: "自定"
     sandbox:
-      text: "Sandbox"
+      text: "沙盒"
   
   header:
     nightmare:
@@ -6476,17 +6476,17 @@ worldMapMapSelectPanel:
   
   button:
     visitRegion:
-      text: "Visit Region"
+      text: "造访地区"
     establishVillage:
-      text: "Establish Village"
+      text: "建立聚落"
     visitRegionResetAI:
-      text: "Visit Region (Reset AI)"
+      text: "造访地区（重置AI）"
     close:
-      text: "Close"
+      text: "关闭"
     
     tooltip:
       visitRegionResetAIHeader:
-        text: "Reset AI"
+        text: "重置AI"
       visitRegionResetAI:
         text: "This will reset all mob AI to idle, useful in rare cases where the AI may be causing the game to crash or freeze. Recommended to try before you use the save rollback mechanics."
       rollbackSaveHeader:
@@ -6496,7 +6496,7 @@ worldMapMapSelectPanel:
   
   tooltip:
     corruptionThreatHeader:
-      text: "Corruption Threat"
+      text: "腐化威胁"
     corruptionThreat:
       text: "The higher this bar, the more dangerous the region will be for your villagers. More monsters will spawn at night, stronger monsters will appear, and corruption will spread more aggressively."
 
@@ -6818,11 +6818,11 @@ influence:
     outOfBounds:
       text: "You can't cast spells out here！？"
     inVoid:
-      text: "You can't cast spells into the void！"
+      text: "无法向虚空施放言灵！"
     inCorruption:
-      text: "You have no power here！"
+      text: "你的力量在此无效！"
     noInfluence:
-      text: "Not enough influence！"
+      text: "神力不够！"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
@@ -6836,122 +6836,122 @@ spell:
   
   banish:
     name:
-      text: "Banish"
+      text: "放逐"
     description:
       text: "Banish your enemies to a random location on the map！"
   dissolve:
     name:
-      text: "Dissolve"
+      text: "消解"
     description:
       text: "Dissolves living resources like crystals, wood, and dead bodies on the map, converting them into essence."
   summonHolyGolem:
     name:
-      text: "Summon Holy Golem"
+      text: "召唤神圣魔偶"
     description:
       text: "Summons a holy defender who will fight to their bitter end to defend your people. The older your village, the stronger the golem！"
   drop:
     name:
-      text: "Drop"
+      text: "放下"
     description:
       text: "Drop a resource or creature in your hands. This spell should not be accessable directly."
   meteor:
     name:
-      text: "Meteor"
+      text: "陨石"
     description:
       text: "Drop a flaming space rock on something！"
   flame:
     name:
-      text: "Flame"
+      text: "火焰"
     description:
       text: "Ignite an area (and anything else that happens to be in the way) in flames！"
   grab:
     name:
-      text: "Grab"
+      text: "抓取"
     description:
       text: "Pick up resources or creatures on the map. Drains influence the longer they are held and will drop them if you run out."
   healingAura:
     name:
-      text: "Healing Aura"
+      text: "治愈光环"
     description:
       text: "Steadily heal all the villagers in the area for a short period of time."
   motivateLand:
     name:
-      text: "Motivate Land"
+      text: "生长"
     description:
       text: "Motivate some natural resources to grow. Works best in the Spring and Autumn, very ineffective in the Winter."
   earthquake:
     name:
-      text: "Earthquake"
+      text: "地震"
     description:
       text: "Shake the ground, damaging anything in the area and sometimes sprouting forth new rock."
   recall:
     name:
-      text: "Recall"
+      text: "传召"
     description:
       text: "Teleport villagers and resources safely back to the village."
   resurrect:
     name:
-      text: "Resurrect"
+      text: "复活"
     description:
       text: "Resurrect a visible ghost on the map. Beware, sometimes the process doesn't quite turn out the way you planned！"
   initialSpawnIn:
     name:
-      text: "Initial Spawn In"
+      text: "瞬生"
     description:
       text: "Special spell used to spawn in villagers at the start of a new game inworld map mode. Should not be castable by the player."
   storm:
     name:
-      text: "Storm"
+      text: "风暴"
     description:
       text: "An extremely dangerous spell that causes a huge localized lightning storm, followed by rain or snow in the entire region. Should never be cast inside your village."
   conjureEssence:
     name:
-      text: "Conjure Essence"
+      text: "赐灵"
     description:
       text: "Conjure essence out of thin air！ Careful it doesn't get sucked back into your hand."
   lightningBolt:
     name:
-      text: "Lightning Bolt"
+      text: "闪电箭"
     description:
       text: "Zap them from the heavens！ Doesn't work well around lightning rods."
   conjureMaterial:
     name:
-      text: "Conjure Material"
+      text: "造物"
     description:
       text: "Brings forth a raw building material, sometimes similar to the topography surrounding it."
   mend:
     name:
-      text: "Mend"
+      text: "修补"
     description:
       text: "Steadily repairs golems and buildings in a small area for a short period of time."
   summonLaborGolem:
     name:
-      text: "Summon Labor Golem"
+      text: "召唤劳工魔偶"
     description:
       text: "Summons a mindless golem that will do manual labor in your village until it dies."
   illuminate:
     name:
-      text: "Illuminate"
+      text: "光耀"
     description:
       text: "Creates a long lasting, large light source on the map."
   charm:
     name:
-      text: "Charm"
+      text: "迷惑"
     description:
       text: "Charms a monster into attacking their friends instead, but they may not always cooperate, and could even work against you."
   magicBolts:
     name:
-      text: "Magic Bolts"
+      text: "魔法箭"
     description:
       text: "Zap monsters with some energy balls."
   coldAura:
     name:
-      text: "Cold Aura"
+      text: "冰冷光环"
     description:
       text: "Makes the area extremely cold, cooling, slowing down and sometimes freezing nearby creatures."
   regenerate:
     name:
-      text: "Regenerate"
+      text: "回复"
     description:
       text: "Heals a single living creature over a short period of time. Does not work on golems, but does work on monsters！ Be careful what you cast this on."
             
@@ -6967,81 +6967,81 @@ tileSet:
   
   road:  
     path:
-      text: "Path"
+      text: "小径"
     logPathDebris:
-      text: "Log Path Debris"
+      text: "残破原木小径"
     logPath:
-      text: "Log Path"
+      text: "原木小径"
     cobbleAndLogPathDebris:
-      text: "Cobble and Log Path Debris"
+      text: "残破木石小径"
     cobbleAndLogPath:
-      text: "Cobble and Log Path"
+      text: "木石小径"
     cobbleAndBoardRoadDebris:
-      text: "Cobble and Board Road Debris"
+      text: "残破石基木板路"
     cobbleAndBoardRoad:
-      text: "Cobble and Board Road"
+      text: "石基木板路"
     cutStoneAndBoardRoadDebris:
-      text: "Cut Stone and Board Road Debris"
+      text: "残破木石合板路"
     cutStoneAndBoardRoad:
-      text: "Cut Stone and Board Road"
+      text: "木石合板路"
 
   terrain:
     treeStumps:
-      text: "Tree Stumps"
+      text: "树桩"
     trees:
-      text: "Trees"
+      text: "树木"
     deadTrees:
-      text: "Dead Trees"
+      text: "枯树"
     rock:
-      text: "Rock"
+      text: "岩石"
     sandstone:
-      text: "Sandstone"
+      text: "砂石"
     redCrystals:
-      text: "Red Crystals"
+      text: "红水晶"
     greenCrystals:
-      text: "Green Crystals"
+      text: "绿水晶"
     blueCrystals:
-      text: "Blue Crystals"
+      text: "蓝水晶"
     purpleCrystals:
-      text: "Purple Crystals"
+      text: "子水晶"
     potatoes:
-      text: "Potatoes"
+      text: "土豆"
     turnips:
-      text: "Turnips"
+      text: "芜菁"
     cactus:
-      text: "Cactus"
+      text: "仙人掌"
     carrots:
-      text: "Carrots"
+      text: "胡萝卜"
     melons:
-      text: "Melons"
+      text: "甜瓜"
     bricks:
-      text: "Bricks"
+      text: "地砖"
     dirt:
-      text: "Dirt"
+      text: "泥土"
     flowers:
-      text: "Flowers"
+      text: "花朵"
     grass:
-      text: "Grass"
+      text: "草地"
     gravel:
-      text: "Gravel"
+      text: "砾石"
     lava:
-      text: "Lava"
+      text: "岩浆"
     sand:
-      text: "Sand"
+      text: "沙地"
     tar:
-      text: "Tar"
+      text: "焦油"
     tiles:
-      text: "Tiles"
+      text: "地块"
     water:
-      text: "Water"
+      text: "水域"
     mud:
-      text: "Mud"
+      text: "淤泥"
     ice:
-      text: "Ice"
+      text: "冰块"
     frozenMud:
-      text: "Frozen Mud"
+      text: "冻泥"
     corruption:
-      text: "Corruption"
+      text: "腐化"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Missile Module
@@ -7054,121 +7054,121 @@ missileName:
   javaClass: "rtr.missile.MissileModule.java" 
   
   basicArrow:
-    text: "Basic Arrow"
+    text: "Basic 弓箭"
   sturdyArrow:
-    text: "Sturdy Arrow"
+    text: "Sturdy 弓箭"
   reinforcedArrow:
-    text: "Reinforced Arrow"
+    text: "Reinforced 弓箭"
   fireArrow:
-    text: "Fire Arrow"
+    text: "Fire 弓箭"
   lightningArrow:
-    text: "Lightning Arrow"
+    text: "Lightning 弓箭"
   poisonArrow:
-    text: "Poison Arrow"
+    text: "Poison 弓箭"
   iceArrow:
-    text: "Ice Arrow"
+    text: "Ice 弓箭"
   basicBallistaArrow:
-    text: "Basic Ballista Arrow"
+    text: "Basic 弩箭"
   sturdyBallistaArrow:
-    text: "Sturdy Ballista Arrow"
+    text: "Sturdy 弩箭"
   reinforcedBallistaArrow:
-    text: "Reinforced Ballista Arrow"
+    text: "Reinforced 弩箭"
   fireBallistaArrow:
-    text: "Fire Ballista Arrow"
+    text: "Fire 弩箭"
   poisonBallistaArrow:
-    text: "Poison Ballista Arrow"
+    text: "Poison 弩箭"
   iceBallistaArrow:
-    text: "Ice Ballista Arrow"
+    text: "Ice 弩箭"
   basicBullet:
-    text: "Basic Bullet"
+    text: "Basic 炮弹"
   heavyBullet:
-    text: "Heavy Bullet"
+    text: "Heavy 炮弹t"
   reinforcedBullet:
-    text: "Reinforced Bullet"
+    text: "Reinforced 炮弹"
   fireBullet:
-    text: "Fire Bullet"
+    text: "Fire 炮弹"
   lightningBullet:
-    text: "Lightning Bullet"
+    text: "Lightning 炮弹"
   iceBullet:
-    text: "Ice Bullet"
+    text: "Ice 炮弹"
   basicSprayBullet:
-    text: "Basic Spray Bullet"
+    text: "Basic 霰弹"
   heavySprayBullet:
-    text: "Heavy Spray Bullet"
+    text: "Heavy 霰弹"
   reinforcedSprayBullet:
-    text: "Reinforced Spray Bullet"
+    text: "Reinforced 霰弹"
   fireSprayBullet:
-    text: "Fire Spray Bullet"
+    text: "Fire 霰弹"
   lightningSprayBullet:
-    text: "Lightning Spray Bullet"
+    text: "Lightning 霰弹"
   iceSprayBullet:
-    text: "Ice Spray Bullet"
+    text: "Ice 霰弹"
   smallElementalBolt:
-    text: "Small Elemental Bolt"
+    text: "小型元素箭"
   elementalBolt:
-    text: "Elemental Bolt"
+    text: "基础元素箭"
   largeElementalBolt:
-    text: "Large Elemental Bolt"
+    text: "大型元素箭"
   fireBolt:
-    text: "Fire Bolt"
+    text: "火焰元素箭"
   lightningBolt:
-    text: "Lightning Bolt"
+    text: "闪电元素箭"
   iceBolt:
-    text: "Ice Bolt"
+    text: "寒冰元素箭"
   smallPhantomDart:
-    text: "Small Phantom Dart"
+    text: "小型幻影镖"
   phantomDart:
-    text: "Phantom Dart"
+    text: "标准幻影镖"
   largePhantomDart:
-    text: "Large Phantom Dart"
+    text: "大型幻影镖"
   phantomFireDart:
-    text: "Phantom Fire Dart"
+    text: "火焰幻影镖"
   phantomLightningDart:
-    text: "Phantom Lightning Dart"
+    text: "闪电幻影镖"
   phantomIceDart:
-    text: "Phantom Ice Dart"
+    text: "寒冰幻影镖"
   phantomPoisonDart:
-    text: "Phantom Poison Dart"
+    text: "毒素幻影镖"
   basicStoneBall:
-    text: "Basic Stone Ball"
+    text: "基础炮弹"
   heavyStoneBall:
-    text: "Heavy Stone Ball"
+    text: "重型炮弹"
   reinforcedStoneBall:
-    text: "Reinforced Stone Ball"
+    text: "强化炮弹"
   explodingStoneBall:
-    text: "Exploding Stone Ball"
+    text: "高爆炮弹"
   lightningStoneBall:
-    text: "Lightning Stone Ball"
+    text: "闪电炮弹"
   iceStoneBall:
-    text: "Ice Stone Ball"
+    text: "寒冰炮弹"
   motivationBolt:
-    text: "Motivation Bolt"
+    text: "激励箭"
   attractBolt:
-    text: "Attract Bolt"
+    text: "吸引箭"
   banishBolt:
-    text: "Banish Bolt"
+    text: "放逐箭"
   recombobulatorBolt:
-    text: "Recombobulator Bolt"
+    text: "重组箭"
   bowArrow:
-    text: "Bow Arrow"
+    text: "弓箭"
   fireElemental:
-    text: "Fire Elemental"
+    text: "火元素"
   fireGolem:
-    text: "Fire Golem"
+    text: "火焰魔偶"
   iceGolem:
-    text: "Ice Golem"
+    text: "寒冰魔偶"
   lightningGolem:
-    text: "Lightning Golem"
+    text: "闪电魔偶"
   crystalGolem:
-    text: "Crystal Golem"
+    text: "灵晶魔偶"
   fireCrystalGolem:
-    text: "Fire Crystal Golem"
+    text: "火焰灵晶魔偶"
   iceCrystalGolem:
-    text: "Ice Crystal Golem"
+    text: "寒冰灵晶魔偶"
   lightningCrystalGolem:
-    text: "Lightning Crystal Golem"
+    text: "闪电灵晶魔偶"
   specialMainMenu:
-    text: "Special Main Menu"
+    text: "特殊主菜单"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob Module
@@ -7182,168 +7182,168 @@ mobName:
       
   article:
     comment: "This is used in a few rare cases where the game is referencing the mob as a common noun and not a proper noun. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
-    text: "a {mobName}"
+    text: "一个{mobName}"
       
   villageElder:
     single:
-      text: "Village Elder"
+      text: "长者"
     plural:
-      text: "Village Elders"
+      text: "长者"
   villager:
     single:
-      text: "Villager"
+      text: "居民"
     plural:
-      text: "Villagers"
+      text: "居民"
   child:
     single:
-      text: "Child"
+      text: "儿童"
     plural:
-      text: "Children"
+      text: "儿童"
   catjeetVillageElder:
     single:
-      text: "Catjeet Village Elder"
+      text: "异客长者"
     plural:
-      text: "Catjeet Village Elders"
+      text: "异客长者"
   catjeetVillager:
     single:
-      text: "Catjeet Villager"
+      text: "异客居民"
     plural:
-      text: "Catjeet Villagers"
+      text: "异客居民"
   catjeetChild:
     single:
-      text: "Catjeet Child"
+      text: "异客儿童"
     plural:
-      text: "Catjeet Children"
+      text: "异客儿童"
   catjeetProvisioner:
     single:
-      text: "Catjeet Provisioner"
+      text: "异客游商"
     plural:
-      text: "Catjeet Provisioners"
+      text: "异客游商"
   catjeetLaborer:
     single:
-      text: "Catjeet Laborer"
+      text: "异客劳工"
     plural:
-      text: "Catjeet Laborers"
+      text: "异客劳工"
   smallSlime:
     single:
-      text: "Small Slime"
+      text: "小史莱姆"
     plural:
-      text: "Small Slimes"
+      text: "小史莱姆"
   slime:
     single:
-      text: "Slime"
+      text: "史莱姆"
     plural:
-      text: "Slimes"
+      text: "史莱姆"
   smallBloodSlime:
     single:
-      text: "Small Blood Slime"
+      text: "小鲜血史莱姆"
     plural:
-      text: "Small Blood Slimes"
+      text: "小鲜血史莱姆"
   bloodSlime:
     single:
-      text: "Blood Slime"
+      text: "鲜血史莱姆"
     plural:
-      text: "Blood Slimes"
+      text: "鲜血史莱姆"
   headless:
     single:
-      text: "Headless"
+      text: "无头尸"
     plural:
-      text: "Headless"
+      text: "无头尸"
   drone:
     single:
-      text: "Drone"
+      text: "低语者"
     plural:
-      text: "Drones"
+      text: "低语者"
   zombie:
     single:
-      text: "Zombie"
+      text: "僵尸"
     plural:
-      text: "Zombies"
+      text: "僵尸"
   childZombie:
     single:
-      text: "Child Zombie"
+      text: "儿童僵尸"
     plural:
-      text: "Child Zombies"
+      text: "儿童僵尸"
   zombieDoggo:
     single:
-      text: "Zombie Doggo"
+      text: "僵尸狗狗"
     plural:
-      text: "Zombie Doggos"
+      text: "僵尸狗狗"
   doofyZombieDoggo:
     single:
-      text: "Doofy Zombie Doggo"
+      text: "僵尸乖狗狗"
     plural:
-      text: "Doofy Zombie Doggos"
+      text: "僵尸乖狗狗"
   zombieCatjeet:
     single:
-      text: "Zombie Catjeet"
+      text: "异客僵尸"
     plural:
-      text: "Catjeet Zombies"
+      text: "异客僵尸"
   catjeetChildZombie:
     single:
-      text: "Catjeet Child Zombie"
+      text: "异客儿童僵尸"
     plural:
-      text: "Catjeet Child Zombies"
+      text: "异客儿童僵尸"
   skeleton:
     single:
-      text: "Skeleton"
+      text: "骷髅"
     plural:
-      text: "Skeletons"
+      text: "骷髅"
   ghost:
     single:
-      text: "Ghost"
+      text: "幽灵"
     plural:
-      text: "Ghosts"
+      text: "幽灵"
   ghostChild:
     single:
-      text: "Ghost Child"
+      text: "儿童幽灵"
     plural:
-      text: "Ghost Children"
+      text: "儿童幽灵"
   ghostDoggo:
     single:
-      text: "Ghost Doggo"
+      text: "狗狗幽灵"
     plural:
-      text: "Ghost Doggos"
+      text: "狗狗幽灵"
   doofyGhostDoggo:
     single:
-      text: "Doofy Ghost Doggo"
+      text: "乖狗狗幽灵"
     plural:
-      text: "Doofy Ghost Doggos"
+      text: "乖狗狗幽灵"
   ghostCatjeet:
     single:
-      text: "Ghost Catjeet"
+      text: "异客幽灵"
     plural:
-      text: "Catjeet Ghosts"
+      text: "异客幽灵"
   ghostCatjeetChild:
     single:
-      text: "Ghost Catjeet Child"
+      text: "异客儿童幽灵"
     plural:
-      text: "Ghost Catjeet Children"
+      text: "异客儿童幽灵"
   fireElemental:
     single:
-      text: "Fire Elemental"
+      text: "火元素"
     plural:
-      text: "Fire Elementals"
+      text: "火元素"
   specter:
     single:
-      text: "Specter"
+      text: "幽魂"
     plural:
-      text: "Specters"
+      text: "幽魂"
   childSpecter:
     single:
-      text: "Child Specter"
+      text: "儿童幽魂"
     plural:
-      text: "Child Specters"
+      text: "儿童幽魂"
   nomadElder:
     single:
-      text: "Nomad Elder"
+      text: "流民长者"
     plural:
-      text: "Nomad Elders"
+      text: "流民长者"
   nomad:
     single:
-      text: "Nomad"
+      text: "流民"
     plural:
-      text: "Nomads"
+      text: "流民"
   departingMigrant:
     single:
       text: "Departing Migrant"
@@ -7351,24 +7351,24 @@ mobName:
       text: "Departing Migrants"
   arrivingMigrant:
     single:
-      text: "Arriving Migrant"
+      text: "在途移民"
     plural:
-      text: "Arriving Migrants"
+      text: "在途移民"
   nomadChild:
     single:
-      text: "Nomad Child"
+      text: "游民儿童"
     plural:
-      text: "Nomad Children"
+      text: "游民儿童"
   catjeetNomadElder:
     single:
-      text: "Catjeet Nomad Elder"
+      text: "异客游民长者"
     plural:
-      text: "Catjeet Nomad Elders"
+      text: "异客游民长者"
   catjeetNomad:
     single:
-      text: "Catjeet Nomad"
+      text: "异客游民"
     plural:
-      text: "Catjeet Nomads"
+      text: "异客游民"
   departingCatjeetMigrant:
     single:
       text: "Departing Catjeet Migrant"
@@ -7376,14 +7376,14 @@ mobName:
       text: "Departing Catjeet Migrants"
   arrivingCatjeetMigrant:
     single:
-      text: "Arriving Catjeet Migrant"
+      text: "在途异客移民"
     plural:
-      text: "Arriving Catjeet Migrants"
+      text: "在途异客移民"
   catjeetNomadChild:
     single:
-      text: "Catjeet Nomad Child"
+      text: "异客流民儿童"
     plural:
-      text: "Catjeet Nomad Children"
+      text: "异客流民儿童"
   doggo:
     single:
       text: "Doggo"
@@ -7603,63 +7603,63 @@ damageCauseName:
   javaClass: "rtr.mobs.MobBase.java" 
   
   regular:
-    text: "Regular"
+    text: "常规"
   fire:
-    text: "Fire"
+    text: "火焰"
   onFire:
-    text: "On Fire"
+    text: "着火"
   ice:
-    text: "Ice"
+    text: "寒冰"
   cold:
-    text: "Cold"
+    text: "寒冷"
   frozen:
-    text: "Frozen"
+    text: "冰冻"
   poison:
-    text: "Poison"
+    text: "毒素"
   poisoned:
-    text: "Poisoned"
+    text: "中毒"
   dysentery:
-    text: "Dysentery"
+    text: "恶毒"
   dehydration:
-    text: "Dehydration"
+    text: "脱水"
   starving:
-    text: "Starving"
+    text: "饥馁"
   heat:
-    text: "Heat"
+    text: "高热"
   lightning:
-    text: "Lightning"
+    text: "闪电"
   crushing:
-    text: "Crushing"
+    text: "冲击"
   piercing:
-    text: "Piercing"
+    text: "穿刺"
   magic:
-    text: "Magic"
+    text: "魔法"
   blight:
-    text: "Blight"
+    text: "瘟疫"
   blighted:
-    text: "Blighted"
+    text: "疫病"
   combat:
-    text: "Combat"
+    text: "战斗"
   dropped:
-    text: "Dropped"
+    text: "坠落"
   tower:
-    text: "Tower"
+    text: "防御塔"
   god:
-    text: "God"
+    text: "主神"
   earthquake:
-    text: "Earthquake"
+    text: "地震"
   hail:
-    text: "Hail"
+    text: "冰雹"
   meteor:
-    text: "Meteor"
+    text: "陨石"
   rain:
-    text: "Rain"
+    text: "雨"
   water:
-    text: "Water"
+    text: "水"
   naturalCauses:
-    text: "Natural Causes"
+    text: "自然原因"
   childBirth:
-    text: "Child Birth"
+    text: "分娩"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob AI
@@ -7673,33 +7673,33 @@ aiTask:
   
   base:
     drinkingWater:
-      text: "Drinking a $YEL1{resourceName}"
+      text: "饮用$YEL1{resourceName}"
     eatingFood:
-      text: "Eating a $YEL1{resourceName}"
+      text: "食用$YEL1{resourceName}"
     pathfindingBruteForce:
       text: "Clearing obstacles in the way"
     recoveringHealth:
-      text: "Recovering health with a $YEL1{resourceName}"
+      text: "用$YEL1{resourceName}治疗"
 
     droppingResource:
       findingLocation:
-        text: "Finding location to drop a resource"
+        text: "寻找地点放下物资"
       pathfinding:
-        text: "Walking to an open space to drop the resource in their hand"
+        text: "前往开放地点放下手中物资"
       dropping:
-        text: "Dropping resource on ground"
+        text: "在地面放下物资"
         
   birth:  
     findSafeLocation:
-      text: "Finding a safe place to give birth"
+      text: "寻找安全地点分娩"
     pathfindToSafeLocation:
-      text: "Walking to a safe place to give birth"
+      text: "前往安全地点分娩"
   
   buildWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to build"
+      text: "前往建造{buildingName}"
     build:
-      text: "Building {buildingName}"
+      text: "建造{buildingName}"
 
   buyFromProvisioner:
     pathfindToProvisioner:
@@ -7775,13 +7775,13 @@ aiTask:
 
   criticalRepairWork:
     pathfindToBuilding:
-      text: "Walking to {buildingName} to repair"
+      text: "前往修复{buildingName}"
     repairBuilding:
-      text: "Repairing {buildingName}"
+      text: "修复{buildingName}"
 
   death:
     death:
-      text: "Dead"
+      text: "死亡"
       
   deliverConstructionResource:
     pathfindToResourceOnGround:
@@ -7847,271 +7847,271 @@ aiTask:
     pathfindToResourceOnGround:
       text: "Walking to nearby food on the ground"
     pathfindToBuilding:
-      text: "Stealing food at {buildingName}"
+      text: "从{buildingName}盗取食物"
 
   findFoodHarvest:
     pathfindToFood:
-      text: "Walking to some unharvested food"
+      text: "前往挖生食物"
     harvestFood:
-      text: "Harvesting raw food to eat"
+      text: "挖生食物食用"
       
   findHome:
     searchForHome:
-      text: "Searching for a home."
+      text: "寻找住处"
     visitNewHome:
-      text: "Visiting {buildingName} as a possible new home."
+      text: "前往{buildingName}尝试入住"
 
   findJob:
     pathfindToJob:
-      text: "Going to {buildingName} to get a job."
+      text: "前往{buildingName}入职"
 
   findSpawn:
     findSpawn:
-      text: "Searching for a spawn."
+      text: "寻找造人场所"
     pathfindToSpawn:
-      text: "Visiting {buildingName} as a possible spawn home."
+      text: "前往{buildingName}造人"
     claimSpawn:
       text: "Trying to claim {buildingName} as a new spawn."
       
   findWaterFountain:
     pathfindToWaterFountain:
-      text: "Going to {buildingName} to drink water."
+      text: "前往{buildingName}饮水"
     drinkFromWaterFountain:
-      text: "Drinking water from {buildingName}"
+      text: "从{buildingName}中饮水"
       
   findWaterHarvest:
     pathfindToWater:
-      text: "Walking to some dirty water！"
+      text: "前往污水！"
     harvestWater:
-      text: "Drinking dirty water！"
+      text: "饮用污水！"
 
   frozen:
     frozen:
-      text: "Frozen solid！！"
+      text: "冻得梆硬！！"
 
   goHome:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "寻路前往{buildingName}住处"
     pathfindToHome:
-      text: "Going home to {buildingName}"
+      text: "前往住处——{buildingName}"
     enterHome:
-      text: "Trying to enter {buildingName}"
+      text: "尝试进入{buildingName}"
       
   golemHealBehavior:
     findRecombobulator:
-      text: "Searching for a recombobulator."
+      text: "寻找重组塔"
     pathfindToRecombobulator:
-      text: "Going to a {buildingName} to heal."
+      text: "前往{buildingName}修复自身"
       
   golemPatrolBehavior:
     pathfindToWaypoint:
-      text: "Patrolling the village"
+      text: "巡戍聚落"
       
   grabbed:
     grabbed:
-      text: "Being held by god himself！"
+      text: "被主神抓住！"
       
   guardPatrolFrontLine:
     pathfindToWaypoint:
-      text: "Patrolling the front lines"
+      text: "巡戍前线"
       
   guardPatrolPerimeter:
     pathfindToWaypoint:
-      text: "Patrolling the perimeter"
+      text: "巡戍周边"
       
   guardPatrolVillage:
     pathfindToWaypoint:
-      text: "Patrolling the village"
+      text: "巡戍聚落"
       
   guardPost:
     pathfindToBuilding:
-      text: "Posting at {buildingName}"
+      text: "前往{buildingName}报到"
     posting:
-      text: "Posted at {buildingName}"
+      text: "在{buildingName}报到"
     pathfindToNewPostPosition:
-      text: "Posted at {buildingName}"
+      text: "在{buildingName}报到"
       
   guardSummoned:
     pathfindToSummons:
-      text: "Running to protect {mobName}"
+      text: "奔赴保护{mobName}"
       
   harvestFarmWork:
     pathfindToResource:
-      text: "Walking to farm to harvest food"
+      text: "前往采收食物"
     harvestResource:
-      text: "Harvesting materials"
+      text: "采收食物"
       
   harvestWaterWork:
     pathfindToWater:
-      text: "Walking to worksite harvest some water"
+      text: "前往获取水资源"
     harvestWater:
-      text: "Harvesting water"
+      text: "获取水资源"
       
   harvestWork:
     pathfindToResource:
-      text: "Walking to worksite harvest some materials"
+      text: "前往采收资源"
     harvestResource:
-      text: "Harvesting materials"
+      text: "采收资源"
       
   healthRepair:
     pathfindToBuilding:
-      text: "Going to $YEL1{buildingName} for medical attention"
+      text: "前往$YEL1{buildingName}寻求救助"
     postingWaitingForMedic:
-      text: "Waiting for {mobName}$WHI0 to apply first aid."
+      text: "等待{mobName}$WHI0实施急救"
     postingWaiting:
-      text: "Waiting for medical attention at $YEL1{buildingName}"
+      text: "在$YEL1{buildingName}等待救助"
       
   incapacitated:
     incapacitated:
-      text: "Incapacitated！"
+      text: "瘝！"
       
   inHome:
     inHome:
-      text: "Inside their home"
+      text: "在家"
     sleeping:
-      text: "Sleeping"
+      text: "睡觉"
       
   inHomeHiding:
     hiding:
-      text: "Hiding inside their home"
+      text: "在家避难"
       
   laborerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region"
+      text: "离开地区"
       
   laborerPost:
     pathfindToMarketplace:
-      text: "Setting up shop at $YEL1{buildingName}"
+      text: "前往$YEL1{buildingName}$WHI0设立商店"
     sellLabor:
-      text: "Selling labor at $YEL1{buildingName}"
+      text: "将劳动力卖到$YEL1{buildingName}"
       
   mateCoitus:
     awaitCoitusWaiting:
-      text: "Waiting for {mobName} to arrive for coitus."
+      text: "等待{mobName}赴约"
     awaitCoitus:
-      text: "Coitusing with {mobName}"
+      text: "与{mobName}交欢"
 
   mateGoCoitus:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "寻路前往住处——{buildingName}"
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}"
+      text: "前往住处与{mobName}交欢"
     enterHome:
-      text: "Entering home to have coitus with {mobName}"
+      text: "进入住处与{mobName}交欢"
       
   mateGoCoitusOther:
     findHome:
-      text: "Finding a path to home {buildingName}"
+      text: "寻路前往住处——{buildingName}"
     pathfindToHome:
-      text: "Going home to have coitus with {mobName}"
+      text: "前往住处与{mobName}交欢"
     enterHome:
-      text: "Entering home to have coitus with {mobName}"
+      text: "进入住处与{mobName}交欢"
       
   medicWork:
     pathfindToBuilding:
-      text: "Posting at {buildingName}"
+      text: "前往{buildingName}上工"
     posting:
-      text: "Posted at {buildingName}"
+      text: "在{buildingName}上工"
     pathfindToHurtVillager:
-      text: "Going to {mobName}$WHI0 to apply first aid."
+      text: "前往{mobName}$WHI0处实施急救"
     healSelf:
-      text: "Applying first aid to self"
+      text: "自我急救"
     healVillager:
-      text: "Applying first aid to {mobName}"
+      text: "为{mobName}实施急救"
 
   migrantDepartBehavior:
     pathfindToLeaveCoordinates:
-      text: "Departing the region to migrate to $YEL1{regionName}"
+      text: "出发前往$YEL1{regionName}移民"
       
   migrationPreperationBehavior:
     pathfindToLeaveCoordinates:
-      text: "Preparing to leave region"
+      text: "准备离开地区"
       
   nomadBehavior:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "往聚落游荡"
       
   nomadBehaviorOther:
     pathfindToVillage:
-      text: "Wandering into the village"
+      text: "往聚落游荡"
       
   onFirePanic:
     onFire:
-      text: "On fire！！"
+      text: "着火！！"
       
   panic:
     panicking:
-      text: "Panicking！！"
+      text: "恐慌！！"
       
   plantResource:
     pathfindToResourceOnGround:
-      text: "Picking up resource on the ground to plant"
+      text: "收集散落资源以种植"
     pathfindToBuilding:
-      text: "Picking up resource at {buildingName} to plant it"
+      text: "从{buildingName}收集资源以种植"
       
   plantResourceInHand:
     pathfindToBuilding:
-      text: "Planting resource in a farm"
+      text: "农场耕作"
     pathfindToExtraResource:
-      text: "Picking up additional planting resource"
+      text: "收集额外作物资源"
       
   provisionerLeave:
     pathfindToLeaveCoordinates:
-      text: "Leaving the region"
+      text: "离开地区"
       
   provisionerPost:
     pathfindToMarketplace:
-      text: "Setting up shop at $YEL1{buildingName}"
+      text: "设立商店于$YEL1{buildingName}"
     sellWares:
-      text: "Selling wares at $YEL1{buildingName}"
+      text: "出售物品于$YEL1{buildingName}"
       
   quitJob:
     pathfindToWorkBuilding:
-      text: "Going to {buildingName} to quit a job."
+      text: "前往{buildingName}离职"
       
   redistributeResources:
     pathfindToBuilding:
-      text: "Redistributing resource at {buildingNameSource} to {buildingNameDestination}"
+      text: "从{buildingNameSource}往{buildingNameDestination}调度物资"
     pathfindToDelivery:
-      text: "Distributing resource to {buildingName}"
+      text: "将物资调往{buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional storage resource for {buildingName}"
+      text: "收集额外资源存至{buildingName}"
       
   refineResource:
     pathfindToWork:
-      text: "Refining resource at {buildingName}"
+      text: "前往{buildingName}加工材料"
     refineResource:
-      text: "Refining materials"
+      text: "加工材料"
       
   refineWaterBottle:
     pathfindToWork:
-      text: "Bottling water at {buildingName}"
+      text: "前往装瓶——{buildingName}"
     refineResource:
-      text: "Bottling water"
+      text: "将水装瓶"
       
   removeRoadWork:
     pathfindToRoad:
-      text: "Walking to worksite remove a road."
+      text: "前往清除道路"
     removeRoad:
-      text: "Removing road."
+      text: "清除道路"
       
   repairRoadWork:
     pathfindToRoad:
-      text: "Walking to a road to repair it"
+      text: "前往维护道路"
     repairRoad:
-      text: "Repairing road"
+      text: "维护道路"
       
   repairWork:
     pathfindToRoad:
-      text: "Walking to {buildingName} to repair"
+      text: "前往维修{buildingName}"
     repairRoad:
-      text: "Repairing {buildingName}"
+      text: "维修{buildingName}"
       
   roadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road"
+      text: "前往修筑道路"
     buildRoad:
-      text: "Building road"
+      text: "修筑道路"
       
   sellResource:
     pathfindToResourceOnGround:
@@ -8121,61 +8121,61 @@ aiTask:
       
   sellResourceInHand:
     pathfindToProvisioner:
-      text: "Delivering resource to $YEL1a catjeet provisioner"
+      text: "将资源带给$YEL1异客游商"
     pathfindToExtraResource:
-      text: "Picking up additional planting resource"
+      text: "收集额外种植原料"
       
   sleepOutside:
     findSafeLocation:
-      text: "Finding a safe place to sleep outside"
+      text: "寻找安全地点露宿"
     pathfindToSafeLocation:
-      text: "Walking to a safe place to sleep"
+      text: "前往安全地点露宿"
     sleepOutside:
-      text: "Sleeping outside"
+      text: "露宿"
       
   spawnRepair:
     pathfindToSpawner:
-      text: "Walking to {buildingName} to repair"
+      text: "前往修复{buildingName}"
     repair:
-      text: "Repairing {buildingName}"
+      text: "修复{buildingName}"
       
   start:
     idle:
-      text: "Idle"
+      text: "空闲"
       
   storeResource:
     pathfindToResource:
-      text: "Picking up resource on ground to store in a building"
+      text: "收集散落的资源以存储"
       
   storeResourceInHand:
     pathfindToBuilding:
-      text: "Storing resource in {buildingName}"
+      text: "将资源存至{buildingName}"
     pathfindToExtraResource:
-      text: "Picking up additional storage resource for {buildingName}"
+      text: "将额外资源存至{buildingName}"
       
   stuck:
     pathfindOffBlockedTerrain:
-      text: "Walking off of blocked terrain"
+      text: "绕过闭塞地形"
       
   tendFarmsWork:
     pathfindToFarmland:
-      text: "Walking to farm to tend."
+      text: "前往照料耕地"
     tendFarmland:
-      text: "Tending to farmland."
+      text: "照料耕地"
       
   trade:
     pathfindToTradePartner:
-      text: "Getting a $YEL1{resourceName}$BLU0 from {mobName}"
+      text: "从$BLU0={mobName}$WHI0获取$YEL1{resourceName}$WHI0"
       
   visitMate:
     pathfindToMate:
-      text: "Visiting {mobName}"
+      text: "看望{mobName}"
       
   wander:
     pathfindToWanderCoordinatesMob:
-      text: "Wandering to {mobName}"
+      text: "信步{mobName}"
     pathfindToWanderCoordinates:
-      text: "Wandering around"
+      text: "闲庭信步"
       
   wildDoggoWanderIn:
     pathfindToVillage:
@@ -8217,23 +8217,23 @@ aiTask:
       
   corruptionHarvestWork:
     pathfindToHarvestWork:
-      text: "Walking to worksite harvest some materials"
+      text: "前往工作地点"
     harvestResource:
-      text: "Harvesting materials"
+      text: "采收资源"
       
   corruptionRoadWork:
     pathfindToRoad:
-      text: "Walking to worksite build a road"
+      text: "前往工作地点"
     buildRoad:
-      text: "Building road"
+      text: "修路"
       
   hostileBehaviorAttack:
     pathfindToTarget:
-      text: "Attacking the village！"
+      text: "攻击聚落！"
       
   hostileBehaviorLeave:
     pathfindToLeaveCoordinates:
-      text: "Escaping to the corruption"
+      text: "逃离腐化"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Mob Job Module
@@ -8247,193 +8247,193 @@ mobJob:
   
   unassigned:
     single:
-      text: "Unassigned"
+      text: "未分配"
     plural:
-      text: "Unassigned"
+      text: "未分配"
     description:
       text: "A lazy slacker who does absolutely nothing of value."
 
   builder:
     single:
-      text: "Builder"
+      text: "建筑工"
     plural:
-      text: "Builders"
+      text: "建筑工"
     description:
       text: "A staple job in your village, builders will make sure everything is built and repaired. They will also harvest materials, but only when they need them to build something and none is available."
 
   carpenter:
     single:
-      text: "Carpenter"
+      text: "锯木工"
     plural:
-      text: "Carpenters"
+      text: "锯木工"
     description:
       text: "Turns wood into boards for more advanced structures."
 
   crystiller:
     single:
-      text: "Crystiller"
+      text: "晶化工"
     plural:
-      text: "Crystillers"
+      text: "晶化工"
     description:
       text: "Turns crystals into crylithium, a power source for essence collectors and other buildings."
 
   crystalHarvester:
     single:
-      text: "Crystal Harvester"
+      text: "采晶工"
     plural:
-      text: "Crystal Harvesters"
+      text: "采晶工"
     description:
       text: "Harvests raw crystals on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
 
   farmer:
     single:
-      text: "Farmer"
+      text: "农夫"
     plural:
-      text: "Farmers"
+      text: "农夫"
     description:
       text: "Harvests raw food, plants it in farms, and keeps farms well tended to and watered to encourage growth. Typically, the more farmers you have the faster your farms will produce food."
 
   fletcher:
     single:
-      text: "Fletcher"
+      text: "制箭师"
     plural:
-      text: "Fletchers"
+      text: "制箭师"
     description:
       text: "Turns wood into arrow bundles to be used in 弓箭塔s."
 
   lumberjack:
     single:
-      text: "Lumberjack"
+      text: "伐木工"
     plural:
-      text: "Lumberjacks"
+      text: "伐木工"
     description:
       text: "Harvests wood on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
 
   miner:
     single:
-      text: "Miner"
+      text: "矿工"
     plural:
-      text: "Miners"
+      text: "矿工"
     description:
       text: "Harvests rock on the map and stores them in the village. They will continue to harvest non-stop regardless of the village's needs."
 
   organizer:
     single:
-      text: "Organizer"
+      text: "调度员"
     plural:
-      text: "Organizers"
+      text: "调度员"
     description:
       text: "Organizes resources throughout the entire village, distributing resources whereever they're needed, or cleaning up resources scattered around the village."
 
   stoneCutter:
     single:
-      text: "Stone Cutter"
+      text: "切石工"
     plural:
-      text: "Stone Cutters"
+      text: "切石工"
     description:
       text: "Turns rock into cut stone for more advanced structures."
 
   tumbler:
     single:
-      text: "Tumbler"
+      text: "磨石工"
     plural:
-      text: "Tumblers"
+      text: "磨石工"
     description:
       text: "Turns rock into stone balls to be used in sling and bullet towers."
 
   wayMaker:
     single:
-      text: "Way Maker"
+      text: "筑路工"
     plural:
-      text: "Way Makers"
+      text: "筑路工"
     description:
       text: "Creates and maintains roads throughout the village, as well as creates man made lakes to collect rain water for water purifiers."
 
   medic:
     single:
-      text: "Medic"
+      text: "医师"
     plural:
-      text: "Medics"
+      text: "医师"
     description:
       text: "Heals nearby hurt villagers, and creates bandages and medkits in the Clinic out of silk."
 
   cook:
     single:
-      text: "Cook"
+      text: "厨师"
     plural:
-      text: "Cooks"
+      text: "厨师"
     description:
       text: "Cooks and repackages raw food into longer lasting and more efficient rations that the villagers can carry around with them."
 
   smelter:
     single:
-      text: "Smelter"
+      text: "锻造工"
     plural:
-      text: "Smelters"
+      text: "锻造工"
     description:
       text: "Turns iron ore into iron ingots for use in more advanced construction or equipment manufacturing."
 
   armorsmith:
     single:
-      text: "Armorsmith"
+      text: "铸甲师"
     plural:
-      text: "Armorsmiths"
+      text: "铸甲师"
     description:
       text: "Creates armor in the armorsmithy for your villagers to help defend themselves. Requires a supply of Iron Ingots usually from a nearby forge."
 
   toolsmith:
     single:
-      text: "Toolsmith"
+      text: "铁匠"
     plural:
-      text: "Toolsmiths"
+      text: "铁匠"
     description:
       text: "Creates tools and weapons in the toolsmithy for your villagers to help defend themselves or get work done. Requires a supply of Iron Ingots usually from a nearby forge."
 
   waterMaster:
     single:
-      text: "Water Master"
+      text: "水务工"
     plural:
-      text: "Water Masters"
+      text: "水务工"
     description:
       text: "Gathers water from wells, rain collectors and other water sources and redistributes them throughout the village."
 
   bottler:
     single:
-      text: "Bottler"
+      text: "装瓶工"
     plural:
-      text: "Bottlers"
+      text: "装瓶工"
     description:
       text: "Takes water and bottles it so your villagers can carry some around with them as they work."
 
   guard:
     single:
-      text: "Guard"
+      text: "守卫"
     plural:
-      text: "Guards"
+      text: "守卫"
     description:
       text: "Protects the village, and gets bonus to defense and attack power."
 
   provisioner:
     single:
-      text: "Provisioner"
+      text: "商贩"
     plural:
-      text: "Provisioners"
+      text: "商贩"
     description:
       text: "Provisioners manage the marketplace's buy and sell orders."
 
   maintainer:
     single:
-      text: "Maintainer"
+      text: "维护工"
     plural:
-      text: "Maintainers"
+      text: "维护工"
     description:
       text: "Workers dedicated to the upkeep of the village, they can help dismantle and repair buildings, as well as maintain roads and clear terrain."
 
   courierSupplier:
     single:
-      text: "Courier Supplier"
+      text: "运输工"
     plural:
-      text: "Courier Suppliers"
+      text: "运输工"
     description:
       text: "Delivers resources to信使魔偶to be taken to other regions."
   
@@ -8448,36 +8448,36 @@ objectOverlay:
   javaClass: "rtr.objects.ObjectBase.java" 
   
   requiredBuilding:
-    text: "$RED1Requires~{buildingName}"
+    text: "$RED1前置需求~{buildingName}"
   requiredBuildingAdditional:
     comment: "This is used to join a list of required buildings, if more than one will meet the objects requirements."
-    text: "$WHI0 or $RED1{buildingName}"
+    text: "$WHI0或$RED1{buildingName}"
   
   farms:
     tooCold:
-      text: "$RED1Too $BLU0cold$RED1 to grow food！"
+      text: "$RED1过$BLU0冷$RED1而无法耕种！"
     cropsDying:
-      text: "$RED1Crops are dying！"
+      text: "$RED1庄稼正在枯萎！"
     poorlyTended:
-      text: "$YEL1Poorly tended."
+      text: "$YEL1缺乏照料。"
     poorlyWatered:
-      text: "$YEL1Poorly watered."  
+      text: "$YEL1缺乏灌溉。"  
   
   lowEnergy:
-    text: "$YEL1Low energy！"
+    text: "$YEL1缺少能量！"
   noWorkers:
-    text: "$YEL1No workers！"
+    text: "$YEL1缺少工人！"
   understaffed:
-    text: "$YEL1Understaffed！"
+    text: "$YEL人手不足！"
   noProduction:
-    text: "$YEL1No Production Set！"
+    text: "$YEL1无生产队列！"
   noSpawningResources:
     comment: "This is almost exclusively used for combobulators to warn the player no usable materials are nearby"
-    text: "$YEL1No nearby {resourceName}！"
+    text: "$YEL1附近无{resourceName}！"
   
   noResources:
     comment: "This is for when there's no resources available to build a building under construction."
-    text: "$YEL1No available {resourceName}！"
+    text: "$YEL1无可用的{resourceName}！"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
@@ -8493,912 +8493,912 @@ object:
     castle:
       camp:
         name:
-          text: "Camp"
+          text: "营地"
         description:
           text: "The center of your new village, provides building slots, builders and can store almost any resource in the game."
       largeCamp:
         name:
-          text: "Large Camp"
+          text: "大型营地"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Also increases maximum storage and building slots and gives the village additional builder job slots."
       smallSettlement:
         name:
-          text: "Small Settlement"
+          text: "小型定居点"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       largeSettlement:
         name:
-          text: "Large Settlement"
+          text: "大型定居点"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       villageCenter:
         name:
-          text: "Village Center"
+          text: "小型村庄中心"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       largeVillageCenter:
         name:
-          text: "Large Village Center"
+          text: "大型村庄中心"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       establishedVillageCenter:
         name:
-          text: "Established Village Center"
+          text: "村庄中心"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       smallKeep:
         name:
-          text: "Small Keep"
+          text: "小型"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       largeKeep:
         name:
-          text: "Large Keep"
+          text: " "
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       establishedKeep:
         name:
-          text: "Established Keep"
+          text: " "
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       smallStronghold:
         name:
-          text: "Small Stronghold"
+          text: "小型要塞"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       largeStronghold:
         name:
-          text: "Large Stronghold"
+          text: "大型要塞"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       establishedStronghold:
         name:
-          text: "Established Stronghold"
+          text: "强化要塞"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       smallCastle:
         name:
-          text: "Small Castle"
+          text: "小型城堡"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
       largeCastle:
         name:
-          text: "Large Castle"
+          text: "大型城堡"
         description:
           text: "Grants a global speed bonus to all tasks, as well as an additional boost to building. Further increases maximum storage and building slots and gives the village additional builder job slots."
     
     ancillary:
       small:
         name:
-          text: "Small Ancillary"
+          text: "小型保管库"
         description:
           text: "A support building that can store almost any resource. Provides addititional building slots, and organizers that will assist in cleaning up and distributing resources on the map."
       base:
         name:
-          text: "Ancillary"
+          text: "基本保管库"
         description:
           text: "Increases the maximum storage, workers and building slots provided."
       large:
         name:
-          text: "Large Ancillary"
+          text: "中型保管库"
         description:
           text: "Further increases the maximum storage, workers and building slots provided."
       established:
         name:
-          text: "Established Ancillary"
+          text: "大型保管库"
         description:
           text: "Further increases the maximum storage, workers and building slots provided."
       reinforced:
         name:
-          text: "Reinforced Ancillary"
+          text: "精修保管库"
         description:
           text: "Increases the maximum storage, workers and building slots provided to maximum."
     
     ancientCullisGate:
       name:
-        text: "Ancient Cullis Gate"
+        text: "远古库里斯门"
       description:
         text: "An ancient sacrificial pond that will convert material items and living tissue into essence when dropped inside. If used too fast, it will overload！"
     
     ancientRadiancePool:
       name:
-        text: "Ancient Radiance Pool"
+        text: "远古荧光池"
       description:
         text: "An ancient old pool that attracts monsters."
     
     armorsmithy:
       makeshift:
         name:
-          text: "Makeshift Armorsmithy"
+          text: "简易护甲厂"
         description:
           text: "Provides workers who can turn iron ingots into armor for your villagers. Requires a forge to process raw ore into ingots."
       base:
         name:
-          text: "Armorsmithy"
+          text: "基本护甲厂"
         description:
           text: "Grants a global speed bonus to all armor manufacturing, increases maximum storage and gives the village an additional armorsmith job slot."
       established:
         name:
-          text: "Established Armorsmithy"
+          text: "高级护甲厂"
         description:
           text: "Increases global speed bonus to all armor manufacturing, increases maximum storage and gives the village an additional armorsmith job slot."
     
     ammoStorage:
       small:
         name:
-          text: "Small Ammo Storage"
+          text: "小型弹药仓库"
         description:
           text: "A storage building that can hold ammo for your villager's equipment and towers."
       base:
         name:
-          text: "Ammo Storage"
+          text: "基本弹药仓库"
         description:
           text: "Increases the amount of ammo the building can store."
       large:
         name:
-          text: "Large Ammo Storage"
+          text: "中型弹药仓库"
         description:
           text: "Further increases the amount of ammo the building can store."
       established:
         name:
-          text: "Established Ammo Storage"
+          text: "大型弹药仓库"
         description:
           text: "Further increases the amount of ammo the building can store."
       reinforced:
         name:
-          text: "Reinforced Ammo Storage"
+          text: "精修弹药仓库"
         description:
           text: "Increases the amount of ammo the building can store to maximum."
     
     attractTower:
       makeshift:
         name:
-          text: "Makeshift Attract Tower"
+          text: "简易吸引塔"
         description:
           text: "Detects nearby recently dropped resources and items and teleports them to the tower. Requires an essence collector to run."
       base:
         name:
-          text: "Attract Tower"
+          text: "基本吸引塔"
         description:
           text: "Increases firing speed, range and maximum energy storage, while reducing firing cost."
       established:
         name:
-          text: "Established Attract Tower"
+          text: "强化吸引塔"
         description:
           text: "Further increases firing speed, range and maximum energy storage, while further reducing firing cost."
       reinforced:
         name:
-          text: "Reinforced Attract Tower"
+          text: "高级吸引塔"
         description:
           text: "Further increases firing speed, range and maximum energy storage, while further reducing firing cost."
     
     ballistaTower:
       makeshift:
         name:
-          text: "Makeshift 弩炮"
+          text: "简易弩炮"
         description:
           text: "A heavyweight tower with extremely long range and damage but has a slow firing rate. Can shoot over anything. Requires a bowyer to manufacture ballista bolts for ammunition."
       base:
         name:
-          text: "弩炮"
+          text: "基本弩炮"
         description:
           text: "Increases maximum range, damage and ammunition storage of the tower."
       established:
         name:
-          text: "Established 弩炮"
+          text: "强化弩炮"
         description:
           text: "Further increases maximum range, damage and ammunition storage of the tower."
       fire:
         name:
-          text: "Fire 弩炮"
+          text: "火焰弩炮"
         description:
           text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
       poison:
         name:
-          text: "Poison 弩炮"
+          text: "淬毒弩炮"
         description:
           text: "Adds poison damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
       ice:
         name:
-          text: "Ice 弩炮"
+          text: "寒冰弩炮"
         description:
           text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular ballista arrows until its ammunition runs out."
     
     banishTower:
       makeshift:
         name:
-          text: "Makeshift Banish Tower"
+          text: "简易放逐塔"
         description:
           text: "A short range, slow firing tower that will find a nearby foe in the area, and banish them to a random location on the map."
       base:
         name:
-          text: "Banish Tower"
+          text: "基本放逐塔"
         description:
           text: "Increases the maximum energy and 攻速 of the tower."
       established:
         name:
-          text: "Established Banish Tower"
+          text: "强化放逐塔"
         description:
           text: "Further increases the maximum energy and 攻速 of the tower."
       reinforced:
         name:
-          text: "Reinforced Banish Tower"
+          text: "高级放逐塔"
         description:
           text: "Further increases the maximum energy and 攻速 of the tower."
     
     barracks:
       makeshift:
         name:
-          text: "Makeshift Barracks"
+          text: "简易兵营"
         description:
           text: "Provides and houses guards that will protect and patrol the village, also provides slightly better health regeneration than regular homes at the cost of energy and happiness generation."
       base:
         name:
-          text: "Barracks"
+          text: "基本兵营"
         description:
           text: "Increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
       established:
         name:
-          text: "Established Barracks"
+          text: "高级兵营"
         description:
           text: "Adds a small 弓箭塔 to the barracks, as well as further increases provided guards, storage space and the health regeneration bonus of guards resting in the barracks."
     
     bottler:
       makeshift:
         name:
-          text: "Makeshift Bottler"
+          text: "简易装瓶厂"
         description:
           text: "Provides workers who can bottles up water so villagers can carry some around with them, improving overall village efficiency by cutting down on trips to water sources around the village."
       base:
         name:
-          text: "Bottler"
+          text: "基本装瓶厂"
         description:
           text: "Grants a global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
       established:
         name:
-          text: "Established Bottler"
+          text: "高级装瓶厂"
         description:
           text: "Increases global speed bonus to all bottler manufacturing, increases maximum storage and gives the village an additional bottler job slot."
     
     bowTower:
       makeshift:
         name:
-          text: "Makeshift 弓箭塔"
+          text: "简易弓箭塔"
         description:
           text: "A lightweight tower with decent range that can fire over most walls. Good for early defenses. Requires a bowyer to manufacture ballista bolts for ammunition."
       base:
         name:
-          text: "弓箭塔"
+          text: "基本弓箭塔"
         description:
           text: "Increases maximum range, damage, firing rate and ammunition storage of the tower."
       established:
         name:
-          text: "Established 弓箭塔"
+          text: "强化弓箭塔"
         description:
           text: "Further increases maximum range, damage, firing rate and ammunition storage of the tower."
       fire:
         name:
-          text: "Fire 弓箭塔"
+          text: "火焰弓箭塔"
         description:
           text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
       poison:
         name:
-          text: "Poison 弓箭塔"
+          text: "毒素弓箭塔"
         description:
           text: "Adds poison damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
       ice:
         name:
-          text: "Ice 弓箭塔"
+          text: "寒冰弓箭塔"
         description:
           text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular arrows until its ammunition runs out."
     
     bowyer:
       makeshift:
         name:
-          text: "Makeshift Bowyer"
+          text: "简易弓箭厂"
         description:
           text: "Provides workers who can manufacture bows and arrows for villagers as well as tower ammunition for bow based towers, like the bow and 弩炮."
       base:
         name:
-          text: "Bowyer"
+          text: "基本弓箭厂"
         description:
           text: "Grants a global speed bonus to all bow and arrow manufacturing, increases maximum storage and gives the village an additional bowyer job slot."
       established:
         name:
-          text: "Established Bowyer"
+          text: "高级弓箭厂"
         description:
           text: "Increases global speed bonus to all bow and arrow manufacturing, increases maximum storage and gives the village an additional bowyer job slot."
     
     bulletTower:
       makeshift:
         name:
-          text: "Makeshift Bullet Tower"
+          text: "简易轻炮塔"
         description:
           text: "A lightweight tower that can fire over most walls. Good for early defenses. Requires a rock tumbler to manufacture bullets for ammunition."
       base:
         name:
-          text: "Bullet Tower"
+          text: "基本轻炮塔"
         description:
           text: "Increases damage and ammunition storage of the tower."
       established:
         name:
-          text: "Established Bullet Tower"
+          text: "强化轻炮塔"
         description:
           text: "Further increases damage and ammunition storage of the tower."
       fire:
         name:
-          text: "Fire Bullet Tower"
+          text: "火焰轻炮塔"
         description:
           text: "Adds fire damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
       lightning:
         name:
-          text: "Lightning Bullet Tower"
+          text: "闪电轻炮塔"
         description:
           text: "Adds lightning damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
       ice:
         name:
-          text: "Ice Bullet Tower"
+          text: "寒冰轻炮塔"
         description:
           text: "Adds ice damage to the tower, but consumes energy to fire. If the energy reserves are exhausted, it will continue to fire regular bullets until its ammunition runs out."
     
     clinic:
       makeshift:
         name:
-          text: "Makeshift Clinic"
+          text: "诊所"
         description:
           text: "An aid station that provides medics who can heal the sick and wounded, as well as manufacture bandages villagers can carry with them to heal themselves in a pinch."
       base:
         name:
-          text: "Clinic"
+          text: "医院"
         description:
           text: "Grants a global speed bonus to all bandage and medkit manufacturing, increases maximum storage and gives the village additional medic job slots."
       established:
         name:
-          text: "Established Clinic"
+          text: "医疗中心"
         description:
           text: "Increases global speed bonus to all bandage and medkit manufacturing, increases maximum storage and gives the village additional medic job slots."
     
     crystalGolemCombobulator:
       makeshift:
         name:
-          text: "Makeshift Crystal Golem Combobulator"
+          text: "简易灵晶魔偶装配站"
         description:
           text: "A host building that consumes energy and nearby crystals, creating defensive crystal golems with a ranged attack that will protect the village."
       base:
         name:
-          text: "Crystal Golem Combobulator"
+          text: "基本灵晶魔偶装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       established:
         name:
-          text: "Established Crystal Golem Combobulator"
+          text: "强化灵晶魔偶装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       lightning:
         name:
-          text: "Lightning Crystal Golem Combobulator"
+          text: "闪电灵晶魔偶装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems lightning damage, but cost more energy to produce a new golem."
       ice:
         name:
-          text: "Ice Crystal Golem Combobulator"
+          text: "寒冰灵晶魔偶装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems ice damage, but cost more energy to produce a new golem."
       fire:
         name:
-          text: "Fire Crystal Golem Combobulator"
+          text: "火焰灵晶魔偶装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems fire damage, but cost more energy to produce a new golem."
     
     crystalHarvestry:
       makeshift:
         name:
-          text: "Makeshift Crystal Harvestry"
+          text: "简易采晶场"
         description:
           text: "Provides workers to harvest large quantities of crystal and create a stockpile, a staple resource in most magic based construction."
       base:
         name:
-          text: "Crystal Harvestry"
+          text: "基本采晶场"
         description:
           text: "Grants a global speed bonus to all crystal harvesting, increases maximum storage and gives the village additional crystal harvester job slots."
       established:
         name:
-          text: "Established Crystal Harvestry"
+          text: "高级采晶场"
         description:
           text: "Increases global speed bonus to all crystal harvesting, increases maximum storage and gives the village additional crystal harvester job slots."
     
     crystalMotivator:
       name:
-        text: "Crystal Motivator"
+        text: "水晶激励器"
       description:
         text: "Uses a small amount of energy to encourage nearby harvested crystal patches to grow faster."
     
     crystalStorage:
       small:
         name:
-          text: "Small Crystal Storage"
+          text: "小型水晶仓库"
         description:
           text: "A storage building that can hold crystals, crylithium and other crystal based materials."
       base:
         name:
-          text: "Crystal Storage"
+          text: "基本水晶仓库"
         description:
           text: "Increases the amount of crystals, crylithium and other crystal based materials the building can store."
       large:
         name:
-          text: "Large Crystal Storage"
+          text: "中型水晶仓库"
         description:
           text: "Further increases the amount of crystals, crylithium and other crystal based materials the building can store."
       established:
         name:
-          text: "Established Crystal Storage"
+          text: "大型水晶仓库"
         description:
           text: "Further increases the amount of crystals, crylithium and other crystal based materials the building can store."
       reinforced:
         name:
-          text: "Reinforced Crystal Storage"
+          text: "精修水晶仓库"
         description:
           text: "Increases the amount of crystals, crylithium and other crystal based materials the building can store to maximum."
     
     crystillery:
       makeshift:
         name:
-          text: "Makeshift Crystillery"
+          text: "简易晶化厂"
         description:
           text: "Provides workers who refine crystals harvested by the crystal harvestry into crylithium, a fuel that can be used to charge essence collectors, and is used in some construction."
       base:
         name:
-          text: "Crystillery"
+          text: "基本晶化厂"
         description:
           text: "Grants a global speed bonus to crylithium manufacturing, increases maximum storage and gives the village an additional crystiller job slot."
       established:
         name:
-          text: "Established Crystillery"
+          text: "高级晶化厂"
         description:
           text: "Increases global speed bonus to crylithium manufacturing, increases maximum storage and gives the village an additional crystiller job slot."
     
     cullisGate:
       name:
-        text: "Cullis Gate"
+        text: "库里斯之门"
       description:
         text: "A sacrificial pond that will convert material items and living tissue into essence when dropped inside. If used too fast, it will overload！"
     
     doggoHouse:
       name:
-        text: "Doggo House"
+        text: "狗舍"
       description:
         text: "A small house for your doggos to quickly recharge！ If you already have doggos living in your housing, they will attempt to move into the doggo house, freeing up space for your villagers."
     
     equipmentStorage:
       small:
         name:
-          text: "Small Equipment Storage"
+          text: "小型装备仓库"
         description:
           text: "A storage building for most of the villager's tools, armor, weapons and other equipment."
       base:
         name:
-          text: "Equipment Storage"
+          text: "基本装备仓库"
         description:
           text: "Increases the amount of tools, armor, weapons and other equipment the building can store."
       large:
         name:
-          text: "Large Equipment Storage"
+          text: "中型装备仓库"
         description:
           text: "Further increases the amount of tools, armor, weapons and other equipment the building can store."
       established:
         name:
-          text: "Established Equipment Storage"
+          text: "大型装备仓库"
         description:
           text: "Further increases the amount of tools, armor, weapons and other equipment the building can store."
       reinforced:
         name:
-          text: "Reinforced Equipment Storage"
+          text: "精修装备仓库"
         description:
           text: "Increases the amount of tools, armor, weapons and other equipment the building can store to maximum."
     
     essenceCollector:
       makeshift:
         name:
-          text: "Makeshift Essence Collector"
+          text: "简易灵质收集器"
         description:
           text: "Pulls in and stores loose essence on the map to later be used by other buildings, crystillers can also throw crylithium to charge it. You can wave your hand over it to sap energy in a pinch."
       base:
         name:
-          text: "Essence Collector"
+          text: "基本灵质收集器"
         description:
           text: "Increases the overall storage capacity of the essence collector, as well as boosts the energy generation rate when fueled with crylithium."
       established:
         name:
-          text: "Established Essence Collector"
+          text: "高级灵质收集器"
         description:
           text: "Further increases the overall storage capacity of the essence collector, as well as boosts the energy generation rate when fueled with crylithium."
     
     elementalBoltTower:
       makeshift:
         name:
-          text: "Makeshift Elemental Bolt Tower"
+          text: "简易元素箭塔"
         description:
           text: "Fires energy blasts with splash damage at nearby enemies. Requires an essence collector to run."
       base:
         name:
-          text: "Elemental Bolt Tower"
+          text: "基本元素箭塔"
         description:
           text: "Increases the tower's damage and firing rate."
       established:
         name:
-          text: "Established Elemental Bolt Tower"
+          text: "强化元素箭塔"
         description:
           text: "Further increases the tower's damage and firing rate."
       fire:
         name:
-          text: "Fire Bolt Tower"
+          text: "火焰元素箭塔"
         description:
           text: "Further increases the tower's damage, and converts a large amount of the damage into fire."
       lightning:
         name:
-          text: "Lightning Bolt Tower"
+          text: "闪电元素箭塔"
         description:
           text: "Further increases the tower's damage, and converts a large amount of the damage into lightning."
       ice:
         name:
-          text: "Ice Bolt Tower"
+          text: "寒冰元素箭塔"
         description:
           text: "Further increases the tower's damage, and converts a large amount of the damage into ice."
     
     farm:
       makeshift:
         name:
-          text: "Makeshift Farm"
+          text: "简易农场"
         description:
           text: "Grow food to feed the village. Requires farmers to harvest wild food to seed the farm. Farmers can tend and water the crops to increase growth speed！ Farms don't work well in the Summer or Winter."
       base:
         name:
-          text: "Farm"
+          text: "基本农场"
         description:
           text: "Grants a global speed bonus to all food harvesting, increases maximum storage, gives the village additional farmer job slots and adds extra space for crops."
       established:
         name:
-          text: "Established Farm"
+          text: "高级农场"
         description:
           text: "Increases global speed bonus to all food harvesting, increases maximum storage, gives the village additional farmer job slots and adds extra space for crops."
     
     firePit:
       name:
-        text: "Fire Pit"
+        text: "火坑"
       description:
         text: "Just a basic light source. Will also increase your build range a bit！ Monsters won't attack it, so feel free to build it into your walls."
     
     largeFirePit:
       name:
-        text: "Large Fire Pit"
+        text: "大火坑"
       description:
         text: "Just a basic light source, but slightly bigger！ Will also increase your build range a bit！ Monsters won't attack it, so feel free to build it into your walls."
     
     foodStorage:
       small:
         name:
-          text: "Small Food Storage"
+          text: "小型食品仓库"
         description:
           text: "A storage building that can hold food stuffs."
       base:
         name:
-          text: "Food Storage"
+          text: "基本食品仓库"
         description:
           text: "Increases the amount of food stuffs the building can store."
       large:
         name:
-          text: "Large Food Storage"
+          text: "中型食品仓库"
         description:
           text: "Further increases the amount of food stuffs the building can store."
       established:
         name:
-          text: "Established Food Storage"
+          text: "大型食品仓库"
         description:
           text: "Further increases the amount of food stuffs the building can store."
       reinforced:
         name:
-          text: "Reinforced Food Storage"
+          text: "精修食品仓库"
         description:
           text: "Increases the amount of food stuffs the building can store to maximum."
     
     forge:
       makeshift:
         name:
-          text: "Makeshift Forge"
+          text: "简易冶炼厂"
         description:
           text: "Provides workers who can smelt ore into ingots, and gold ingots into gold coins to use later to buy goods in the marketplace."
       base:
         name:
-          text: "Forge"
+          text: "基本冶炼厂"
         description:
           text: "Grants a global speed bonus to all ore smelting, increases maximum storage and gives the village additional smelter job slots."
       established:
         name:
-          text: "Established Forge"
+          text: "高级冶炼厂"
         description:
           text: "Increases global speed bonus to all ore smelting, increases maximum storage and gives the village additional smelter job slots."
     
     goldStorage:
       small:
         name:
-          text: "Small Gold Storage"
+          text: "简易金库"
         description:
           text: "A storage building that can hold overflow gold and gold ingots."
       base:
         name:
-          text: "Gold Storage"
+          text: "基本金库"
         description:
           text: "Increases the amount of gold and gold ingots the building can store."
       large:
         name:
-          text: "Large Gold Storage"
+          text: "中型金库"
         description:
           text: "Further increases the amount of gold and gold ingots the building can store."
       established:
         name:
-          text: "Established Gold Storage"
+          text: "大型金库"
         description:
           text: "Further increases the amount of gold and gold ingots the building can store."
       reinforced:
         name:
-          text: "Reinforced Gold Storage"
+          text: "精修金库"
         description:
           text: "Increases the amount of gold and gold ingots the building can store to maximum."
     
     housing:
       base:
         name:
-          text: "Housing"
+          text: "房舍"
       makeshift:
         name:
-          text: "Makeshift Housing"
+          text: "简易住房"
         description:
           text: "Foundation for new housing in your village, can be upgraded for higher occupancy, quality or a balance of both. Always want to make sure you have enough housing for everybody！"
       baseHighOccupancy:
         name:
-          text: "High Occupancy Housing"
+          text: "基本密集住房"
         description:
           text: "Greatly increases the maximum occupancy and storage space, but at the cost of comfort. This is a good selection when overpopulation is a problem."
       largeHighOccupancy:
         name:
-          text: "Large High Occupancy Housing"
+          text: "大型密集住房"
         description:
           text: "Further increases the maximum occupancy and storage space, but at an additional cost to comfort."
       establishedHighOccupancy:
         name:
-          text: "Established High Occupancy Housing"
+          text: "高级密集住房"
         description:
           text: "Further increases the maximum occupancy and storage space, but at an additional cost to comfort."
       reinforcedHighOccupancy:
         name:
-          text: "Reinforced High Occupancy Housing"
+          text: "精修密集住房"
         description:
           text: "Increases the maximum occupancy and storage space to the maximum levels high occupancy housing can have, but has the lowest comfort of any building in the game."
       baseStandard:
         name:
-          text: "Standard Housing"
+          text: "基本标准住房"
         description:
           text: "Increases the maximum occupancy, storage space and comfort fairly evenly. This is a good selection for a village where you want some space for villagers, but don't want the drawbacks of high occupancy."
       largeStandard:
         name:
-          text: "Large Standard Housing"
+          text: "大型标准住房"
         description:
           text: "Further increases the maximum occupancy, storage space and comfort."
       establishedStandard:
         name:
-          text: "Established Standard Housing"
+          text: "高级标准住房"
         description:
           text: "Further increases the maximum occupancy, storage space and comfort."
       reinforcedStandard:
         name:
-          text: "Reinforced Standard Housing"
+          text: "精修标准住房"
         description:
           text: "Increases the maximum occupancy, storage space and comfort to the maximum levels standard housing can have."
       baseHighQuality:
         name:
-          text: "High Quality Housing"
+          text: "基本优质住房"
         description:
           text: "Very slightly increases the maximum occupancy and storage space, but greatly increases comfort. This is good housing if you want the happiest and most productive villagers."
       largeHighQuality:
         name:
-          text: "Large High Quality Housing"
+          text: "大型优质住房"
         description:
           text: "Further increases the maximum occupancy, storage space and comfort."
       establishedHighQuality:
         name:
-          text: "Established High Quality Housing"
+          text: "高级优质住房"
         description:
           text: "Further increases the maximum occupancy, storage space and comfort."
       reinforcedHighQuality:
         name:
-          text: "Reinforced High Quality Housing"
+          text: "精修优质住房"
         description:
           text: "Increases the maximum occupancy, storage space and comfort to the maximum levels high quality housing can have."
     
     keyShack:
       small:
         name:
-          text: "Small Key Shack"
+          text: "简易锁钥间"
         description:
           text: "A shack for your keys！"
       base:
         name:
-          text: "Key Shack"
+          text: "基本锁钥间"
         description:
           text: "Increases the amount of keys the building can store."
       large:
         name:
-          text: "Large Key Shack"
+          text: "中型锁钥间"
         description:
           text: "Further increases the amount of keys the building can store."
       established:
         name:
-          text: "Established Key Shack"
+          text: "大型锁钥间"
         description:
           text: "Further increases the amount of keys the building can store."
       reinforced:
         name:
-          text: "Reinforced Key Shack"
+          text: "精修锁钥间"
         description:
           text: "Increases the amount of keys the building can store to maximum."
     
     largeFountain:
       name:
-        text: "Large Fountain"
+        text: "大喷泉"
       description:
         text: "A place your villagers can go to get a refreshing drink. Works best with a well, raincatcher or water purifier and well masters to supply the fountain."
     
     lootBox:
       clicked:
-        text: "Locked？！"
+        text: "上锁了？"
       name:
-        text: "Loot Box？！"
+        text: "宝箱？"
       description:
-        text: "Seriously？ In a single player game？！"
+        text: "真的吗？在单人游戏里？！"
     
     lightningRod:
       makeshift:
         name:
-          text: "Makeshift Lightning Rod"
+          text: "简易避雷针"
         description:
           text: "A large rod of iron that will attract lightning, and convert it to essence. Very handy to protect the village from lightning storms."
       base:
         name:
-          text: "Lightning Rod"
+          text: "基本避雷针"
         description:
           text: "Increases the amount of energy the rod can store and boosts overall hit points."
       established:
         name:
-          text: "Established Lightning Rod"
+          text: "高级避雷针"
         description:
           text: "Increases the amount of energy the rod can store and the lightning rod's hit points to maximum."
     
     corruptedGraveyardSmall:
       name:
-        text: "Corrupted Graveyard"
+        text: "腐化小墓地"
       description:
         text: "A corrupted building created in the depths of corrupted land."
     
     corruptedGraveyardMedium:
       name:
-        text: "Corrupted Graveyard"
+        text: "腐化的墓地"
       description:
         text: "A corrupted building created in the depths of corrupted land."
     
     corruptedGraveyardLarge:
       name:
-        text: "Corrupted Graveyard"
+        text: "腐化大墓地"
       description:
         text: "A corrupted building created in the depths of corrupted land."
     
     corruptedFireBowTower:
       name:
-        text: "Corrupted Fire 弓箭塔"
+        text: "腐化的火焰弓箭塔"
       description:
         text: "A lightweight corrupted tower with decent range that can fire over most walls."
     
     corruptedIceBowTower:
       name:
-        text: "Corrupted Ice 弓箭塔"
+        text: "腐化的寒冰弓箭塔"
       description:
         text: "A lightweight corrupted tower with decent range that can fire over most walls."
     
     corruptedPoisonBowTower:
       name:
-        text: "Corrupted Poison 弓箭塔"
+        text: "腐化的淬毒弓箭塔"
       description:
         text: "A lightweight corrupted tower with decent range that can fire over most walls."
     
     corruptedLightningBowTower:
       name:
-        text: "Corrupted Lightning 弓箭塔"
+        text: "腐化的闪电弓箭塔"
       description:
         text: "A lightweight corrupted tower with decent range that can fire over most walls."
     
     corruptedFirePhantomDartTower:
       name:
-        text: "Corrupted Fire 幻影飞弹塔"
+        text: "腐化的火焰幻影镖塔"
       description:
         text: "A small tower that fires low level magic damage and can be walked over."
     
     corruptedIcePhantomDartTower:
       name:
-        text: "Corrupted Ice 幻影飞弹塔"
+        text: "腐化的寒冰幻影镖塔"
       description:
         text: "A small tower that fires low level magic damage and can be walked over."
     
     corruptedPoisonPhantomDartTower:
       name:
-        text: "Corrupted Poison 幻影飞弹塔"
+        text: "腐化的毒素幻影镖塔"
       description:
         text: "A small tower that fires low level magic damage and can be walked over."
     
     corruptedLightningPhantomDartTower:
       name:
-        text: "Corrupted Lightning 幻影飞弹塔"
+        text: "腐化的闪电幻影镖塔"
       description:
         text: "A small tower that fires low level magic damage and can be walked over."
     
     corruptedLargeFirePit:
       name:
-        text: "Corrupted Large Fire Pit"
+        text: "腐化的大火坑"
       description:
         text: "Just a basic, but slightly larger light source, for the corruption."
     
     corruptedFirePit:
       name:
-        text: "Corrupted Fire Pit"
+        text: "腐化的火坑"
       description:
         text: "Just a basic light source, for the corruption."
     
     courierStation:
       makeshift:
         name:
-          text: "Makeshift Courier Station"
+          text: "简易移民驿站"
         description:
           text: "A host building creates信使魔偶used to deliver resources to nearby regions. Also provides courier suppliers who can deliver the resources to the golems to prepare them for departure."
       base:
         name:
-          text: "Courier Station"
+          text: "基本移民驿站"
         description:
           text: "Increases courier golems, as well as the amount of parking spots available, decreases their 能耗 to spawn, and provides additional courier supplier job slots."
       established:
         name:
-          text: "Established Courier Station"
+          text: "高级移民驿站"
         description:
           text: "Further increases courier golems, as well as the amount of parking spots available, decreases their 能耗 to spawn, and provides additional courier supplier job slots."
     
     kitchen:
       makeshift:
         name:
-          text: "Makeshift Kitchen"
+          text: "简易厨房"
         description:
           text: "Provides workers who can prepare efficient rations your villagers can carry with them. Effective at extending your food supply to survive harsher weather when crops won't grow."
       base:
         name:
-          text: "Kitchen"
+          text: "基本厨房"
         description:
           text: "Grants a global speed bonus to ration manufacturing, increases maximum storage and gives the village additional cook job slots."
       established:
         name:
-          text: "Established Kitchen"
+          text: "高级厨房"
         description:
           text: "Increases global speed bonus to ration manufacturing, increases maximum storage and gives the village additional cook job slots."
     
     lumberMill:
       makeshift:
         name:
-          text: "简易锯木场"
+          text: "简易锯木厂"
         description:
           text: "A large mill that provides workers to convert logs harvested by your lumber shack into boards, required by many complex buildings."
       base:
         name:
-          text: "基本锯木场"
+          text: "基本锯木厂"
         description:
           text: "Grants a global speed bonus to board manufacturing, increases maximum storage and gives the village an additional carpenter job slot."
       established:
         name:
-          text: "坚固锯木场"
+          text: "坚固锯木厂"
         description:
           text: "Increases global speed bonus to board manufacturing, increases maximum storage and gives the village an additional carpenter job slot."
     
@@ -9422,49 +9422,49 @@ object:
     outpost:
       makeshift:
         name:
-          text: "Makeshift Outpost"
+          text: "简易前哨"
         description:
           text: "Remote outpost your guards will use as a patrol point while protecting the village. Don't put it anywhere too dangerous！"
       base:
         name:
-          text: "Outpost"
+          text: "基本前哨"
         description:
           text: "Increases the amount of guards the outpost can provide."
       established:
         name:
-          text: "Established Outpost"
+          text: "高级前哨"
         description:
           text: "Further increases the amount of guards the outpost can provide and adds a small defensive 弓箭塔 on top of the outpost."
     
     phantomDartTower:
       makeshift:
         name:
-          text: "Makeshift 幻影飞弹塔"
+          text: "简易幻影镖塔"
         description:
           text: "A small tower that fires low level magic damage and can be walked over. Requires an essence collector to run."
       base:
         name:
-          text: "幻影飞弹塔"
+          text: "基本幻影镖塔"
         description:
           text: "Slightly increases the damage and maximum energy of the tower."
       established:
         name:
-          text: "Established 幻影飞弹塔"
+          text: "强化幻影镖塔"
         description:
           text: "Further increases the damage and maximum energy of the tower."
       fire:
         name:
-          text: "Phantom Fire Dart Tower"
+          text: "烈焰幻影镖塔"
         description:
           text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into fire."
       lightning:
         name:
-          text: "Phantom Lightning Dart Tower"
+          text: "闪电幻影镖塔"
         description:
           text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into lightning."
       ice:
         name:
-          text: "寒冰幻影飞弹塔"
+          text: "寒冰幻影镖塔"
         description:
           text: "Further increases the damage and maximum energy of the tower, and converts a large amount of the damage into ice."
     
@@ -9685,149 +9685,149 @@ object:
     rainCatcher:
       makeshift:
         name:
-          text: "Makeshift Rain Catcher"
+          text: "简易集雨器"
         description:
           text: "Collects rain water and provides water master job slots to distribute it around the village. A great way to rapidly collect large amounts of water when it rains."
       base:
         name:
-          text: "Rain Catcher"
+          text: "基本集雨器"
         description:
           text: "Increases amount of water the the rain collector can store, as well as additional water master job slots."
       established:
         name:
-          text: "Established Rain Catcher"
+          text: "高级集雨器"
         description:
           text: "Further increases amount of water the the rain collector can store, as well as additional water master job slots."
     
     recombobulatorTower:
       makeshift:
         name:
-          text: "Makeshift 净化塔"
+          text: "简易重组塔"
         description:
           text: "A tower that will attract most friendly golems, and heal any that are damaged. Requires an essence collector to run."
       base:
         name:
-          text: "净化塔"
+          text: "基本重组塔"
         description:
           text: "Increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
       established:
         name:
-          text: "Established 净化塔"
+          text: "强化重组塔"
         description:
           text: "Further increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
       reinforced:
         name:
-          text: "Reinforced 净化塔"
+          text: "高级重组塔"
         description:
           text: "Further increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
     
     rockStorage:
       small:
         name:
-          text: "Small Rock Storage"
+          text: "简易石材仓库"
         description:
           text: "A storage building that can hold rocks, stone and other rock based materials."
       base:
         name:
-          text: "Rock Storage"
+          text: "基本石材仓库"
         description:
           text: "Increases the amount of rocks, stone and other rock based materials the building can store."
       large:
         name:
-          text: "Large Rock Storage"
+          text: "中型石材仓库"
         description:
           text: "Further increases the amount of rocks, stone and other rock based materials the building can store."
       established:
         name:
-          text: "Established Rock Storage"
+          text: "大型石材仓库"
         description:
           text: "Further increases the amount of rocks, stone and other rock based materials the building can store."
       reinforced:
         name:
-          text: "Reinforced Rock Storage"
+          text: "精修石材仓库"
         description:
           text: "Increases the amount of rocks, stone and other rock based materials the building can store to maximum."
     
     rockTumbler:
       makeshift:
         name:
-          text: "Makeshift Rock Tumbler"
+          text: "简易磨石器"
         description:
           text: "Provides workers who can manufacture bullets from rocks, a tower ammunition for sling and rock based towers, like the bullet, sling and 霰射塔."
       base:
         name:
-          text: "Rock Tumbler"
+          text: "基本磨石器"
         description:
           text: "Grants a global speed bonus to bullet manufacturing, increases maximum storage and gives the village an additional tumbler job slot."
       established:
         name:
-          text: "Established Rock Tumbler"
+          text: "高级磨石器"
         description:
           text: "Increases global speed bonus to bullet manufacturing, increases maximum storage and gives the village an additional tumbler job slot."
     
     stoneCuttery:
       makeshift:
         name:
-          text: "Makeshift Stone Cuttery"
+          text: "简易切石场"
         description:
           text: "A small building that provides workers to convert rocks harvested by your mining facility into cut stone, required by many complex buildings."
       base:
         name:
-          text: "Stone Cuttery"
+          text: "基本切石场"
         description:
           text: "Grants a global speed bonus to cut stone manufacturing, increases maximum storage and gives the village an additional stone cutter job slot."
       established:
         name:
-          text: "Established Stone Cuttery"
+          text: "高级切石场"
         description:
           text: "Increases global speed bonus to cut stone manufacturing, increases maximum storage and gives the village an additional stone cutter job slot."
     
     stoneGolemCombobulator:
       makeshift:
         name:
-          text: "Makeshift Stone Golem Combobulator"
+          text: "简易灵石魔偶装配站"
         description:
           text: "A host building that consumes energy and nearby rock, creating slow moving, high hit point defensive stone golems."
       base:
         name:
-          text: "Stone Golem Combobulator"
+          text: "基本灵石魔偶装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       established:
         name:
-          text: "Established Stone Golem Combobulator"
+          text: "高级灵石魔偶装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       lightning:
         name:
-          text: "Lightning Stone Golem Combobulator"
+          text: "闪电灵石魔偶装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems lightning damage, but cost more energy to produce a new golem."
       ice:
         name:
-          text: "Ice Stone Golem Combobulator"
+          text: "寒冰灵石魔偶装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems ice damage, but cost more energy to produce a new golem."
       fire:
         name:
-          text: "Fire Stone Golem Combobulator"
+          text: "火焰灵石魔偶装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems fire damage, but cost more energy to produce a new golem."
     
     toolsmithy:
       makeshift:
         name:
-          text: "Makeshift Toolsmithy"
+          text: "简易工具厂"
         description:
           text: "Provides workers who can turn iron ingots into tools for your villagers that will boost work efficiency. Requires a forge to process raw ore into ingots."
       base:
         name:
-          text: "Toolsmithy"
+          text: "基本工具厂"
         description:
           text: "Grants a global speed bonus to all tool manufacturing, increases maximum storage and gives the village an additional toolsmith job slot."
       established:
         name:
-          text: "Established Toolsmithy"
+          text: "高级工具厂"
         description:
           text: "Increases global speed bonus to all tool manufacturing, increases maximum storage and gives the village an additional toolsmith job slot."
     
@@ -10267,7 +10267,7 @@ stateBase:
     3:
       text: "你可以在市场买卖物资。建一个吧！"
     4:
-      text: "增加人口也会增加神力值上限。"
+      text: "增加人口也会增加神力上限。"
     5:
       text: "火元素不能游泳。"
     6:
@@ -10291,7 +10291,7 @@ stateBase:
     15:
       text: "流民有时会造访当地，并尝试融入聚落。面积宽敞、住房和防务更充分的聚落会有更高概率被造访。"
     16:
-      text: "灵质可被你的手吸收，增长神力值。"
+      text: "灵质可被你的手吸收，增长神力。"
     17:
       text: "使用屏幕左侧的岗位调整标签可增减各岗位分配的工人数量。"
     18:
@@ -10317,7 +10317,7 @@ stateBase:
     28:
       text: "魔法塔需要灵质，建一些灵质收集器！"
     29:
-      text: "锯木场可以将原木加工成木板，木板可用于许多高阶建筑。"
+      text: "锯木厂可以将原木加工成木板，木板可用于许多高阶建筑。"
     30:
       text: "切石场可以将岩石加工成石板，石板可用于许多高阶建筑。"
     31:
