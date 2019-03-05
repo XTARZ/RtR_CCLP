@@ -10,17 +10,17 @@ godXP:
   
   # Village Related
   nomadsJoinedVillage:
-    text: "流浪者加入数"
+    text: "流民加入"
   buildingsUpgraded:
-    text: "建筑物升级数"
+    text: "建筑升级"
   buildingsConstructed:
-    text: "建筑物建造数"
+    text: "建筑建造"
   buildingsDismantled:
-    text: "建筑物拆除数"
+    text: "建筑拆除"
   wallsDismantled:
-    text: "围墙拆除数"
+    text: "围墙拆除"
   wallsConstructed:
-    text: "围墙建造数"
+    text: "围墙建造"
 
   # Villager/Mob Related,
   villagerLeveledUp:
@@ -38,7 +38,7 @@ godXP:
   clearingRoads:
     text: "清理道路"
   combat:
-    text: "战斗"
+    text: "战斗发生"
   clearingTopography:
     text: "清理地形"
   harvestingResources:
@@ -58,7 +58,7 @@ godXP:
   deliveringResourcesToConstructionSites:
     text: "向工地运送物资"
   deliveringResourcesToCouriers:
-    text: "向信使运送物资"
+    text: "向货场运送物资"
   deliveringResourcesToRoad:
     text: "向道路运送物资"
   diggingHoles:
@@ -70,7 +70,7 @@ godXP:
   findingNewHome:
     text: "寻找新家"
   growingUp:
-    text: "成长"
+    text: "长大成人"
   patrolling:
     text: "巡逻"
   guardDuty:
@@ -82,7 +82,7 @@ godXP:
   migrantsDeparting:
     text: "移民出发"
   couriersDeparting:
-    text: "镖局出发"
+    text: "货运出发"
   redistributingResources:
     text: "调度资源"
   refiningResources:
@@ -320,15 +320,15 @@ perkType:
   stoneGolemLevel:
     text: "灵石魔像等级"
   stoneGolemCapacity:
-    text: "灵石魔偶负载"
+    text: "灵石魔像负载"
   stoneGolemChargeTime:
-    text: "灵石魔偶充能时间"
+    text: "灵石魔像充能时间"
   crystalGolemLevel:
-    text: "灵晶魔偶等级"
+    text: "灵晶魔像等级"
   crystalGolemCapacity:
-    text: "灵晶魔偶负载"
+    text: "灵晶魔像负载"
   crystalGolemChargeTime:
-    text: "灵晶魔偶充能时间"
+    text: "灵晶魔像充能时间"
   attractTowerRange:
     text: "吸引塔范围"
   attractTowerFireRate:
@@ -354,29 +354,29 @@ perkType:
   bulletTowerFireRate:
     text: "投弹塔攻速"
   elementalBoltTowerRange:
-    text: "Elemental Bolt Tower范围"
+    text: "元素箭塔范围"
   elementalBoltTowerFireRate:
-    text: "Elemental Bolt Tower 攻速"
+    text: "元素箭塔攻速"
   elementalBoltTowerEnergyCost:
-    text: "Elemental Bolt Tower 能耗"
+    text: "元素箭塔能耗"
   motivatorTowerRange:
-    text: "Motivator Tower范围"
+    text: "激励塔范围"
   motivatorTowerFireRate:
-    text: "Motivator Tower 攻速"
+    text: "激励塔攻速"
   motivatorTowerEnergyCost:
-    text: "Motivator Tower 能耗"
+    text: "激励塔能耗"
   phantomDartTowerRange:
-    text: "幻影飞弹塔范围"
+    text: "幻影镖塔范围"
   phantomDartTowerFireRate:
-    text: "幻影飞弹塔攻速"
+    text: "幻影镖塔攻速"
   phantomDartTowerEnergyCost:
-    text: "幻影飞弹塔能耗"
+    text: "幻影镖塔能耗"
   recombobulatorTowerRange:
-    text: "净化塔范围"
+    text: "修复塔范围"
   recombobulatorTowerFireRate:
-    text: "净化塔攻速"
+    text: "修复塔攻速"
   recombobulatorTowerEnergyCost:
-    text: "净化塔能耗"
+    text: "修复塔能耗"
   slingTowerRange:
     text: "投石塔范围"
   slingTowerFireRate:
@@ -394,13 +394,13 @@ perkType:
   spellCost:
     text: "言灵消耗"
   holyGolemLevel:
-    text: "神圣魔偶等级"
+    text: "神圣魔像等级"
   laborGolemLevel:
-    text: "劳工魔偶等级"
+    text: "劳工魔像等级"
   holyGolemDuration:
-    text: "神圣魔偶持续时间"
+    text: "神圣魔像持续时间"
   laborGolemDuration:
-    text: "劳工魔偶持续时间"
+    text: "劳工魔像持续时间"
   nomadAppearanceRate:
     text: "流民出现率"
   nomadAmount:
@@ -429,46 +429,46 @@ perk:
   javaClass: "rtr.PerkModule.java"
   
   farellesConstitution:
-    text: "Farelle's Constitution"
+    text: "法尔勒的宪章"
     optional: "true"
   kevorkianBloom:
-    text: "Kevorkian Bloom"
+    text: "克沃之繁荣"
     optional: "true"
   stensForm:
-    text: "Sten's Form"
+    text: "斯特恩的构成"
     optional: "true"
   hardinessofMergen:
-    text: "Hardiness of Mergen"
+    text: "摩根的坚韧"
     optional: "true"
   vitalityofFecht:
-    text: "Vitality of Fecht"
+    text: "法赫的活力"
     optional: "true"
   shohunsRecovery:
-    text: "Shohun's Recovery"
+    text: "少阍的恢复"
     optional: "true"
   kanesathsResumption:
-    text: "Kanesath's Resumption"
+    text: "凯因撒的延续"
     optional: "true"
   sulansRehabilitation:
-    text: "Sulan's Rehabilitation"
+    text: "苏兰的复原"
     optional: "true"
   lunnithunsReformation:
-    text: "Lunnithun's Reformation"
+    text: "鲁尼素恩的重组"
     optional: "true"
   sythumsRestoration:
-    text: "Sythum's Restoration"
+    text: "希神的回复"
     optional: "true"
   cravingsofJokur:
-    text: "Cravings of Jokur"
+    text: "雅各的意愿"
     optional: "true"
   karachosLonging:
-    text: "Karacho's Longing"
+    text: "卡拉乔的持久"
     optional: "true"
   namsansGluttony:
-    text: "Namsan's Gluttony"
+    text: "纳散的暴食"
     optional: "true"
   dixonpuffsCraving:
-    text: "Dixonpuff's Craving"
+    text: "蒂森普的渴望"
     optional: "true"
   riyasAppetite:
     text: "Riya's Appetite"
@@ -1735,7 +1735,7 @@ console:
       death:
         title:
           comment: "Some mobs, like the doggo, need their title inputted into the death messages. This string will be inputted where {mobTitle} is in all death strings under the death header category."
-          text: "$WHI0死了{mobType}"
+          text: "$WHI0死了个{mobType}"
         header:
           frozen:
             text: "{mobName}{mobTitle}$RED1永远冻成了一具冰雕！"
@@ -1801,7 +1801,7 @@ console:
           1:
             text: "一大憾事。"
           2:
-            text: "愿 (他:她:它) 安息。"
+            text: "愿(他:她:它)安息。"
           3:
             text: "……生得伟大，死得光荣。"
           4:
@@ -1993,21 +1993,21 @@ goal:
       
   sendCourierGolems:
     header:
-      text: "调遣信使魔偶"
+      text: "调遣信使魔像"
     body:
       any:
-        text: "调遣$GRE1{amount}$WHI0个信使魔偶到$GRE1其它地区$WHI0。"
+        text: "调遣$GRE1{amount}$WHI0个信使魔像到$GRE1其它地区$WHI0。"
       specific:
-        text: "调遣$GRE1{amount}$WHI0个信使魔偶到$GRE1{mapName}$WHI0！"
+        text: "调遣$GRE1{amount}$WHI0个信使魔像到$GRE1{mapName}$WHI0！"
       
   sendResourcesGoal:
     header:
       text: "调遣物资"
     body:
       any:
-        text: "通过信使魔偶调遣$GRE1{amount}单位{resourceNamePlural}$WHI0到$GRE1其它地区$WHI0。"
+        text: "通过信使魔像调遣$GRE1{amount}单位{resourceNamePlural}$WHI0到$GRE1其它地区$WHI0。"
       specific:
-        text: "通过信使魔偶调遣$GRE1{amount}单位{resourceNamePlural}$WHI0到$GRE1{mapName}$WHI0！"
+        text: "通过信使魔像调遣$GRE1{amount}单位{resourceNamePlural}$WHI0到$GRE1{mapName}$WHI0！"
         
   population:
     header:
@@ -2036,9 +2036,9 @@ goal:
     body:
       any:
         any:
-          text: "全球击杀数达到$GRE1{amount}$WHI0！"
+          text: "任意地方击杀数达到$GRE1{amount}$WHI0！"
         specific:
-          text: "全球击杀$GRE1{mobNamePlural}$WHI0数达到$GRE1{amount}$WHI0！"
+          text: "任意地方$GRE1{mobNamePlural}$WHI0数达到$GRE1{amount}$WHI0！"
       specific:
         any:
           text: "$GRE1{mapName}地区击杀数达到$GRE1{amount}$WHI0！"
@@ -2054,37 +2054,37 @@ goal:
     body:
       any:
         any:
-          text: "Cast $GRE1{amount} spells anywhere$WHI0！"
+          text: "任意地方施放$GRE1{amount}个言灵$WHI0！"
         specific:
-          text: "Cast $GRE1{amount} {spellName} anywhere$WHI0！"
+          text: "任意地方施放$GRE1{amount}个「{spellName}」言灵$WHI0！"
       specific:
         any:
-          text: "Cast $GRE1{amount} spells in {mapName}$WHI0！"
+          text: "在$GRE1{mapName}$WHI0施放$GRE1{amount}个言灵$WHI0！"
         specific:
-          text: "Cast $GRE1{amount} {spellName}$WHI0 in $GRE1{mapName}$WHI0！"
+          text: "在$GRE1{mapName}$WHI0施放$GRE1{amount}个「{spellName}」$WHI0！"
       
       
   grabResources:
     header:
-      text: "Grab Resources"
+      text: "抓取资源"
     body:
       any:
-        text: "Grab $GRE1{amount} resources anywhere$WHI0！"
+        text: "抓取$GRE1{amount}个资源$WHI0！"
       specific:
-        text: "Grab $GRE1{amount}$WHI0 resources in $GRE1{mapName}$WHI0！"
+        text: "抓取$GRE1{amount}$WHI0个$GRE1{mapName}$WHI0！"
       
   hireCatjeet:
     header:
-      text: "Hire Catjeet"
+      text: "雇佣异客"
     body:
       any:
-        text: "Hire $GRE1{amount} catjeet anywhere$WHI0！"
+        text: "雇佣$GRE1{amount}个异客$WHI0！"
       specific:
-        text: "Hire $GRE1{amount} catjeet$WHI0 in $GRE1{mapName}$WHI0！"
+        text: "在$GRE1{mapName}雇佣$GRE1{amount}个异客$WHI0！"
       
   immigrateNomads:
     header:
-      text: "Immigrate Nomads"
+      text: "移民人口"
     body:
       any:
         text: "Immigrate $GRE1{amount} nomads anywhere$WHI0！"
@@ -2093,7 +2093,7 @@ goal:
       
   build:
     header:
-      text: "Build"
+      text: "建造建筑"
     body:
       any:
         text: "Build $GRE1{amount} {buildingName} anywhere$WHI0！"
@@ -2106,7 +2106,7 @@ goal:
   upgrade:
     header:
       any:
-        text: "Upgrade"
+        text: "升级建筑"
       specific:
         text: "Upgrade {buildingName}"
     body:
@@ -2120,7 +2120,7 @@ goal:
           
   domestication:
     header:
-      text: "Domestication"
+      text: "驯化动物"
     body:
       any:
         text: "Domesticate $GRE1{amount} doggos anywhere$WHI0！"
@@ -2129,7 +2129,7 @@ goal:
       
   levelUp:
     header:
-      text: "Level Up"
+      text: "等级提升"
     body:
       any:
         text: "Level up $GRE1{amount} villagers anywhere$WHI0！"
@@ -2138,7 +2138,7 @@ goal:
       
   childBirth:
     header:
-      text: "Child Birth"
+      text: "诞生儿童"
     body:
       any:
         text: "$GRE1{amount} children born anywhere$WHI0！"
@@ -2147,7 +2147,7 @@ goal:
       
   openLootBoxes:
     header:
-      text: "Open Loot Boxes"
+      text: "开启宝箱"
     body:
       any:
         text: "Open $GRE1{amount} loot boxes anywhere$WHI0！"
@@ -2156,7 +2156,7 @@ goal:
       
   throwMonsterInCullisGate:
     header:
-      text: "Throw Monsters in a Cullis Gate"
+      text: "献祭怪物"
     body:
       any:
         any:
@@ -2171,7 +2171,7 @@ goal:
       
   resurrectGhosts:
     header:
-      text: "Resurrect Ghosts"
+      text: "复活幽灵"
     body:
       any:
         text: "Resurrect $GRE1{amount}$WHI0 ghosts $GRE1anywhere$WHI0."
@@ -2380,16 +2380,16 @@ mainMenuMainMenuPanel:
     back:
       text: "返回"
     scrubMapImages:
-      text: "Scrub Map Images"
+      text: "擦除地图图像"
       optional: "true"
     generateMapSheet:
-      text: "Generate Map Sheet"
+      text: "生成地图页"
       optional: "true"
     runLineCounter:
-      text: "Run Line Counter"
+      text: "运行行数统计"
       optional: "true"
     generateVideoSheet:
-      text: "Generate Video Sheet"
+      text: "生成视频页"
       optional: "true"
     rollover:
       twitch:
@@ -2948,7 +2948,7 @@ mapEditorPlayRightPanel:
       
     defense:
       guardsAndGolems:
-        text: "守卫与魔偶"
+        text: "守卫与魔像"
       towers:
         text: "防御塔"
       miscellaneous:
@@ -2960,11 +2960,11 @@ mapEditorPlayRightPanel:
       outpost:
         text: "前哨"
       crystalGolemCombobulator:
-        text: "灵晶魔偶装配站"
+        text: "灵晶魔像装配站"
       stoneGolemCombobulator:
-        text: "灵石魔偶装配站"
+        text: "灵石魔像装配站"
       woodGolemCombobulator:
-        text: "灵木魔偶装配站"
+        text: "灵木魔像装配站"
       
     towers:
       attractTower:
@@ -2976,9 +2976,9 @@ mapEditorPlayRightPanel:
       bowTower:
         text: "弓箭塔"
       bulletTower:
-        text: "炮弹塔"
+        text: "轻炮塔"
       elementalBoltTower:
-        text: ""
+        text: "元素箭塔"
       phantomDartTower:
         text: "幻镖塔"
       slingTower:
@@ -3539,7 +3539,7 @@ playBuildingListPanel:
       increasePriority:
         text: "增加建筑的建造优先度。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       decreasePriorityHeader:
-        text: "减少权重"
+        text: "降低权重"
       decreasePriority:
         text: "减少建筑的建造优先度。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       topPriorityHeader:
@@ -3664,48 +3664,48 @@ playLeftJobDescriptionPanel:
   
   header:
     canBuildUsing:
-      text: "Can Build Using"
+      text: "可建造并使用"
     buildRoadsUsing:
-      text: "Build Roads Using"
+      text: "筑路使用"
     canDeliverToBuildRoads:
-      text: "Can Deliver (To Build Roads)"
+      text: "可运送(筑路)"
     canHarvestToBuild:
-      text: "Can Harvest (To Build)"
+      text: "可采收(建造)"
     canDeliverToBuild:
-      text: "Can Deliver (To Build)"
+      text: "可运送(建造)"
     canHarvestToStore:
-      text: "Can Harvest (To Store)"
+      text: "可采收(储存)"
     canRefineManufacture:
-      text: "Can Refine/Manufacture"
+      text: "可加工/生产"
     canPlant:
-      text: "Can Plant"
+      text: "可种植"
     canDeliverToCourierGolems:
-      text: "Can Deliver (To Courier Golems)"
+      text: "可运送(运输魔像)"
     canStore:
-      text: "Can Store"
+      text: "可储存"
     preferredTools:
-      text: "Preferred Tools"
+      text: "优势工具"
     combatBonuses:
-      text: "Combat Bonuses"
+      text: "战斗加成"
     canRepairBuildings:
-      text: "Can Repair Buildings"
+      text: "可维修建筑"
     canRepairRoads:
-      text: "Can Repair Roads"
+      text: "可维护道路"
     canDestroyClearTerrain:
-      text: "Can Destroy/Clear Terrain"
+      text: "可摧毁/清除地形"
     canDestroyClearRoads:
-      text: "Can Destroy/Clear Roads"
+      text: "可摧毁/清除道路"
     canCreateLakes:
-      text: "Can Create Lakes"
+      text: "可挖人工湖"
     canTendToAndWaterFarms:
-      text: "Can Tend to and Water Farms"
+      text: "可照料并浇灌农场"
       
   moreResourcesThanListedCount:
-    text: "$ORA0Plus {amount} more."
+    text: "$ORA0增加{amount}更多"
   combatDamageBonus:
-    text: "$GRE1+{amount}% All Damage"
+    text: "$GRE1+{amount}%所有伤害"
   combatDefenseBonus:
-    text: "$GRE1+{amount}% All Defense"
+    text: "$GRE1+{amount}%所有防御"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -3799,13 +3799,13 @@ playLeftPanel:
           
     tooltip:
       villageStockPriceHeader:
-        text: "居民"
+        text: "居民人力价格"
       catjeetStockPriceHeader:
-        text: "异客"
+        text: "异客人力价格"
       villageStockHeader:
-        text: "Village Stock"
+        text: "居民人力"
       catjeetStockHeader:
-        text: "异客"
+        text: "异客人力"
       priceHeader:
         text: "价位"
       laborerStockHeader:
@@ -3824,7 +3824,7 @@ playLeftPanel:
     buyAmountAndPrice:
       text: "$GRE1{amount}个$WHI0总价{price}"
     catjeetLaborersHeader:
-      text: "Catjeet Laborers"
+      text: "异客劳工"
     noLaborers:
       text: "无劳工"
 
@@ -3974,11 +3974,11 @@ playLeftPanel:
         sendNowHeader:
           text: "现在出发"
         sendNow:
-          text: "在预设每日转运量的基础上尝试转运该数量的{resourceName}，信使魔偶只会在下午前出发。"
+          text: "在预设每日转运量的基础上尝试转运该数量的{resourceName}，信使魔像只会在下午前出发。"
         sendDailyHeader:
           text: "每日转运"
         sendDaily:
-          text: "每日转运目标数量的可用{resourceName}，信使魔偶只会在下午前出发。红字表示未达到配额需求，黄字表示正在转运，绿色表示已完成今日目标。"
+          text: "每日转运目标数量的可用{resourceName}，信使魔像只会在下午前出发。红字表示未达到配额需求，黄字表示正在转运，绿色表示已完成今日目标。"
         previousCategoryHeader:
           text: "上个分类"
         nextCategoryHeader:
@@ -3994,9 +3994,9 @@ playLeftPanel:
         
     tooltip:
       parkedCourierGolemsHeader:
-        text: "停泊的转运魔偶"
+        text: "停泊的转运魔像"
       parkedCourierGolems:
-        text: "当前停泊并可用于转运的转运魔偶数量"
+        text: "当前停泊并可用于转运的转运魔像数量"
       sendInfinityHeader:
         text: "无限转运"
          
@@ -4146,9 +4146,9 @@ playPopulationListPanel:
     totalChildren:
       text: "尚无工作能力的儿童总数。"
     totalGolemsHeader:
-      text: "魔偶总计"
+      text: "魔像总计"
     totalGolems:
-      text: "聚落中的魔偶总数。"
+      text: "聚落中的魔像总数。"
     averageHappinessHeader:
       text: "平均幸福值"
     averageHappiness:
@@ -4234,7 +4234,7 @@ playPopulationListPanel:
     children:
       text: "$GRE1儿童"
     golems:
-      text: "$GRE1魔偶"
+      text: "$GRE1魔像"
     animals:
       text: "$GRE1动物"
   
@@ -4432,7 +4432,7 @@ playResourceAndInfluenceBar:
     totalEnergyHeader:
       text: "能量总计"
     totalEnergy:
-      text: "聚落建筑的储能上限和当前能量总值。如灵质收集器、魔偶装配站和魔法塔中的储能。"
+      text: "聚落建筑的储能上限和当前能量总值。如灵质收集器、魔像装配站和魔法塔中的储能。"
     totalInfluenceHeader:
       text: "神力"
     totalInfluence:
@@ -4705,49 +4705,49 @@ playSelectedObjectPanel:
       reduceWorkersHeader:
         text: "减少工人"
       reduceWorkers:
-        text: "Reduce workers for this job, freeing them up to work elsewhere."
+        text: "减少当前岗位的工人，以释放空闲居民。"
       requestWorkersHeader:
         text: "增加工人"
       requestWorkers:
-        text: "Request more workers to take this job. If the numbers turns red, you've requested more workers than villagers available."
+        text: "增加当前岗位的工人，红字代表人手不足。"
       topPriorityHeader:
         text: "最高优先"
       topPriority:
-        text: "Sets the construction priority of the building the top of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "将建筑的建造优先度设为最高级。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       increasePriorityHeader:
         text: "提高优先"
       increasePriority:
-        text: "Increase the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "增加建筑的建造优先度。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       decreasePriorityHeader:
-        text: "降低优先"
+        text: "降低权重"
       decreasePriority:
-        text: "Decrease the construction priority of the building. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "减少建筑的建造优先度。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       lastPriorityHeader:
-        text: "最低优先"
+        text: "最低权重"
       lastPriority:
-        text: "Sets the construction priority of the building the bottom of the list. The higher it is on the list the more important it will be to the workers, usually receiving construction resources first and being built sooner."
+        text: "将建筑的建造优先度设为最低级。在列表中的位置越高，工人越重视该建筑，通常会优先收拢资源并优先建造。"
       pauseBuildingHeader:
-        text: "暂停建筑"
+        text: "暂停建造"
       pauseBuilding:
-        text: "Pausing this building will stop most village interactions with it."
+        text: "暂停建造会暂停居民与该建筑的交互。"
       resumeBuildingHeader:
         text: "恢复建造"
       dismantleBuildingHeader:
         text: "拆除建筑"
       dismantleBuilding:
-        text: "Dismantle the building and recover some of its original construction costs."
+        text: "拆除建筑并回收部分资源。"
       buildingPriorityHeader:
-        text: "建筑优先级"
+        text: "建筑权重"
       buildingPriority:
-        text: "Current construction priority level of the building, lower numbers are a higher priority."
+        text: "当前建筑的权重。数字越小优先级越高。"
       reclaimHeader:
-        text: "占领"
+        text: "修缮"
       reclaim:
-        text: "Reclaim this abandoned building. Usually, reclaiming a building costs about half as much resources as building a new one from scratch."
+        text: "修缮该建筑。通常只需要花建造该建筑所消耗的一半资源。"
       upgradeHeader:
         text: "升级"
       upgrade:
-        text: "Upgrade this building to the next level. The building will still be functional while the villagers are upgrading it."
+        text: "升级该建筑。建筑在升级时仍能正常工作while the villagers are upgrading it."
 
   bottomPriority:
     text: "底"
@@ -4778,31 +4778,31 @@ playSelectedObjectPanel:
   buildRoadSpeed:
     text: "$WHI0筑路$GRE0{amount}%"
   dismantlingSpeed:
-    text: "$GRE0{amount}% $WHI0Dismantling"
+    text: "$GRE0{amount}% $WHI0拆除"
   clearingSpeed:
-    text: "$GRE0{amount}% $WHI0Clearing"
+    text: "$GRE0{amount}% $WHI0清理"
   repairingSpeed:
-    text: "$GRE0{amount}% $WHI0Repairing"
+    text: "$GRE0{amount}% $WHI0维修"
   repairRoadSpeed:
-    text: "$GRE0{amount}% $WHI0Repair Road"
+    text: "$GRE0{amount}% $WHI0护道"
   farmingSpeed:
-    text: "$GRE0{amount}% $WHI0Farming"
+    text: "$GRE0{amount}% $WHI0耕作"
   medicWorkSpeed:
-    text: "$GRE0{amount}% $WHI0Medic Work"
+    text: "$GRE0{amount}% $WHI0医疗"
   harvestingSpeed:
-    text: "$YEL1Harvest Speed"
+    text: "$YEL1采收速度"
   refiningSpeed:
-    text: "$YEL1Refine Speed"
+    text: "$YEL1加工速度"
   homeBonusesHeader:
-    text: "$CYA1Home Bonuses"
+    text: "$CYA1房舍奖励"
   sleepSpeedBoost:
-    text: "$GRE0{amount}% $WHI0Sleep Speed"
+    text: "$GRE0{amount}% $WHI0睡眠速度"
   happinessBoost:
-    text: "$GRE0{amount} $WHI0Happiness Boost"
+    text: "$GRE0{amount} $WHI0幸福加成"
   healthRegenerationBoost:
-    text: "$GRE0{amount} $WHI0Health Regen"
+    text: "$GRE0{amount} $WHI0生命恢复"
   reclaimMessage:
-    text: "Click $GRE1reclaim$WHI0 to rebuild~and use this building."
+    text: "点击$GRE1修缮$WHI0以重建该建筑~并使用该建筑。"
   reclaimMessageNoSlotsNoCamp:
     text: "建筑槽不足. ~建造一个$GRE0营地$WHI0或$GRE0保管库$WHI0~以占领建筑。"
   reclaimMessageNoSlots:
@@ -4900,33 +4900,33 @@ playSelectedObjectUpgradePanel:
   maximumSpawns:
     text: "最大生成$GRE1+{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Needs $GRE1{resourceName}$WHI0 and $GRE1+{amount} Energy$WHI0 to Spawn"
+    text: "需要$GRE1{resourceName}$WHI0和$GRE1+{amount}能量$WHI0以生成"
   spawnNeedsEnergy:
-    text: "Needs $GRE1+{amount} Energy $WHI0to Spawn"
+    text: "需要$GRE1+{amount}能量$WHI0to以生成"
   spawnNeedsResources:
-    text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
+    text: "需要$GRE1{resourceName}$WHI0以生成"
   rangeGenerated:
-    text: "Range Generated: $GRE1+{amount}"
+    text: 建筑范围扩张：$GRE1+{amount}"
   desirability:
-    text: "Desirability: $GRE1+{amount}"
+    text: "宜居度修正$GRE1+{amount}"
   corruptionResistance:
-    text: "Corruption Resistance: $GRE1+{amount}"
+    text: "腐化抵抗$GRE1+{amount}"
   guardHousingCapacity:
-    text: "Guard Housing Capacity: $GRE1+{amount}"
+    text: "营房驻军$GRE1+{amount}"
   housingCapacity:
-    text: "Housing Capacity: $GRE1+{amount}"
+    text: "房舍占有$GRE1+{amount}"
   workersSlots:
-    text: "Workers Slots: $GRE1+{amount} {mobJobName}"
+    text: "工作岗位$GRE1+{amount} {mobJobName}"
   buildingSlotsProvided:
-    text: "Building Slots Provided: $GRE1+{amount}"
+    text: "提供建筑槽$GRE1+{amount}"
   acceptsEssence:
-    text: "Accepts Essence From Collectors"
+    text: "从收集器接收灵质"
   canCollectRawEssence:
-    text: "Can Collect Raw Essence"
+    text: "可吸收原始灵质"
   consumesCrylithium:
-    text: "Consumes Crylithium for Fuel"
+    text: "消耗辉晶为燃料"
   canBuildRoads:
-    text: "Can Build Roads"
+    text: "可筑路"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4940,9 +4940,9 @@ playSpellBar:
   
   changeSpell:
     header:
-      text: "Change Spell"
+      text: "更改言灵"
     tooltip:
-      text: "Open the full spell list and change the spell in slot {slotNumber}."
+      text: "开启完整言灵列表并更改言灵槽{slotNumber}."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -4956,176 +4956,176 @@ playStatisticsPanel:
   
   button:
     back:
-      text: "Back"
+      text: "返回"
       
     primary:
       villagers:
-        text: "Villagers"
+        text: "居民"
       animals:
-        text: "Animals"
+        text: "动物"
       monsters:
-        text: "Monsters"
+        text: "怪物"
       buildings:
-        text: "Buildings"
+        text: "建筑"
       defenses:
-        text: "Defenses"
+        text: "防务"
       resources:
-        text: "Resources"
+        text: "资源"
       magicAndEnergy:
-        text: "Magic and Energy"
+        text: "魔法与能量"
       other:
-        text: "Other"
+        text: "其它"
         
     villagers:
       total:
-        text: "Total"
+        text: "总计"
       gender:
-        text: "Gender"
+        text: "性别"
       immigration:
-        text: "Immigration"
+        text: "移民"
       reproduction:
-        text: "Reproduction"
+        text: "生育"
       deaths:
-        text: "Deaths"
+        text: "死亡"
       needs:
-        text: "Needs"
+        text: "需求"
       catjeetHired:
-        text: "Catjeet Hired"
+        text: "雇佣的异客"
       nomadsJoined:
-        text: "Nomads Joined"
+        text: "加入的流民"
       nomadsVisited:
-        text: "Nomads Visited"
+        text: "造访的游民"
       births:
-        text: "Births"
+        text: "出生"
       grownUp:
-        text: "Grown Up"
+        text: "成长"
       coitus:
-        text: "Coitus"
+        text: "云雨"
       pregnancies:
-        text: "Pregnancies"
+        text: "怀孕"
       newPregnancies:
-        text: "New Pregnancies"
+        text: "新妊"
       averageHunger:
-        text: "Average Hunger"
+        text: "平均饥饿"
       averageThirst:
-        text: "Average Thirst"
+        text: "平均干渴"
       averageEnergy:
-        text: "Average Energy"
+        text: "平均活力"
       averageHappiness:
-        text: "Average Happiness"
+        text: "平均幸福"
     
     animals:
       total:
-        text: "Total"
+        text: "总计"
       gender:
-        text: "Gender"
+        text: "性别"
       domesticated:
-        text: "Domesticated"
+        text: "驯化"
       deaths:
-        text: "Deaths"
+        text: "死亡"
       needs:
-        text: "Needs"
+        text: "需求"
       averageHunger:
-        text: "Average Hunger"
+        text: "平均饥饿"
       averageThirst:
-        text: "Average Thirst"
+        text: "平均干渴"
       averageEnergy:
-        text: "Average Energy"
+        text: "平均活力"
       averageHappiness:
-        text: "Average Happiness"
+        text: "平均幸福"
         
     buildings:
       totalBuildings:
-        text: "Total"
+        text: "总计"
       builtBuildings:
-        text: "Built"
+        text: "建造"
       upgradedBuildings:
-        text: "Upgraded"
+        text: "升级"
       destroyedBuildings:
-        text: "Destroyed"
+        text: "摧毁"
       dismantledBuildings:
-        text: "Dismantled"
+        text: "拆除"
         
     defenses:
       totalDefense:
-        text: "Towers"
+        text: "防御塔"
       combobulators:
-        text: "Combobulators"
+        text: "装配站"
       golems:
-        text: "Golems"
+        text: "魔像"
       guards:
-        text: "Guards"
+        text: "守卫"
       walls:
-        text: "Walls"
+        text: "围墙"
           
     monsters:
       totalCorruption:
-        text: "Total Corruption"
+        text: "总计腐化"
       spreadAmount:
-        text: "Spread Amount"
+        text: "传播量"
       buildings:
-        text: "Buildings"
+        text: "建筑"
       drones:
-        text: "Total Drones"
+        text: "总计低语者"
       spawned:
-        text: "Monsters Spawned"
+        text: "怪物刷新"
       killed:
-        text: "Killed"
+        text: "击杀"
         
     resources:
       totalResources:
-        text: "Total"
+        text: "总计"
       productionRate:
-        text: "Production Rate"
+        text: "生产率"
       foodAndWater:
-        text: "Food and Water Rate"
+        text: "饮食率"
     
     magicAndEnergy:
       essenceGenerated:
-        text: "Essence Generated"
+        text: "产生灵质"
       essenceDecayed:
-        text: "Essence Decayed"
+        text: "收集灵质"
       energy:
-        text: "Energy"
+        text: "能量"
       influenceSpent:
-        text: "Influence Spent"
+        text: "消耗神力"
       influenceGenerated:
-        text: "Influence Generated"
+        text: "产生神力"
     
     filter:
       all:
-        text: "All"
+        text: "全部"
       previousPage:
-        text: "Previous Page"
+        text: "上一页"
       nextPage:
-        text: "Next Page"
+        text: "下一页"
       previousCategory:
-        text: "Previous Category"
+        text: "上个类目"
       nextCategory:
-        text: "Next Category"
+        text: "下个类目"
     
     graph:
       dayBack:
-        text: "Day Back"
+        text: "上一天"
       dayForward:
-        text: "Day Forward"
+        text: "下一天"
       firstDay:
-        text: "First Day"
+        text: "首天"
       lastDay:
-        text: "Last Day"
+        text: "末天"
 
   descriptions:
     villagers:
       total:
-        text: "The daily population count of the village."
+        text: "聚落每日人口统计。"
       genderBarOne:
-        text: "Male"
+        text: "男性"
       genderBarTwo:
-        text: "Female"
+        text: "女性"
       gender:
-        text: "The daily population count of each gender in the village."
+        text: "聚落各性别每日人口统计。"
       deaths:
-        text: "How many villagers have died per day."
+        text: "每日死亡居民数。"
       catjeetHired:
         text: "How many Catjeet have been hired per day."
       nomadsJoined:
@@ -5175,11 +5175,11 @@ playStatisticsPanel:
     
     monsters:
       totalCorruptionBar:
-        text: "Tiles"
+        text: "地块"
       totalCorruption:
-        text: "Total amount of tiles that are corrupted."
+        text: "被腐化的地块总量。"
       spreadAmountBar:
-        text: "Tiles"
+        text: "地块"
       spreadAmount:
         text: "Total amount of additional tiles that have been corrupted per day."
       buildings:
@@ -5299,33 +5299,33 @@ playSystemAndDataBar:
       mainMenuHeader:
         text: "主菜单({shortcutKey})"
       mainMenu:
-        text: "Exit the game, or change some settings."
+        text: "退出游戏，或改变游戏设置。"
       minimapHeader:
         text: "小地图({shortcutKey})"
       minimap:
-        text: "View the entire map."
+        text: "显示整个地图"
       statisticsHeader:
         text: "统计"
       statistics:
-        text: "View various tracked game statistics."
+        text: "显示游戏中各种统计数据。"
       dataViewsHeader:
-        text: "数据视图({shortcutKey})"
+        text: "数据图表({shortcutKey})"
       dataViews:
-        text: "View various overlay data maps."
+        text: "显示各种数据的图表。"
       problemPanelHeader:
         text: "问题面板({shortcutKey})"
       problemPanel:
-        text: "Lists several red flags in the village that may need taken care of."
+        text: "列出需要解决的问题"
       buildingListHeader:
-        text: "Building List ({shortcutKey})"
+        text: "建筑列表({shortcutKey})"
       buildingList:
-        text: "View a list of all buildings within the village, and rearrange construction priority."
+        text: "列出所有建筑，并对建筑优先级进行排序。"
       populationListHeader:
-        text: "Population List ({shortcutKey})"
+        text: "人口列表({shortcutKey})"
       populationList:
         text: "View the entire village's population, and overall status of the villagers."
       villagerEfficiencyHeader:
-        text: "Village Efficiency"
+        text: "聚落效率"
       villagerEfficiency:
         text: "View the village's current overall work speed based on upgraded buildings, god perks, weather and other conditions."
       musicHeader:
@@ -5346,29 +5346,29 @@ playToolsBar:
   button:
     tooltip:
       pauseBuildingsHeader:
-        text: "Pause Buildings ({shortcutKey})"
+        text: "封停建筑({shortcutKey})"
       pauseBuildings:
-        text: "Pausing a building will stop most village interactions with it."
+        text: "封停建筑会暂停大多数居民与其的互动。"
       dismantleBuildingsHeader:
-        text: "Dismantle Buildings ({shortcutKey})"
+        text: "拆除建筑({shortcutKey})"
       dismantleBuildings:
-        text: "Dismantle a building and recover some of its original construction costs. $RED1This CAN NOT be undone！"
+        text: "拆除建筑，获得部分资源返还。$RED1此操作无法撤销！"
       digHeader:
-        text: "Dig a Hole ({shortcutKey})"
+        text: "挖坑({shortcutKey})"
       dig:
-        text: "Dig holes in the ground that will fill with water the next time it rains."
+        text: "挖个坑，下雨时能集水。"
       createOrUpgradeRoadsHeader:
-        text: "Create or Upgrade Roads"
+        text: "修建/升级道路"
       createOrUpgradeRoads:
         text: "Select open tiles to build paths on, or upgrade existing roads and paths. Roads and paths increase movement speed of all creatures that walk on them."
       dismantleRoadsHeader:
-        text: "Dismantle Roads"
+        text: "拆除道路"
       dismantleRoads:
         text: "Completely remove a road or path."
       destroyTerrainHeader:
-        text: "Destroy Terrain"
+        text: "摧毁地形"
       destroyTerrain:
-        text: "Quickly destroy nearly any topography, including forest, tree stumps, rocks, rubble, water and even flowers. No resources will be gained from destroying the topography."
+        text: "快速摧毁大多数地形，包括树林、树桩、石头、石子、水体甚至花朵。 including forest, tree stumps, rocks, rubble, water and even flowers. No resources will be gained from destroying the topography."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -5673,80 +5673,80 @@ playRightObjectDescriptionPanel:
   
   header:
     constructionRequirements:
-      text: "Construction Requirements"
+      text: "建造需求"
     requiredSupport:
-      text: "Required Support"
+      text: "前置要求"
     recommendedSupport:
-      text: "Recommended Support"
+      text: "建议搭配"
     canStore:
-      text: "Can Store"
+      text: "可存储物资"
     canRefineOrManufacture:
-      text: "Can Refine/Manufacture"
+      text: "可加工/生产"
     defensiveTower:
-      text: "Defensive Tower"
+      text: "防御塔"
     
   constructionRequirements:
-    text: "Requires $RED1{buildingName}$WHI0 for $RED1{resourceName}"
+    text: "需要$RED1{buildingName}$WHI0来获取$RED1{resourceName}"
   supportConjuntion:
-    text: "$WHI0 or $RED0"
+    text: "$WHI0或$RED0"
   maximumStorage:
-    text: "Maximum Storage: $GRE1{amount}"
+    text: "最大储存：$GRE1{amount}"
   energy:
-    text: "$YEL1{amount} Energy"
+    text: "$YEL1{amount}能量"
   staticTowerDamageOverride:
-    text: "Damage: $GRE1Electric (3-8)"
+    text: "伤害：$GRE1闪电(3-8)"
   chargedDamage:
-    text: "Charged Damage: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
+    text: "充能伤害：$GRE1{damageType}({damageMinimum}-{damageMaximum})"
   damage:
-    text: "Damage: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
+    text: "伤害：$GRE1{damageType}({damageMinimum}-{damageMaximum})"
   unchargedDamage:
-    text: "Uncharged Damage: {damageType} $RED0({damageMinimum}-{damageMaximum})"
+    text: "未充能伤害：{damageType}$RED0({damageMinimum}-{damageMaximum})"
   fires:
-    text: "Fires: $GRE1{ammoName}"
+    text: "使用弹药：$GRE1{ammoName}"
   ammo:
-    text: "Ammo Per Bundle: $GRE1{amount}"
+    text: "每击弹药消耗：$GRE1{amount}"
   energyPerShot:
-    text: "Energy Per Shot: $GRE1{amount}"
+    text: "每击能量消耗：$GRE1{amount}"
   reloadTime:
-    text: "Reload Time: $GRE1{amount}"
+    text: "装填时间：$GRE1{amount}"
   firingRange:
-    text: "Firing Range: $GRE1{amount}"
+    text: "射程范围：$GRE1{amount}"
   canSpawnCreatures:
-    text: "Can Spawn Creatures"
+    text: "可生成单位"
   spawnsMob:
-    text: "Spawns $GRE1{mobName}"
+    text: "生成$GRE1{mobName}"
   maximumSpawns:
-    text: "Maximum Spawns: $GRE1{amount}"
+    text: "最大生成：$GRE1{amount}"
   spawnNeedsResourcesAndEnergy:
-    text: "Needs $GRE1{resourceName}$WHI0 and $GRE1{amount} Energy$WHI0 to Spawn"
+    text: "需要$GRE1{resourceName}$WHI0和$GRE1{amount}能量$WHI0以生成"
   spawnNeedsEnergy:
-    text: "Needs $GRE1{amount} Energy $WHI0to Spawn"
+    text: "需要$GRE1{amount}能量$WHI0以生成"
   spawnNeedsResources:
-    text: "Needs $GRE1{resourceName}$WHI0 to Spawn"
+    text: "需要$GRE1{resourceName}$WHI0以生成"
   rangeGenerated:
-    text: "Range Generated: $GRE1{amount}"
+    text: "范围扩展：$GRE1{amount}"
   desirability:
-    text: "Desirability: $GRE1{amount}"
+    text: "宜居修正：$GRE1{amount}"
   corruptionResistance:
-    text: "Corruption Resistance: $GRE1{amount}"
+    text: "腐化抵抗：$GRE1{amount}"
   providedMigrationsPerDay:
-    text: "Provided Migrations Per Day: $GRE1{amount}"
+    text: "日供移民：$GRE1{amount}"
   guardHousingCapacity:
-    text: "Guard Housing Capacity: $GRE1{amount}"
+    text: "卫营驻军：$GRE1{amount}"
   housingCapacity:
-    text: "Housing Capacity: $GRE1{amount}"
+    text: "房舍占用：$GRE1{amount}"
   workersSlots:
-    text: "Workers Slots: $GRE1{amount} {mobJobName}"
+    text: "提供岗位：$GRE1{amount}个{mobJobName}"
   buildingSlotsProvided:
-    text: "Building Slots Provided: $GRE1{amount}"
+    text: "提供建筑槽：$GRE1{amount}"
   acceptsEssence:
-    text: "Accepts Essence From Collectors"
+    text: "从灵质收集器获取灵质"
   canCollectRawEssence:
-    text: "Can Collect Raw Essence"
+    text: "可收集原生灵质"
   consumesCrylithium:
-    text: "Consumes Crylithium for Fuel"
+    text: "使用辉晶作为燃料"
   canBuildRoads:
-    text: "Can Build Roads"
+    text: "可修筑道路"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Shared
@@ -6846,7 +6846,7 @@ spell:
       text: "Dissolves living resources like crystals, wood, and dead bodies on the map, converting them into essence."
   summonHolyGolem:
     name:
-      text: "召唤神圣魔偶"
+      text: "召唤神圣魔像"
     description:
       text: "Summons a holy defender who will fight to their bitter end to defend your people. The older your village, the stronger the golem！"
   drop:
@@ -6926,7 +6926,7 @@ spell:
       text: "Steadily repairs golems and buildings in a small area for a short period of time."
   summonLaborGolem:
     name:
-      text: "召唤劳工魔偶"
+      text: "召唤劳工魔像"
     description:
       text: "Summons a mindless golem that will do manual labor in your village until it dies."
   illuminate:
@@ -7148,25 +7148,25 @@ missileName:
   banishBolt:
     text: "放逐箭"
   recombobulatorBolt:
-    text: "重组箭"
+    text: "修复箭"
   bowArrow:
     text: "弓箭"
   fireElemental:
     text: "火元素"
   fireGolem:
-    text: "火焰魔偶"
+    text: "火焰魔像"
   iceGolem:
-    text: "寒冰魔偶"
+    text: "寒冰魔像"
   lightningGolem:
-    text: "闪电魔偶"
+    text: "闪电魔像"
   crystalGolem:
-    text: "灵晶魔偶"
+    text: "灵晶魔像"
   fireCrystalGolem:
-    text: "火焰灵晶魔偶"
+    text: "火焰灵晶魔像"
   iceCrystalGolem:
-    text: "寒冰灵晶魔偶"
+    text: "寒冰灵晶魔像"
   lightningCrystalGolem:
-    text: "闪电灵晶魔偶"
+    text: "闪电灵晶魔像"
   specialMainMenu:
     text: "特殊主菜单"
       
@@ -7899,7 +7899,7 @@ aiTask:
       
   golemHealBehavior:
     findRecombobulator:
-      text: "寻找重组塔"
+      text: "寻找修复塔"
     pathfindToRecombobulator:
       text: "前往{buildingName}修复自身"
       
@@ -8435,7 +8435,7 @@ mobJob:
     plural:
       text: "运输工"
     description:
-      text: "Delivers resources to信使魔偶to be taken to other regions."
+      text: "Delivers resources to信使魔像to be taken to other regions."
   
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Object Module
@@ -8861,32 +8861,32 @@ object:
     crystalGolemCombobulator:
       makeshift:
         name:
-          text: "简易灵晶魔偶装配站"
+          text: "简易灵晶魔像装配站"
         description:
           text: "A host building that consumes energy and nearby crystals, creating defensive crystal golems with a ranged attack that will protect the village."
       base:
         name:
-          text: "基本灵晶魔偶装配站"
+          text: "基本灵晶魔像装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       established:
         name:
-          text: "强化灵晶魔偶装配站"
+          text: "强化灵晶魔像装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       lightning:
         name:
-          text: "闪电灵晶魔偶装配站"
+          text: "闪电灵晶魔像装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems lightning damage, but cost more energy to produce a new golem."
       ice:
         name:
-          text: "寒冰灵晶魔偶装配站"
+          text: "寒冰灵晶魔像装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems ice damage, but cost more energy to produce a new golem."
       fire:
         name:
-          text: "火焰灵晶魔偶装配站"
+          text: "火焰灵晶魔像装配站"
         description:
           text: "Increases how many crystal golems the combobulator can maintain, another level boost, as well as gives newly spawned golems fire damage, but cost more energy to produce a new golem."
     
@@ -9244,7 +9244,7 @@ object:
     
     largeFountain:
       name:
-        text: "大喷泉"
+        text: "大饮泉"
       description:
         text: "A place your villagers can go to get a refreshing drink. Works best with a well, raincatcher or water purifier and well masters to supply the fountain."
     
@@ -9356,7 +9356,7 @@ object:
         name:
           text: "简易移民驿站"
         description:
-          text: "A host building creates信使魔偶used to deliver resources to nearby regions. Also provides courier suppliers who can deliver the resources to the golems to prepare them for departure."
+          text: "A host building creates信使魔像used to deliver resources to nearby regions. Also provides courier suppliers who can deliver the resources to the golems to prepare them for departure."
       base:
         name:
           text: "基本移民驿站"
@@ -9624,7 +9624,7 @@ object:
     
     smallFountain:
       name:
-        text: "小喷泉"
+        text: "小饮泉"
       description:
         text: "A place your villagers can go to get a refreshing drink. Works best with a well, raincatcher or water purifier and well masters to supply the fountain."
     
@@ -9702,22 +9702,22 @@ object:
     recombobulatorTower:
       makeshift:
         name:
-          text: "简易重组塔"
+          text: "简易修复塔"
         description:
           text: "A tower that will attract most friendly golems, and heal any that are damaged. Requires an essence collector to run."
       base:
         name:
-          text: "基本重组塔"
+          text: "基本修复塔"
         description:
           text: "Increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
       established:
         name:
-          text: "强化重组塔"
+          text: "强化修复塔"
         description:
           text: "Further increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
       reinforced:
         name:
-          text: "高级重组塔"
+          text: "高级修复塔"
         description:
           text: "Further increases the tower's maximum energy, firing rate, and range, and decreases the firing cost."
     
@@ -9785,32 +9785,32 @@ object:
     stoneGolemCombobulator:
       makeshift:
         name:
-          text: "简易灵石魔偶装配站"
+          text: "简易灵石魔像装配站"
         description:
           text: "A host building that consumes energy and nearby rock, creating slow moving, high hit point defensive stone golems."
       base:
         name:
-          text: "基本灵石魔偶装配站"
+          text: "基本灵石魔像装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       established:
         name:
-          text: "高级灵石魔偶装配站"
+          text: "高级灵石魔像装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, as well as increases the levels of newly spawned golems, but cost slightly more energy to produce a new golem."
       lightning:
         name:
-          text: "闪电灵石魔偶装配站"
+          text: "闪电灵石魔像装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems lightning damage, but cost more energy to produce a new golem."
       ice:
         name:
-          text: "寒冰灵石魔偶装配站"
+          text: "寒冰灵石魔像装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems ice damage, but cost more energy to produce a new golem."
       fire:
         name:
-          text: "火焰灵石魔偶装配站"
+          text: "火焰灵石魔像装配站"
         description:
           text: "Increases how many stone golems the combobulator can maintain, another level boost, as well as gives newly spawned golems fire damage, but cost more energy to produce a new golem."
     
@@ -9885,34 +9885,34 @@ object:
     woodGolemCombobulator:
       makeshift:
         name:
-          text: "简易灵木魔偶装配站"
+          text: "简易灵木魔像装配站"
         description:
-          text: "消耗能量和附近的木材，装配中等速度和攻击力的防御用灵木魔偶。"
+          text: "消耗能量和附近的木材，装配中等速度和攻击力的防御用灵木魔像。"
       base:
         name:
-          text: "制式灵木魔偶装配站"
+          text: "制式灵木魔像装配站"
         description:
-          text: "增加装配站能维持的魔偶数量，并增加新生成魔偶的等级。但组装魔偶的能量耗费轻微增加。"
+          text: "增加装配站能维持的魔像数量，并增加新生成魔像的等级。但组装魔像的能量耗费轻微增加。"
       established:
         name:
-          text: "坚固灵木魔偶装配站"
+          text: "坚固灵木魔像装配站"
         description:
-          text: "增加装配站能维持的魔偶数量，并增加新生成魔偶的等级。但组装魔偶的能量耗费轻微增加。"
+          text: "增加装配站能维持的魔像数量，并增加新生成魔像的等级。但组装魔像的能量耗费轻微增加。"
       lightning:
         name:
-          text: "闪电灵木魔偶装配站"
+          text: "闪电灵木魔像装配站"
         description:
-          text: "增加装配站能维持的魔偶数量，进一步增加魔偶等级，并赋予新生成的魔偶闪电伤害。但组装魔偶的能量耗费增加。"
+          text: "增加装配站能维持的魔像数量，进一步增加魔像等级，并赋予新生成的魔像闪电伤害。但组装魔像的能量耗费增加。"
       ice:
         name:
-          text: "寒冰灵木魔偶装配站"
+          text: "寒冰灵木魔像装配站"
         description:
-          text: "增加装配站能维持的魔偶数量，进一步增加魔偶等级，并赋予新生成的魔偶寒冰伤害。但组装魔偶的能量耗费增加。"
+          text: "增加装配站能维持的魔像数量，进一步增加魔像等级，并赋予新生成的魔像寒冰伤害。但组装魔像的能量耗费增加。"
       poison:
         name:
-          text: "淬毒灵木魔偶装配站"
+          text: "淬毒灵木魔像装配站"
         description:
-          text: "增加装配站能维持的魔偶数量，进一步增加魔偶等级，并赋予新生成的魔偶毒素伤害。但组装魔偶的能量耗费增加。"
+          text: "增加装配站能维持的魔像数量，进一步增加魔像等级，并赋予新生成的魔像毒素伤害。但组装魔像的能量耗费增加。"
     
     woodStorage:
       small:
@@ -10081,9 +10081,9 @@ resource:
 
   crylithium:
     single:
-      text: "辉锂"
+      text: "辉晶"
     plural:
-      text: "辉锂"
+      text: "辉晶"
 
   rawFood:
     single:
@@ -10368,7 +10368,7 @@ stateBase:
     53:
       text: "冬天闹饥荒？使用神之手来获取一些本来不可及的食物吧。"
     54:
-      text: "劳工魔偶在早期运输资源方面非常便利。"
+      text: "劳工魔像在早期运输资源方面非常便利。"
     55:
       text: "翠象通常是食用作物的最佳生长时节。"
     56:
